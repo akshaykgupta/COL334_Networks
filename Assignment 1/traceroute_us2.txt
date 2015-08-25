@@ -1,0 +1,110 @@
+traceroute to 129.132.19.216 (129.132.19.216), 30 hops max, 40 byte packets
+ 1  core-87-router (128.112.128.2)  1.080 ms  0.845 ms  0.670 ms
+ 2  border-87-router (128.112.12.142)  0.658 ms  0.668 ms  0.453 ms
+ 3  local1.princeton.magpi.net (216.27.98.113)  2.821 ms  3.018 ms  2.917 ms
+ 4  216.27.100.6 (216.27.100.6)  5.151 ms  4.429 ms  5.758 ms
+ 5  198.71.45.237 (198.71.45.237)  75.707 ms  76.424 ms  75.782 ms
+ 6  ae2.mx1.gen.ch.geant.net (62.40.98.153)  83.416 ms  84.813 ms  83.008 ms
+ 7  swice1-100ge-0-3-0-1.switch.ch (62.40.124.22)  85.547 ms  85.618 ms  83.500 ms
+ 8  swiEZ3-100GE-0-1-0-0.switch.ch (130.59.36.94)  87.645 ms  87.450 ms  87.623 ms
+ 9  rou-gw-rz-tengig-to-switch.ethz.ch (192.33.92.1)  88.425 ms  87.649 ms  87.596 ms
+10  rou-fw-rz-rz-gw.ethz.ch (192.33.92.169)  97.569 ms  87.807 ms  88.015 ms
+11  * * *
+12  * * *
+13  * * *
+
+traceroute to 129.97.208.23 (129.97.208.23), 30 hops max, 40 byte packets
+ 1  core-87-router (128.112.128.2)  0.833 ms  0.680 ms  0.495 ms
+ 2  border-87-router (128.112.12.142)  0.480 ms  0.489 ms  0.455 ms
+ 3  local1.princeton.magpi.net (216.27.98.113)  2.607 ms  2.755 ms  5.706 ms
+ 4  216.27.100.6 (216.27.100.6)  4.786 ms  5.700 ms  4.922 ms
+ 5  mtrl2rtr1.canarie.ca (205.189.32.94)  17.042 ms  19.231 ms  35.310 ms
+ 6  be204.pe01-otwa.orion.on.ca (205.189.32.229)  29.734 ms  29.504 ms  32.228 ms
+ 7  be108.p01-ptbo.orion.on.ca (66.97.16.57)  39.285 ms be107.p01-toro.orion.on.ca (66.97.16.53)  34.759 ms be108.p01-ptbo.orion.on.ca (66.97.16.57)  38.545 ms
+ 8  be5.p01-lond.orion.on.ca (66.97.16.18)  35.543 ms be101.p01-toro.orion.on.ca (66.97.16.29)  37.097 ms be5.p01-lond.orion.on.ca (66.97.16.18)  35.643 ms
+ 9  be120.pe01-wtlo.orion.on.ca (66.97.16.114)  36.875 ms be119.pe01-wtlo.orion.on.ca (66.97.16.110)  32.941 ms be120.pe01-wtlo.orion.on.ca (66.97.16.114)  36.268 ms
+10  66.97.28.66 (66.97.28.66)  26.619 ms  31.622 ms  29.118 ms
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  wms.uwaterloo.ca (129.97.208.23)  32.158 ms  30.622 ms  31.808 ms
+
+traceroute to 137.158.158.44 (137.158.158.44), 30 hops max, 40 byte packets
+ 1  core-87-router (128.112.128.2)  0.667 ms  0.591 ms  0.604 ms
+ 2  border-87-router (128.112.12.142)  0.671 ms  0.416 ms  0.428 ms
+ 3  local1.princeton.magpi.net (216.27.98.113)  2.966 ms  2.866 ms  4.209 ms
+ 4  216.27.100.6 (216.27.100.6)  5.894 ms  5.410 ms  8.762 ms
+ 5  198.71.45.237 (198.71.45.237)  76.252 ms  76.135 ms  75.503 ms
+ 6  ae1.mx1.lon.uk.geant.net (62.40.98.76)  86.526 ms  83.460 ms  82.635 ms
+ 7  ubuntunet-gw.mx1.lon.uk.geant.net (62.40.124.254)  82.473 ms  81.134 ms  88.767 ms
+ 8  te-3-3.ldn1.uk.ubuntunet.net (196.32.209.77)  81.046 ms  81.175 ms  81.285 ms
+ 9  ae1-1001-cpt1-ir1-i.tenet.ac.za (196.32.209.170)  225.269 ms  224.596 ms  225.662 ms
+10  be4-cpt1-p1.tenet.ac.za (155.232.6.65)  231.440 ms  230.753 ms  229.723 ms
+11  te0-0-0-1-cpt2-p1-n.tenet.ac.za (155.232.6.190)  229.260 ms  227.881 ms  228.618 ms
+12  te0-12-0-6-cpt2-p1-n.tenet.ac.za (155.232.6.233)  227.000 ms  227.495 ms  226.753 ms
+13  155.232.32.14 (155.232.32.14)  226.445 ms  226.363 ms  227.092 ms
+14  * * *
+15  * * *
+16  * * *
+
+traceroute to 103.27.9.20 (103.27.9.20), 30 hops max, 40 byte packets
+ 1  core-87-router (128.112.128.2)  0.718 ms  0.464 ms  0.545 ms
+ 2  border-87-router (128.112.12.142)  0.708 ms  0.400 ms  0.421 ms
+ 3  local1.princeton.magpi.net (216.27.98.113)  3.023 ms  2.784 ms  3.080 ms
+ 4  216.27.100.18 (216.27.100.18)  7.854 ms  8.127 ms  6.317 ms
+ 5  et-5-0-0.104.rtr.atla.net.internet2.edu (198.71.45.6)  19.076 ms  20.040 ms  18.511 ms
+ 6  et-10-2-0.105.rtr.hous.net.internet2.edu (198.71.45.13)  43.742 ms  44.736 ms  43.497 ms
+ 7  et-5-0-0.111.rtr.losa.net.internet2.edu (198.71.45.21)  75.678 ms  76.601 ms  75.728 ms
+ 8  transpac-1-lo-jmb-702.lsanca.pacificwave.net (207.231.240.136)  75.965 ms  76.400 ms  77.471 ms
+ 9  tokyo-losa-tp2.transpac.org (192.203.116.146)  191.545 ms  191.466 ms  193.718 ms
+10  kote-dc-gm1-xe2-2-1-4005.jp.apan.net (203.181.248.249)  191.988 ms  191.675 ms  191.267 ms
+11  sg-xe-01-v4.bb.tein3.net (202.179.249.77)  260.484 ms  260.430 ms  259.788 ms
+12  mb-so-01-v4.bb.tein3.net (202.179.249.54)  318.976 ms  319.672 ms  319.234 ms
+13  in-pr-v4.bb.tein3.net (202.179.249.42)  319.143 ms  318.198 ms  318.444 ms
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+
+traceroute to 173.194.36.80 (173.194.36.80), 30 hops max, 40 byte packets
+ 1  core-87-router (128.112.128.2)  0.895 ms  0.644 ms  0.576 ms
+ 2  border-87-router (128.112.12.142)  0.498 ms  0.442 ms  0.392 ms
+ 3  te0-0-1-1.204.rcr12.phl03.atlas.cogentco.com (38.122.150.1)  3.643 ms  3.178 ms  3.580 ms
+ 4  te0-0-1-3.rcr22.phl01.atlas.cogentco.com (66.28.4.233)  6.064 ms te0-0-1-3.rcr21.phl01.atlas.cogentco.com (154.54.27.117)  3.472 ms  3.822 ms
+ 5  te0-8-0-2.ccr42.dca01.atlas.cogentco.com (154.54.42.101)  6.937 ms te0-8-0-2.ccr41.dca01.atlas.cogentco.com (154.54.42.89)  7.212 ms te0-8-0-2.ccr42.dca01.atlas.cogentco.com (154.54.42.101)  8.160 ms
+ 6  be2171.ccr41.iad02.atlas.cogentco.com (154.54.31.106)  8.954 ms be2657.ccr41.iad02.atlas.cogentco.com (154.54.31.110)  13.202 ms be2171.ccr41.iad02.atlas.cogentco.com (154.54.31.106)  8.349 ms
+ 7  38.88.214.50 (38.88.214.50)  10.677 ms  10.044 ms  8.960 ms
+ 8  209.85.252.46 (209.85.252.46)  8.585 ms  10.658 ms 209.85.252.80 (209.85.252.80)  12.812 ms
+ 9  209.85.143.210 (209.85.143.210)  193.319 ms 209.85.143.212 (209.85.143.212)  192.427 ms 216.239.43.67 (216.239.43.67)  10.007 ms
+10  209.85.143.215 (209.85.143.215)  26.234 ms 209.85.143.115 (209.85.143.115)  29.908 ms 209.85.143.215 (209.85.143.215)  25.914 ms
+11  72.14.233.183 (72.14.233.183)  70.046 ms 72.14.239.209 (72.14.239.209)  67.526 ms  68.050 ms
+12  72.14.239.12 (72.14.239.12)  71.762 ms 209.85.240.228 (209.85.240.228)  72.273 ms 72.14.239.12 (72.14.239.12)  71.435 ms
+13  209.85.246.232 (209.85.246.232)  189.654 ms  188.158 ms  190.823 ms
+14  216.239.50.85 (216.239.50.85)  186.870 ms 72.14.232.47 (72.14.232.47)  191.651 ms 216.239.50.85 (216.239.50.85)  198.566 ms
+15  209.85.249.75 (209.85.249.75)  188.308 ms 209.85.249.95 (209.85.249.95)  190.774 ms  189.343 ms
+16  * * *
+17  del01s06-in-f16.1e100.net (173.194.36.80)  192.814 ms  188.792 ms  188.711 ms
+
+traceroute to 173.252.88.66 (173.252.88.66), 30 hops max, 40 byte packets
+ 1  core-87-router (128.112.128.2)  7.718 ms  0.678 ms  0.585 ms
+ 2  border-87-router (128.112.12.142)  0.594 ms  0.397 ms  0.363 ms
+ 3  te0-0-1-1.204.rcr12.phl03.atlas.cogentco.com (38.122.150.1)  3.511 ms  3.848 ms  4.011 ms
+ 4  te0-0-1-3.rcr21.phl01.atlas.cogentco.com (154.54.27.117)  3.605 ms  3.663 ms te0-0-1-3.rcr22.phl01.atlas.cogentco.com (66.28.4.233)  4.320 ms
+ 5  be2364.ccr41.jfk02.atlas.cogentco.com (154.54.3.141)  6.171 ms  6.571 ms  6.572 ms
+ 6  be2061.ccr21.jfk05.atlas.cogentco.com (154.54.3.70)  6.258 ms be2060.ccr21.jfk05.atlas.cogentco.com (154.54.31.10)  8.425 ms be2061.ccr21.jfk05.atlas.cogentco.com (154.54.3.70)  6.621 ms
+ 7  * * *
+ 8  * * *
+ 9  ae-1-60.edge2.SanJose3.Level3.net (4.69.152.17)  105.305 ms * *
+10  4.53.210.78 (4.53.210.78)  82.916 ms  83.348 ms  82.913 ms
+11  ae2.bb03.sjc1.tfbnw.net (31.13.26.164)  84.815 ms ae3.bb04.sjc1.tfbnw.net (31.13.26.166)  84.581 ms  84.800 ms
+12  be27.bb01.lax1.tfbnw.net (31.13.25.200)  78.531 ms  77.750 ms be23.bb02.lax1.tfbnw.net (31.13.25.202)  78.468 ms
+13  ae3.bb03.atn1.tfbnw.net (31.13.25.212)  105.975 ms be26.bb02.atn1.tfbnw.net (31.13.24.178)  80.509 ms 31.13.24.184 (31.13.24.184)  77.946 ms
+14  ae1.dr01.atn2.tfbnw.net (31.13.25.103)  77.752 ms ae2.dr07.atn1.tfbnw.net (74.119.76.93)  77.689 ms ae1.dr08.atn1.tfbnw.net (74.119.76.81)  77.814 ms
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  edge-star-shv-03-atn1.facebook.com (173.252.88.66)  77.937 ms  78.000 ms  78.387 ms

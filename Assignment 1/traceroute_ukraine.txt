@@ -1,0 +1,148 @@
+Tracing the route to www.ethz.ch (129.132.19.216)
+
+  1 vip-rt00.teleportsv.net (80.249.224.99) 4 msec 0 msec 0 msec
+  2 93.183.237.225 [AS 21219] 4 msec 0 msec 0 msec
+  3 ae20-454.s31.kiev.datagroup.ua (80.91.160.129) [AS 21219] 8 msec 8 msec 8 msec
+  4  *  * 
+    ae22-454.k90.fra.datagroup.ua (80.91.160.158) [AS 21219] 32 msec
+  5 swiCE3-10GE-4-1.switch.ch (80.249.208.33) [AS 21219] 56 msec 60 msec 60 msec
+  6 swiCE1-B3.switch.ch (130.59.38.81) [AS 21219] 56 msec 56 msec 56 msec
+  7 swiEZ3-100GE-0-1-0-0.switch.ch (130.59.36.94) [AS 21219] 60 msec 60 msec 60 msec
+  8 rou-gw-rz-tengig-to-switch.ethz.ch (192.33.92.1) [AS 21219] 64 msec 60 msec 64 msec
+  9 rou-fw-rz-rz-gw.ethz.ch (192.33.92.169) [AS 21219] 60 msec 64 msec 96 msec
+ 10  *  *  * 
+ 11  *  *  * 
+ 12  *  *  * 
+ 13  *  *  * 
+ 14  *  *  * 
+ 15  *  *  * 
+ 16  *  *  * 
+ 17  *  *  * 
+ 18  *  *  * 
+ 19  *  *  * 
+ 20  *  *  * 
+ 21  *  *  * 
+ 22  *  *  * 
+ 23  *  *  * 
+ 24  *  *  * 
+ 25  *  *  * 
+ 26  *  *  * 
+ 27  *  *  * 
+ 28  *  *  * 
+ 29  *  *  * 
+ 30  *  *  * 
+
+Tracing the route to wms.uwaterloo.ca (129.97.208.23)
+
+  1 vip-rt00.teleportsv.net (80.249.224.99) 0 msec 0 msec 0 msec
+  2 93.183.237.225 [AS 21219] 0 msec 0 msec 0 msec
+  3 ae20-454.s31.kiev.datagroup.ua (80.91.160.129) [AS 21219] 8 msec 12 msec 8 msec
+  4  *  *  * 
+  5 62.67.36.125 [AS 21219] 32 msec 36 msec 36 msec
+  6  *  *  * 
+  7 ALLSTREAM-I.ear3.NewYork1.Level3.net (4.28.130.30) [AS 21219] 108 msec 112 msec 112 msec
+  8  *  *  * 
+  9  *  *  * 
+ 10 216-191-167-38.dedicated.allstream.net (216.191.167.38) [AS 21219] 136 msec 136 msec 140 msec
+ 11  *  *  * 
+ 12  *  *  * 
+ 13  *  *  * 
+ 14  *  *  * 
+ 15 wms.uwaterloo.ca (129.97.208.23) [AS 21219] 136 msec 136 msec 140 msec
+
+Tracing the route to srvslsweb001.uct.ac.za (137.158.158.44)
+
+  1 vip-rt00.teleportsv.net (80.249.224.99) 4 msec 0 msec 0 msec
+  2 93.183.237.225 [AS 21219] 0 msec 0 msec 4 msec
+  3 ae20-454.s31.kiev.datagroup.ua (80.91.160.129) [AS 21219] 8 msec 8 msec 8 msec
+  4  *  *  * 
+  5 ams-ix.tenet.ac.za (80.249.210.204) [AS 21219] 40 msec 40 msec 44 msec
+  6 196.32.210.177 [AS 21219] 40 msec 48 msec 44 msec
+  7 xe0-0-0-0-ua-uk-ldn1-01.ubuntunet.net (196.32.209.49) [AS 21219] 48 msec 48 msec 48 msec
+  8 ae1-1001-cpt1-ir1-i.tenet.ac.za (196.32.209.170) [AS 21219] 188 msec 188 msec 188 msec
+  9 be4-cpt1-p1.tenet.ac.za (155.232.6.65) [AS 21219] 192 msec 196 msec 196 msec
+ 10 te0-0-0-1-cpt2-p1-n.tenet.ac.za (155.232.6.190) [AS 21219] 196 msec 196 msec 196 msec
+ 11 be1-cpt2-pe2.tenet.ac.za (155.232.6.233) [AS 21219] 192 msec 192 msec 192 msec
+ 12 155.232.32.14 [AS 21219] 192 msec 192 msec 192 msec
+ 13  *  *  * 
+ 14  *  *  * 
+ 15  *  *  * 
+ 16  *  *  * 
+ 17  *  *  * 
+ 18  *  *  * 
+
+Tracing the route to 103.27.9.20
+
+  1 vip-rt00.teleportsv.net (80.249.224.99) 0 msec 0 msec 0 msec
+  2 93.183.237.225 [AS 21219] 8 msec 0 msec 0 msec
+  3 ae20-454.s31.kiev.datagroup.ua (80.91.160.129) [AS 21219] 8 msec 8 msec 8 msec
+  4 ae22-454.k90.fra.datagroup.ua (80.91.160.158) [AS 21219] 36 msec 32 msec 36 msec
+  5 62.67.36.125 [AS 21219] 48 msec 40 msec 32 msec
+  6  * 
+    ae-1-60.edge4.Frankfurt1.Level3.net (4.69.154.8) [AS 21219] 32 msec * 
+  7 ix-18-0.tcore1.FR0-Frankfurt.as6453.net (195.219.50.49) [AS 21219] 36 msec 36 msec 32 msec
+  8 if-4-2.tcore2.FNM-Frankfurt.as6453.net (195.219.87.17) [AS 21219] 52 msec 48 msec 48 msec
+  9 if-7-2.tcore2.WYN-Marseille.as6453.net (80.231.200.77) [AS 21219] 52 msec 48 msec 52 msec
+ 10 80.231.200.30 [AS 21219] 148 msec 148 msec 144 msec
+ 11  *  *  * 
+ 12 14.140.210.22.static-Delhi-vsnl.net.in (14.140.210.22) [AS 21219] 184 msec 188 msec 184 msec
+ 13 10.119.234.161 [AS 21219] 184 msec 184 msec 184 msec
+ 14 10.119.233.65 [AS 21219] 176 msec 176 msec 180 msec
+ 15 10.119.233.66 [AS 21219] 176 msec 180 msec 180 msec
+ 16  *  *  * 
+ 17  *  *  * 
+ 18  *  *  * 
+ 19  *  *  * 
+
+Tracing the route to del01s06-in-f16.1e100.net (173.194.36.80)
+
+  1 vip-rt00.teleportsv.net (80.249.224.99) 0 msec 0 msec 0 msec
+  2 93.183.237.225 [AS 21219] 0 msec 0 msec 0 msec
+  3 ae20-771.s31.kiev.datagroup.ua (80.91.160.117) [AS 21219] 8 msec 8 msec 8 msec
+  4 176.241.104.30 [AS 21219] 8 msec 8 msec 12 msec
+  5 209.85.242.220 [AS 21219] 36 msec 96 msec 40 msec
+  6 209.85.251.248 [AS 21219] 36 msec 36 msec 36 msec
+  7 72.14.235.15 [AS 21219] 56 msec 48 msec 48 msec
+  8 74.125.37.36 [AS 21219] 116 msec 116 msec 116 msec
+  9 216.239.46.215 [AS 21219] 292 msec 296 msec
+    216.239.50.248 [AS 21219] 144 msec
+ 10 209.85.241.43 [AS 21219] 172 msec 172 msec 176 msec
+ 11 72.14.238.38 [AS 21219] 176 msec 176 msec 216 msec
+ 12 209.85.244.72 [AS 21219] 268 msec
+    209.85.249.37 [AS 21219] 260 msec 260 msec
+ 13 72.14.232.129 [AS 21219] 304 msec
+    72.14.233.137 [AS 21219] 300 msec
+    72.14.232.129 [AS 21219] 304 msec
+ 14 72.14.235.71 [AS 21219] 292 msec
+    209.85.253.39 [AS 21219] 304 msec
+    72.14.235.71 [AS 21219] 296 msec
+ 15  *  *  * 
+ 16 del01s06-in-f16.1e100.net (173.194.36.80) [AS 21219] 292 msec 308 msec 300 msec
+
+Tracing the route to edge-star-shv-03-atn1.facebook.com (173.252.88.66)
+
+  1 vip-rt00.teleportsv.net (80.249.224.99) 0 msec 0 msec 0 msec
+  2 93.183.237.225 [AS 21219] 0 msec 0 msec 0 msec
+  3 ae20-454.s31.kiev.datagroup.ua (80.91.160.129) [AS 21219] 8 msec 8 msec 8 msec
+  4  *  *  * 
+  5 ae1.br01.fra1.tfbnw.net (80.81.194.40) [AS 21219] 36 msec 40 msec 36 msec
+  6 be18.bb02.fra2.tfbnw.net (31.13.29.214) [AS 21219] 144 msec 140 msec 152 msec
+  7 ae12.bb01.ams2.tfbnw.net (74.119.78.40) [AS 21219] 40 msec 44 msec 44 msec
+  8 ae3.bb02.bos2.tfbnw.net (204.15.23.61) [AS 21219] 120 msec
+    ae8.bb01.lhr2.tfbnw.net (31.13.30.195) [AS 21219] 44 msec
+    ae9.bb02.lhr2.tfbnw.net (204.15.22.251) [AS 21219] 48 msec
+  9 be11.bb01.ewr2.tfbnw.net (31.13.30.98) [AS 21219] 144 msec
+    be25.bb01.lga1.tfbnw.net (31.13.27.57) [AS 21219] 152 msec
+    be14.bb01.ewr2.tfbnw.net (74.119.78.142) [AS 21219] 144 msec
+ 10 be44.bb01.iad3.tfbnw.net (31.13.26.1) [AS 21219] 144 msec
+    be44.bb02.iad3.tfbnw.net (31.13.26.5) [AS 21219] 148 msec 148 msec
+ 11 ae3.bb04.atn1.tfbnw.net (31.13.27.16) [AS 21219] 148 msec 148 msec 148 msec
+ 12 ae3.dr05.atn1.tfbnw.net (74.119.76.97) [AS 21219] 144 msec
+    ae4.dr03.atn2.tfbnw.net (74.119.77.37) [AS 21219] 148 msec
+    ae3.dr05.atn1.tfbnw.net (74.119.76.97) [AS 21219] 148 msec
+ 13  *  *  * 
+ 14  *  *  * 
+ 15  *  *  * 
+ 16  *  *  * 
+ 17 ip-rt00.teleportsv.net (80.249.224.97) 144 msec 156 msec 144 msec
+ 18 edge-star-shv-03-atn1.facebook.com (173.252.88.66) [AS 21219] 152 msec 144 msec 144 msec

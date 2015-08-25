@@ -1,0 +1,128 @@
+traceroute to 129.132.19.216 (129.132.19.216), 15 hops max, 52 byte packets
+ 1  * warp-srv.noc.ntua.gr (147.102.222.200)  6.635 ms *
+ 2  ntua-zogr-2-gw.kolettir.access-link.grnet.gr (62.217.96.176)  1.269 ms  1.232 ms  1.226 ms
+ 3  eier-kolettir-1.backbone.grnet.gr (62.217.100.63)  1.629 ms
+    eier-kolettir-2.backbone.grnet.gr (62.217.100.67)  1.512 ms
+    eier-kolettir-1.backbone.grnet.gr (62.217.100.63)  1.612 ms
+ 4  grnet.mx2.ath.gr.geant.net (62.40.124.89)  1.651 ms  1.708 ms  1.673 ms
+ 5  ae1.mx1.ath.gr.geant.net (62.40.112.215)  1.711 ms  1.717 ms  1.697 ms
+ 6  ae2.mx1.mil2.it.geant.net (62.40.98.150)  29.146 ms  28.354 ms  29.361 ms
+ 7  ae6.mx1.gen.ch.geant.net (62.40.98.112)  39.560 ms  39.437 ms  38.414 ms
+ 8  swice1-100ge-0-3-0-1.switch.ch (62.40.124.22)  40.148 ms  39.812 ms  40.141 ms
+ 9  swiEZ3-100GE-0-1-0-0.switch.ch (130.59.36.94)  41.144 ms  40.197 ms  40.703 ms
+10  rou-gw-rz-tengig-to-switch.ethz.ch (192.33.92.1)  43.547 ms  44.173 ms  44.290 ms
+11  rou-fw-rz-rz-gw.ethz.ch (192.33.92.169)  44.363 ms  43.371 ms  43.608 ms
+
+traceroute to 129.97.208.23 (129.97.208.23), 15 hops max, 52 byte packets
+ 1  warp-srv.noc.ntua.gr (147.102.222.200)  3.267 ms *  3.917 ms
+ 2  ntua-zogr-2-gw.kolettir.access-link.grnet.gr (62.217.96.176)  1.274 ms  1.230 ms  1.241 ms
+ 3  eier-kolettir-2.backbone.grnet.gr (62.217.100.67)  1.485 ms
+    eier-kolettir-3.backbone.grnet.gr (62.217.100.71)  1.336 ms
+    eier-kolettir-2.backbone.grnet.gr (62.217.100.67)  1.502 ms
+ 4  grnet.mx2.ath.gr.geant.net (62.40.124.89)  1.532 ms  1.666 ms  1.647 ms
+ 5  ae1.mx1.ath.gr.geant.net (62.40.112.215)  1.718 ms  1.563 ms  1.693 ms
+ 6  ae2.mx1.mil2.it.geant.net (62.40.98.150)  28.737 ms  28.525 ms  28.306 ms
+ 7  ae6.mx1.gen.ch.geant.net (62.40.98.112)  39.510 ms  38.723 ms  38.315 ms
+ 8  ae4.mx1.par.fr.geant.net (62.40.98.152)  45.814 ms  46.679 ms  45.730 ms
+ 9  canarie-bckp-gw.mx1.ams.nl.geant.net (62.40.124.226)  128.082 ms  128.163 ms  128.930 ms
+10  be204.pe01-otwa.orion.on.ca (205.189.32.229)  132.694 ms  133.263 ms  133.231 ms
+11  be107.p01-toro.orion.on.ca (66.97.16.53)  138.018 ms
+    be108.p01-ptbo.orion.on.ca (66.97.16.57)  142.363 ms
+    be107.p01-toro.orion.on.ca (66.97.16.53)  138.123 ms
+12  be101.p01-toro.orion.on.ca (66.97.16.29)  136.543 ms
+    be1.p01-york.orion.on.ca (66.97.16.2)  136.601 ms
+    be101.p01-toro.orion.on.ca (66.97.16.29)  136.291 ms
+13  be120.pe01-wtlo.orion.on.ca (66.97.16.114)  136.450 ms  136.570 ms  135.956 ms
+14  66.97.28.66 (66.97.28.66)  142.937 ms  139.281 ms  143.830 ms
+15  * * *
+
+traceroute to 137.158.158.44 (137.158.158.44), 15 hops max, 52 byte packets
+ 1  * warp-srv.noc.ntua.gr (147.102.222.200)  3.757 ms *
+ 2  ntua-zogr-2-gw.kolettir.access-link.grnet.gr (62.217.96.176)  12.618 ms  1.278 ms  1.311 ms
+ 3  eier-kolettir-3.backbone.grnet.gr (62.217.100.71)  1.330 ms
+    eier-kolettir-2.backbone.grnet.gr (62.217.100.67)  1.488 ms  1.473 ms
+ 4  grnet.mx2.ath.gr.geant.net (62.40.124.89)  1.890 ms  1.646 ms  1.515 ms
+ 5  ae1.mx1.ath.gr.geant.net (62.40.112.215)  1.549 ms  1.549 ms  1.745 ms
+ 6  ae2.mx1.mil2.it.geant.net (62.40.98.150)  29.267 ms  29.359 ms  28.630 ms
+ 7  ae6.mx1.gen.ch.geant.net (62.40.98.112)  39.832 ms  38.494 ms  39.284 ms
+ 8  ae4.mx1.par.fr.geant.net (62.40.98.152)  47.222 ms  46.546 ms  46.610 ms
+ 9  ae1.mx1.lon.uk.geant.net (62.40.98.76)  52.437 ms  52.223 ms  51.388 ms
+10  ubuntunet-gw.mx1.lon.uk.geant.net (62.40.124.254)  51.474 ms  53.648 ms  66.977 ms
+11  te-3-3.ldn1.uk.ubuntunet.net (196.32.209.77)  52.552 ms  51.779 ms  51.411 ms
+12  ae1-1001-cpt1-ir1-i.tenet.ac.za (196.32.209.170)  192.587 ms  191.918 ms  191.848 ms
+13  be4-cpt1-p1.tenet.ac.za (155.232.6.65)  193.978 ms  193.541 ms  198.379 ms
+14  te0-0-0-1-cpt2-p1-n.tenet.ac.za (155.232.6.190)  198.443 ms  200.106 ms  199.340 ms
+15  be1-cpt2-pe2.tenet.ac.za (155.232.6.233)  197.843 ms  197.961 ms  197.761 ms
+
+traceroute to 103.27.9.20 (103.27.9.20), 15 hops max, 52 byte packets
+ 1  * * warp-srv.noc.ntua.gr (147.102.222.200)  15.715 ms
+ 2  ntua-zogr-2-gw.kolettir.access-link.grnet.gr (62.217.96.176)  1.221 ms  1.209 ms  1.209 ms
+ 3  eier-kolettir-1.backbone.grnet.gr (62.217.100.63)  1.616 ms
+    eier-kolettir-2.backbone.grnet.gr (62.217.100.67)  1.507 ms
+    eier-kolettir-1.backbone.grnet.gr (62.217.100.63)  1.592 ms
+ 4  grnet.mx2.ath.gr.geant.net (62.40.124.89)  1.480 ms  1.622 ms  1.609 ms
+ 5  ae1.mx1.ath.gr.geant.net (62.40.112.215)  1.534 ms  1.684 ms  1.676 ms
+ 6  ae2.mx1.mil2.it.geant.net (62.40.98.150)  28.315 ms  28.204 ms  29.170 ms
+ 7  ae6.mx1.gen.ch.geant.net (62.40.98.112)  38.221 ms  38.277 ms  39.340 ms
+ 8  ae2.mx1.mad.es.geant.net (62.40.98.66)  59.013 ms  59.250 ms  58.423 ms
+ 9  mb-so-02-v4.bb.tein3.net (202.179.249.117)  187.985 ms  187.740 ms  187.771 ms
+10  in-pr-v4.bb.tein3.net (202.179.249.42)  191.366 ms  192.323 ms  192.559 ms
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+
+traceroute to 173.194.36.80 (173.194.36.80), 15 hops max, 52 byte packets
+ 1  * * warp-srv.noc.ntua.gr (147.102.222.200)  15.742 ms
+ 2  ntua-zogr-2-gw.kolettir.access-link.grnet.gr (62.217.96.176)  1.638 ms  1.271 ms  1.234 ms
+ 3  eier-kolettir-3.backbone.grnet.gr (62.217.100.71)  1.308 ms  1.326 ms
+    eier-kolettir-2.backbone.grnet.gr (62.217.100.67)  1.496 ms
+ 4  grnet.mx2.ath.gr.geant.net (62.40.124.89)  1.642 ms  1.664 ms  1.629 ms
+ 5  ae8.mx1.vie.at.geant.net (62.40.112.165)  29.615 ms  36.522 ms  29.950 ms
+ 6  62.40.98.48 (62.40.98.48)  46.332 ms  46.197 ms  46.157 ms
+ 7  google-gw.mx1.fra.de.geant.net (62.40.125.202)  43.067 ms  43.102 ms  43.185 ms
+ 8  209.85.240.64 (209.85.240.64)  66.134 ms  43.402 ms
+    209.85.241.110 (209.85.241.110)  46.929 ms
+ 9  72.14.234.231 (72.14.234.231)  43.860 ms
+    72.14.234.237 (72.14.234.237)  46.909 ms
+    209.85.251.246 (209.85.251.246)  46.993 ms
+10  72.14.235.15 (72.14.235.15)  56.362 ms  56.111 ms
+    72.14.235.17 (72.14.235.17)  64.794 ms
+11  74.125.37.36 (74.125.37.36)  128.245 ms  124.281 ms
+    209.85.242.148 (209.85.242.148)  123.698 ms
+12  216.239.46.217 (216.239.46.217)  315.193 ms  316.929 ms  315.720 ms
+13  209.85.241.43 (209.85.241.43)  180.214 ms
+    72.14.233.111 (72.14.233.111)  182.908 ms
+    72.14.233.183 (72.14.233.183)  182.856 ms
+14  209.85.254.18 (209.85.254.18)  183.735 ms  183.699 ms
+    72.14.239.12 (72.14.239.12)  187.061 ms
+15  209.85.249.37 (209.85.249.37)  270.573 ms  270.674 ms
+    209.85.244.72 (209.85.244.72)  283.997 ms
+
+traceroute to 173.252.88.66 (173.252.88.66), 15 hops max, 52 byte packets
+ 1  warp-srv.noc.ntua.gr (147.102.222.200)  0.993 ms *  3.876 ms
+ 2  ntua-zogr-2-gw.kolettir.access-link.grnet.gr (62.217.96.176)  1.241 ms  1.229 ms  1.215 ms
+ 3  eier-kolettir-3.backbone.grnet.gr (62.217.100.71)  1.381 ms
+    eier-kolettir-2.backbone.grnet.gr (62.217.100.67)  1.547 ms
+    eier-kolettir-1.backbone.grnet.gr (62.217.100.63)  2.137 ms
+ 4  grnet.mx2.ath.gr.geant.net (62.40.124.89)  1.501 ms  1.659 ms  1.525 ms
+ 5  ae8.mx1.vie.at.geant.net (62.40.112.165)  44.965 ms  29.778 ms  29.882 ms
+ 6  193.203.0.194 (193.203.0.194)  30.144 ms  30.046 ms  30.008 ms
+ 7  be14.bb01.fra2.tfbnw.net (31.13.29.158)  157.418 ms
+    be20.bb01.fra2.tfbnw.net (204.15.20.88)  152.074 ms  157.734 ms
+ 8  ae2.bb01.ams2.tfbnw.net (74.119.76.10)  51.616 ms  74.479 ms  50.293 ms
+ 9  ae3.bb02.bos2.tfbnw.net (204.15.23.61)  129.435 ms  122.427 ms  127.565 ms
+10  be14.bb01.ewr2.tfbnw.net (74.119.78.142)  150.886 ms  150.791 ms
+    be25.bb01.lga1.tfbnw.net (31.13.27.57)  151.729 ms
+11  be44.bb02.iad3.tfbnw.net (31.13.26.5)  156.124 ms
+    ae15.bb03.dca1.tfbnw.net (74.119.76.20)  126.595 ms
+    be44.bb01.iad3.tfbnw.net (31.13.26.1)  153.508 ms
+12  be23.bb02.atn1.tfbnw.net (31.13.25.0)  157.048 ms
+    be4.bb01.atn1.tfbnw.net (31.13.24.78)  155.149 ms
+    ae3.bb04.atn1.tfbnw.net (31.13.27.16)  155.647 ms
+13  ae5.dr02.atn2.tfbnw.net (74.119.77.85)  150.800 ms
+    ae0.dr04.atn2.tfbnw.net (31.13.26.71)  150.019 ms
+    ae5.dr02.atn2.tfbnw.net (74.119.77.85)  155.700 ms
+14  * * *
+15  * * *

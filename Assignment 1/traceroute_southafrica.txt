@@ -1,0 +1,104 @@
+traceroute to 129.132.19.216 (129.132.19.216), 30 hops max, 38 byte packets
+ 1  cisrb1-net109-64.posix.co.za (160.124.109.126)  0.385 ms  0.356 ms  0.191 ms
+ 2  cisldn1-cisrbc1.posix.co.za (160.124.1.2)  206.099 ms  215.952 ms  212.780 ms
+ 3  gi8-14.mag02.lon02.atlas.cogentco.com (149.6.149.9)  168.868 ms  170.438 ms  192.801 ms
+ 4  te0-0-0-9.ccr21.lon02.atlas.cogentco.com (154.54.60.145)  169.812 ms te0-7-0-7.ccr21.lon02.atlas.cogentco.com (154.54.60.149)  180.697 ms te0-0-0-9.ccr21.lon02.atlas.cogentco.com (154.54.60.145)  189.024 ms
+ 5  be2329.ccr22.lon01.atlas.cogentco.com (130.117.49.89)  188.430 ms be2328.ccr21.lon01.atlas.cogentco.com (130.117.49.85)  189.426 ms  169.938 ms
+ 6  be2178.ccr42.lon13.atlas.cogentco.com (130.117.50.206)  169.549 ms be2163.ccr41.lon13.atlas.cogentco.com (130.117.50.202)  169.703 ms  174.696 ms
+ 7  be2489.ccr42.par01.atlas.cogentco.com (154.54.39.114)  194.839 ms be2497.ccr41.par01.atlas.cogentco.com (154.54.39.66)  198.133 ms be2489.ccr42.par01.atlas.cogentco.com (154.54.39.114)  198.669 ms
+ 8  be2296.ccr21.zrh01.atlas.cogentco.com (130.117.3.58)  215.901 ms be2295.ccr21.zrh01.atlas.cogentco.com (130.117.3.54)  221.946 ms be2296.ccr21.zrh01.atlas.cogentco.com (130.117.3.58)  227.667 ms
+ 9  te8-4.mag01.zrh01.atlas.cogentco.com (154.54.38.254)  192.920 ms te8-6.mag01.zrh01.atlas.cogentco.com (130.117.48.166)  190.633 ms  191.140 ms
+10  te0-0-1-0.rcr11.bsl01.atlas.cogentco.com (130.117.2.146)  193.577 ms  201.140 ms  197.330 ms
+11  149.6.34.6 (149.6.34.6)  201.011 ms  200.004 ms  192.090 ms
+12  swiEZ1-10GE-3-1.switch.ch (130.59.37.105)  191.352 ms  191.435 ms  191.337 ms
+13  swiEZ3-B3.switch.ch (130.59.36.34)  192.058 ms  191.783 ms  192.327 ms
+14  rou-gw-rz-tengig-to-switch.ethz.ch (192.33.92.1)  191.780 ms  191.950 ms  191.806 ms
+15  rou-fw-rz-rz-gw.ethz.ch (192.33.92.169)  191.788 ms  211.414 ms  196.557 ms
+16  * * *
+17  * * *
+
+traceroute to 129.97.208.23 (129.97.208.23), 30 hops max, 38 byte packets
+ 1  cisrb1-net109-64.posix.co.za (160.124.109.126)  0.282 ms  0.311 ms  0.182 ms
+ 2  cisldn1-cisrbc1.posix.co.za (160.124.1.2)  168.915 ms  168.940 ms  169.056 ms
+ 3  gi8-14.mag02.lon02.atlas.cogentco.com (149.6.149.9)  169.028 ms  169.043 ms  169.131 ms
+ 4  te0-0-0-9.ccr21.lon02.atlas.cogentco.com (154.54.60.145)  170.069 ms te0-7-0-7.ccr21.lon02.atlas.cogentco.com (154.54.60.149)  169.228 ms te0-0-0-9.ccr21.lon02.atlas.cogentco.com (154.54.60.145)  169.187 ms
+ 5  be2328.ccr21.lon01.atlas.cogentco.com (130.117.49.85)  169.542 ms be2329.ccr22.lon01.atlas.cogentco.com (130.117.49.89)  169.538 ms be2328.ccr21.lon01.atlas.cogentco.com (130.117.49.85)  169.557 ms
+ 6  be2494.ccr42.lon13.atlas.cogentco.com (154.54.39.130)  170.786 ms be2178.ccr42.lon13.atlas.cogentco.com (130.117.50.206)  169.747 ms  169.995 ms
+ 7  be2491.ccr22.lpl01.atlas.cogentco.com (154.54.39.117)  176.609 ms  182.981 ms  176.642 ms
+ 8  be2385.ccr22.ymq02.atlas.cogentco.com (154.54.44.141)  245.821 ms  246.467 ms  246.557 ms
+ 9  be2093.ccr22.yyz02.atlas.cogentco.com (154.54.44.105)  257.312 ms  255.482 ms  254.319 ms
+10  university_of_waterloo.demarc.cogentco.com (38.99.202.214)  259.126 ms  258.651 ms  258.560 ms
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  wms.uwaterloo.ca (129.97.208.23)  259.652 ms  259.421 ms  259.559 ms
+
+traceroute to 137.158.158.44 (137.158.158.44), 30 hops max, 38 byte packets
+ 1  cisrb1-net109-64.posix.co.za (160.124.109.126)  1.536 ms  0.373 ms  0.424 ms
+ 2  cisrb3.posix.co.za (160.124.2.3)  21.253 ms  25.254 ms  30.941 ms
+ 3  tenet.jinx.net.za (196.223.14.33)  14.190 ms  11.817 ms  10.181 ms
+ 4  te4-1-jnb1-pe1-n.tenet.ac.za (155.232.6.109)  25.708 ms  30.787 ms  37.911 ms
+ 5  155.232.15.137 (155.232.15.137)  53.723 ms  49.551 ms  59.860 ms
+ 6  unknown.uni.net.za (155.232.6.232)  70.123 ms  71.240 ms  61.571 ms
+ 7  te0-0-0-3-cpt2-p1-n.tenet.ac.za (155.232.6.213)  64.402 ms  45.400 ms  40.127 ms
+ 8  155.232.27.78 (155.232.27.78)  47.398 ms  68.459 ms  71.163 ms
+ 9  * * *
+10  * * *
+11  * * *
+12  * * *
+
+traceroute to 103.27.9.20 (103.27.9.20), 30 hops max, 38 byte packets
+ 1  cisrb1-net109-64.posix.co.za (160.124.109.126)  0.428 ms  0.319 ms  0.185 ms
+ 2  cisldn1-cisrbc1.posix.co.za (160.124.1.2)  238.120 ms  168.946 ms  168.826 ms
+ 3  gi8-14.mag02.lon02.atlas.cogentco.com (149.6.149.9)  168.852 ms  169.238 ms  169.371 ms
+ 4  te0-7-0-7.ccr21.lon02.atlas.cogentco.com (154.54.60.149)  169.219 ms te0-0-0-9.ccr21.lon02.atlas.cogentco.com (154.54.60.145)  169.390 ms te0-7-0-7.ccr21.lon02.atlas.cogentco.com (154.54.60.149)  170.922 ms
+ 5  be2328.ccr21.lon01.atlas.cogentco.com (130.117.49.85)  169.439 ms  169.481 ms  169.627 ms
+ 6  tata.lon01.atlas.cogentco.com (130.117.15.178)  169.115 ms  169.219 ms  171.382 ms
+ 7  if-17-2.tcore1.L78-London.as6453.net (80.231.130.129)  197.335 ms  208.260 ms  190.879 ms
+ 8  if-2-2.tcore2.L78-London.as6453.net (80.231.131.1)  190.566 ms  190.523 ms  190.630 ms
+ 9  if-9-2.tcore2.WYN-Marseille.as6453.net (80.231.200.13)  190.386 ms  191.497 ms  190.846 ms
+10  80.231.200.30 (80.231.200.30)  287.057 ms  284.833 ms  287.023 ms
+11  * * *
+12  14.140.210.22.static-Delhi-vsnl.net.in (14.140.210.22)  318.046 ms  318.049 ms  317.496 ms
+13  * * *
+
+traceroute to 173.194.36.80 (173.194.36.80), 30 hops max, 38 byte packets
+ 1  cisrb1-net109-64.posix.co.za (160.124.109.126)  0.491 ms  0.351 ms  0.177 ms
+ 2  196.25.58.113 (196.25.58.113)  225.830 ms  39.709 ms  1.928 ms
+ 3  rrba-ip-lir-1-gig-3-0-0.telkom-ipnet.co.za (196.43.11.134)  1.965 ms  303.906 ms  294.032 ms
+ 4  72.14.212.1 (72.14.212.1)  272.960 ms  264.303 ms  267.489 ms
+ 5  66.249.95.8 (66.249.95.8)  465.881 ms  450.332 ms  362.679 ms
+ 6  216.239.51.7 (216.239.51.7)  321.465 ms  344.300 ms  357.190 ms
+ 7  72.14.235.89 (72.14.235.89)  444.432 ms  472.405 ms 72.14.235.91 (72.14.235.91)  479.707 ms
+ 8  72.14.232.71 (72.14.232.71)  651.688 ms  663.367 ms  669.315 ms
+ 9  72.14.233.111 (72.14.233.111)  534.924 ms  575.949 ms 72.14.233.183 (72.14.233.183)  559.306 ms
+10  72.14.239.12 (72.14.239.12)  496.762 ms  556.206 ms  582.617 ms
+11  209.85.244.72 (209.85.244.72)  600.603 ms 209.85.249.37 (209.85.249.37)  572.725 ms 209.85.244.72 (209.85.244.72)  633.783 ms
+12  72.14.235.147 (72.14.235.147)  707.611 ms  596.960 ms  608.303 ms
+13  209.85.249.7 (209.85.249.7)  555.658 ms  576.714 ms  592.402 ms
+14  * * *
+15  del01s06-in-f16.1e100.net (173.194.36.80)  412.511 ms  414.064 ms  420.448 ms
+
+traceroute to 173.252.88.66 (173.252.88.66), 30 hops max, 38 byte packets
+ 1  cisrb1-net109-64.posix.co.za (160.124.109.126)  0.395 ms  0.349 ms  0.186 ms
+ 2  cisldn1-cisrbc1.posix.co.za (160.124.1.2)  168.883 ms  168.985 ms  169.052 ms
+ 3  gi8-14.mag02.lon02.atlas.cogentco.com (149.6.149.9)  169.062 ms  184.955 ms  173.791 ms
+ 4  te0-0-0-9.ccr21.lon02.atlas.cogentco.com (154.54.60.145)  184.340 ms te0-7-0-7.ccr21.lon02.atlas.cogentco.com (154.54.60.149)  169.739 ms te0-0-0-9.ccr21.lon02.atlas.cogentco.com (154.54.60.145)  169.455 ms
+ 5  be2328.ccr21.lon01.atlas.cogentco.com (130.117.49.85)  169.455 ms be2329.ccr22.lon01.atlas.cogentco.com (130.117.49.89)  169.409 ms be2328.ccr21.lon01.atlas.cogentco.com (130.117.49.85)  170.932 ms
+ 6  te0-0-2-0.rcr11.b023101-0.lon01.atlas.cogentco.com (130.117.51.73)  173.930 ms te0-0-2-2.rcr11.b023101-0.lon01.atlas.cogentco.com (130.117.51.137)  169.684 ms  169.900 ms
+ 7  abovenet.lon09.atlas.cogentco.com (130.117.14.182)  169.098 ms  169.118 ms  169.336 ms
+ 8  ae5.mpr2.lhr2.uk.zip.zayo.com (64.125.21.9)  169.545 ms  174.197 ms  174.353 ms
+ 9  v113.ae29.cr1.lga5.us.zip.zayo.com (64.125.30.108)  246.523 ms  241.708 ms  239.543 ms
+10  ae2.er3.lga5.us.zip.zayo.com (64.125.31.214)  238.812 ms  240.706 ms  238.777 ms
+11  128.177.165.234.IPYX-100687-870-ZYO.zip.zayo.com (128.177.165.234)  239.103 ms  237.695 ms  238.038 ms
+12  be1.bb01.lga1.tfbnw.net (204.15.20.190)  267.315 ms  267.680 ms  267.517 ms
+13  ae15.bb03.dca1.tfbnw.net (74.119.76.20)  242.065 ms ae15.bb04.dca1.tfbnw.net (74.119.76.26)  243.433 ms be29.bb02.dca1.tfbnw.net (74.119.78.164)  289.250 ms
+14  be23.bb02.atn1.tfbnw.net (31.13.25.0)  307.677 ms ae2.bb03.atn1.tfbnw.net (31.13.30.6)  268.153 ms be23.bb02.atn1.tfbnw.net (31.13.25.0)  267.054 ms
+15  ae4.dr02.atn2.tfbnw.net (74.119.77.35)  266.598 ms ae4.dr04.atn2.tfbnw.net (74.119.77.39)  265.963 ms ae0.dr03.atn2.tfbnw.net (31.13.26.69)  266.207 ms
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  edge-star-shv-03-atn1.facebook.com (173.252.88.66)  265.536 ms  273.578 ms  265.523 ms
