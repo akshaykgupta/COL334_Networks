@@ -1,0 +1,28 @@
+Google:
+(82.96.64.1) Germany Merzig Probe Networks
+(80.81.192.108) Germany Frankfurt Am Main De-cix Management Gmbh
+(209.85.246.64) United States Mountain View Google Inc.
+(72.14.234.231) United States Mountain View Google Inc.
+(72.14.235.17)  United States Mountain View Google Inc.
+(74.125.37.36) United States Mountain View Google Inc
+(209.85.241.43) United States Mountain View Google Inc.
+(209.85.254.18) United States Mountain View Google Inc.
+(209.85.249.37) United States Mountain View Google Inc.
+(216.239.50.85) United States Mountain View Google Inc.
+(72.14.235.77)  United States Mountain View Google Inc.
+(173.194.36.80) United States Mountain View Google Inc.
+
+Facebook:
+(82.96.64.1) Germany Merzig Probe Networks
+(80.81.194.40) Germany Frankfurt Am Main De-cix Management Gmbh
+(31.13.29.214) Ireland Dublin Facebook Ireland Ltd
+(74.119.78.40)United States New York City Facebook Inc.
+(31.13.27.61) United States Boston Facebook Ireland Ltd
+(74.119.78.142) United States Menlo Park Facebook Inc.
+(31.13.26.5) United States Dulles Facebook Ireland Ltd
+(31.13.25.0) Ireland Dublin Facebook Ireland Ltd
+(31.13.24.176) United States Los Angeles Facebook Ireland Ltd
+(74.119.76.81) United States Prineville Facebook Inc.
+(74.119.76.99) United States Menlo Park Facebook Inc.
+(82.96.64.2) Germany Frankfurt Am Main De-cix Management Gmbh
+(173.252.88.66) United States Menlo Park Facebook Inc.

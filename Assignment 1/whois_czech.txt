@@ -1,0 +1,30 @@
+Google:
+(78.157.167.1) Czech Republic Cesky Tesin Silesnet S.r.o.
+(78.157.167.206) Czech Republic Cesky Tesin Silesnet S.r.o.
+(82.113.38.105) Czech Republic Prague Silesnet S.r.o.
+(82.119.246.29) Czech Republic Prague Dial Telecom A.s.
+(72.14.220.118) United States Mountain View Google Inc.
+(209.85.245.88)  United States Mountain View Google Inc.
+(72.14.234.237) United States Mountain View Google Inc.
+(72.14.235.15) United States Mountain View Google Inc.
+(74.125.37.36) United States Mountain View Google Inc.
+(216.239.46.215) United States Mountain View Google Inc.
+(72.14.233.183) United States Mountain View Google Inc.
+(209.85.254.18) United States Mountain View Google Inc.
+(209.85.249.37) United States Mountain View Google Inc.
+(216.239.41.153) United States Mountain View Google Inc.
+(209.85.246.216) United States Mountain View Google Inc.
+
+Facebook:
+(82.113.38.105) Czech Republic Prague Silesnet S.r.o.
+(82.119.246.237) Czech Republic Prague Dial Telecom A.s.
+(82.119.246.229) Czech Republic Prague Dial Telecom A.s.
+(82.119.245.186) Czech Republic Prague Dial Telecom A.s.
+(103.4.96.132) Singapore Singapore Facebook Sgu
+(31.13.27.207) Germany Frankfurt Am Main Facebook Ireland Ltd
+(74.119.76.10) Netherlands Amsterdam Facebook Inc.
+(31.13.27.61) United States Boston Facebook Ireland Ltd
+(204.15.23.59) United States Elizabeth Facebook Inc.
+(74.119.76.20) United States San Jose Facebook Inc.
+(31.13.27.14) United States Ashburn Facebook Ireland Ltd
+(74.119.76.101) United States Menlo Park Facebook Inc.

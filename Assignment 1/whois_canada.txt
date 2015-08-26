@@ -1,0 +1,19 @@
+Google:
+(205.233.111.140) Canada Calgary Agt Advanced Communications
+(75.154.223.209) Canada Vancouver Telus Communications Inc.
+(72.14.210.203) United States Mountain View Google Inc.
+(209.85.254.120) United States Mountain View Google Inc.
+(72.14.232.162) United States Milpitas Google Inc.
+(72.14.239.209) United States Mountain View Google Inc.
+(72.14.239.12) United States Mountain View Google Inc.
+(209.85.249.37) United States Mountain View Google Inc 
+(72.14.232.47) United States Milpitas Google Inc.
+(209.85.246.218) United States Mountain View Google Inc.
+
+Facebook:
+(205.233.111.139)  Canada Calgary Agt Advanced Communications
+(75.154.223.244) Canada Vancouver Telus Communications Inc.
+(103.4.96.48) Singapore Singapore Facebook Sg
+(74.119.77.134) United States Menlo Park Facebook Inc.
+(31.13.26.26) Ireland Dublin Facebook Ireland Ltd
+(74.119.77.33) United States Menlo Park Facebook Inc.g
