@@ -1,0 +1,163 @@
+Tracing route to www.ethz.ch [129.132.19.216]
+over a maximum of 30 hops:
+
+  1     6 ms     2 ms     1 ms  192.168.43.1 
+  2   129 ms    69 ms   129 ms  10.155.72.61 
+  3   810 ms   549 ms   560 ms  10.155.68.4 
+  4     *      128 ms     *     10.155.68.76 
+  5  1072 ms     *     1250 ms  223.224.40.67 
+  6   179 ms   124 ms   104 ms  10.155.84.218 
+  7   729 ms   683 ms   575 ms  abts-north-static-069.180.144.59.airtelbroadband.in [59.144.180.69] 
+  8   662 ms   198 ms   190 ms  182.79.222.78 
+  9  2046 ms   871 ms  1364 ms  lon-0150t202.ip-plus.net [195.66.224.110] 
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12   492 ms   310 ms   247 ms  swiCE3-10GE-2-7.switch.ch [193.5.122.83] 
+ 13   314 ms   306 ms   353 ms  swiCE1-B3.switch.ch [130.59.38.81] 
+ 14   294 ms   379 ms   227 ms  swiEZ3-100GE-0-1-0-0.switch.ch [130.59.36.94] 
+ 15  1459 ms  1429 ms  1921 ms  rou-gw-rz-tengig-to-switch.ethz.ch [192.33.92.1] 
+ 16  2678 ms  1828 ms  1556 ms  rou-fw-rz-rz-gw.ethz.ch [192.33.92.169] 
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+
+Tracing route to wms.uwaterloo.ca [129.97.208.23]
+over a maximum of 30 hops:
+
+  1     6 ms     1 ms     1 ms  192.168.43.1 
+  2     *     1255 ms    73 ms  10.155.72.61 
+  3   124 ms   157 ms   100 ms  10.155.68.4 
+  4   632 ms     *      862 ms  10.155.68.76 
+  5   134 ms    80 ms    89 ms  223.224.40.67 
+  6  1333 ms   519 ms  1920 ms  10.155.84.218 
+  7  1661 ms  1292 ms  1250 ms  abts-north-static-069.180.144.59.airtelbroadband.in [59.144.180.69] 
+  8  1310 ms  2425 ms  2729 ms  182.79.155.93 
+  9   486 ms   516 ms   411 ms  xe1-1-1.gw2-nyc.bb.allstream.net [198.32.160.84] 
+ 10     *        *        *     Request timed out.
+ 11     *        *        *     Request timed out.
+ 12  1259 ms   369 ms   396 ms  216-191-167-38.dedicated.allstream.net [216.191.167.38] 
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17  2510 ms  1297 ms  1484 ms  wms.uwaterloo.ca [129.97.208.23] 
+
+Trace complete.
+
+Tracing route to srvslsweb001.uct.ac.za [137.158.158.44]
+over a maximum of 30 hops:
+
+  1     2 ms     2 ms     1 ms  192.168.43.1 
+  2   681 ms   700 ms   636 ms  10.155.72.61 
+  3  1033 ms   742 ms   808 ms  10.155.68.4 
+  4    86 ms     *      777 ms  10.155.68.76 
+  5    54 ms    64 ms    54 ms  223.224.40.67 
+  6  1266 ms  1571 ms  2840 ms  10.155.84.218 
+  7  2566 ms    89 ms    89 ms  abts-north-static-069.180.144.59.airtelbroadband.in [59.144.180.69] 
+  8   297 ms   225 ms   390 ms  182.79.245.229 
+  9   244 ms   255 ms   278 ms  ams-ix.tenet.ac.za [80.249.210.204] 
+ 10   267 ms   306 ms   353 ms  196.32.210.177 
+ 11  1213 ms  1669 ms  1019 ms  xe0-0-0-0-ua-uk-ldn1-01.ubuntunet.net [196.32.209.49] 
+ 12  1064 ms   346 ms   353 ms  ae1-1001-cpt1-ir1-i.tenet.ac.za [196.32.209.170] 
+ 13   997 ms  1856 ms  1629 ms  be4-cpt1-p1.tenet.ac.za [155.232.6.65] 
+ 14   406 ms   418 ms   421 ms  te0-0-0-1-cpt2-p1-n.tenet.ac.za [155.232.6.190] 
+ 15   448 ms   422 ms   372 ms  te0-12-0-6-cpt2-p1-n.tenet.ac.za [155.232.6.233] 
+ 16   481 ms   399 ms   444 ms  155.232.32.14 
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19     *        *        *     Request timed out.
+ 20     *        *        *     Request timed out.
+ 21     *        *        *     Request timed out.
+ 22     *        *        *     Request timed out.
+ 23     *        *        *     Request timed out.
+ 24     *        *        *     Request timed out.
+ 25     *        *        *     Request timed out.
+ 26     *        *        *     Request timed out.
+ 27     *        *        *     Request timed out.
+ 28     *        *        *     Request timed out.
+ 29     *        *        *     Request timed out.
+ 30     *        *        *     Request timed out.
+
+Trace complete.
+
+Tracing route to 103.27.9.20 over a maximum of 30 hops
+
+  1     1 ms     1 ms     2 ms  192.168.43.1 
+  2    69 ms    54 ms    49 ms  10.155.72.61 
+  3  1985 ms   596 ms  1204 ms  10.155.68.4 
+  4     *        *     1894 ms  10.155.68.76 
+  5  1351 ms  1664 ms    66 ms  223.224.40.67 
+  6   176 ms   128 ms   106 ms  10.155.84.218 
+  7    80 ms    79 ms   119 ms  abts-north-static-069.180.144.59.airtelbroadband.in [59.144.180.69] 
+  8   121 ms    72 ms   116 ms  182.79.255.101 
+  9  1189 ms  1207 ms  2275 ms  14.141.116.89.static-Delhi.vsnl.net.in [14.141.116.89] 
+ 10     *        *        *     Request timed out.
+ 11   512 ms    54 ms    60 ms  14.140.210.22.static-Delhi-vsnl.net.in [14.140.210.22] 
+ 12     *        *        *     Request timed out.
+ 13     *        *        *     Request timed out.
+ 14     *        *        *     Request timed out.
+ 15   435 ms   563 ms  1059 ms  103.27.9.20 
+ 16  2248 ms  1044 ms    54 ms  103.27.9.20 
+ 17  1121 ms   982 ms   381 ms  103.27.9.20 
+
+Trace complete.
+
+Tracing route to del01s06-in-f16.1e100.net [173.194.36.80]
+over a maximum of 30 hops:
+
+  1     8 ms     2 ms     2 ms  192.168.43.1 
+  2  1205 ms    60 ms    55 ms  10.155.72.61 
+  3  1316 ms  1561 ms  2609 ms  10.155.68.4 
+  4   930 ms  2042 ms     *     10.155.68.76 
+  5   130 ms   107 ms    77 ms  223.224.40.67 
+  6   121 ms    87 ms   108 ms  10.155.84.218 
+  7  1342 ms   969 ms  1985 ms  abts-north-static-069.180.144.59.airtelbroadband.in [59.144.180.69] 
+  8   102 ms    82 ms    82 ms  182.79.224.185 
+  9   558 ms  1349 ms  1480 ms  72.14.220.197 
+ 10   394 ms   152 ms   102 ms  209.85.241.52 
+ 11  3225 ms   203 ms   123 ms  209.85.251.95 
+ 12     *     1044 ms   184 ms  216.239.48.71 
+ 13   744 ms  1293 ms  1326 ms  209.85.249.115 
+ 14  1117 ms  1132 ms   639 ms  209.85.253.39 
+ 15     *        *        *     Request timed out.
+ 16   833 ms   590 ms  1068 ms  del01s06-in-f16.1e100.net [173.194.36.80] 
+
+Trace complete.
+
+Tracing route to edge-star-shv-03-atn1.facebook.com [173.252.88.66]
+over a maximum of 30 hops:
+
+  1     9 ms     2 ms     2 ms  192.168.43.1 
+  2   930 ms  2528 ms  1097 ms  10.155.72.61 
+  3   209 ms    77 ms   107 ms  10.155.68.4 
+  4    82 ms     *        *     10.155.68.76 
+  5  1264 ms  1131 ms  1624 ms  223.224.40.67 
+  6  2537 ms   937 ms  1239 ms  10.155.84.218 
+  7    87 ms    79 ms    78 ms  abts-north-static-069.180.144.59.airtelbroadband.in [59.144.180.69] 
+  8   249 ms   188 ms   306 ms  182.79.245.185 
+  9  3383 ms   202 ms   178 ms  ae14.pr01.sin1.tfbnw.net [103.4.96.41] 
+ 10     *     1516 ms   121 ms  ae11.bb02.sin1.tfbnw.net [31.13.27.154] 
+ 11  1156 ms  1631 ms  1445 ms  be5.bb02.lax1.tfbnw.net [31.13.28.46] 
+ 12  1527 ms  1172 ms   971 ms  ae2.bb04.atn1.tfbnw.net [31.13.25.214] 
+ 13   436 ms   406 ms   401 ms  ae5.dr01.atn2.tfbnw.net [74.119.77.55] 
+ 14     *        *        *     Request timed out.
+ 15     *        *        *     Request timed out.
+ 16     *        *        *     Request timed out.
+ 17     *        *        *     Request timed out.
+ 18     *        *        *     Request timed out.
+ 19   914 ms   983 ms   750 ms  edge-star-shv-03-atn1.facebook.com [173.252.88.66] 
+
+Trace complete.
