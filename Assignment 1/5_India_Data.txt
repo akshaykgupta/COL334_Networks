@@ -1,0 +1,91 @@
+OrgName:        Internet Assigned Numbers Authority
+Address:        12025 Waterfront Drive
+Address:        Suite 300
+City:           Los Angeles
+StateProv:      CA
+Country:        US
+OrgName:        Internet Assigned Numbers Authority
+Address:        12025 Waterfront Drive
+Address:        Suite 300
+City:           Los Angeles
+StateProv:      CA
+Country:        US
+OrgName:        Internet Assigned Numbers Authority
+Address:        12025 Waterfront Drive
+Address:        Suite 300
+City:           Los Angeles
+StateProv:      CA
+Country:        US
+OrgName:        Internet Assigned Numbers Authority
+Address:        12025 Waterfront Drive
+Address:        Suite 300
+City:           Los Angeles
+StateProv:      CA
+Country:        US
+OrgName:        Asia Pacific Network Information Centre
+Address:        PO Box 3646
+City:           South Brisbane
+StateProv:      QLD
+Country:        AU
+netname:        GPRS-Subscribers-in-East
+country:        IN
+country:        IN
+country:        IN
+OrgName:        Internet Assigned Numbers Authority
+Address:        12025 Waterfront Drive
+Address:        Suite 300
+City:           Los Angeles
+StateProv:      CA
+Country:        US
+OrgName:        Asia Pacific Network Information Centre
+Address:        PO Box 3646
+City:           South Brisbane
+StateProv:      QLD
+Country:        AU
+netname:        BHARTI-IN
+country:        IN
+country:        IN
+country:        IN
+OrgName:        Asia Pacific Network Information Centre
+Address:        PO Box 3646
+City:           South Brisbane
+StateProv:      QLD
+Country:        AU
+netname:        BHARTI-IN
+country:        IN
+country:        IN
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US

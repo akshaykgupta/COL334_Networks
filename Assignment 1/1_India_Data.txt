@@ -1,0 +1,98 @@
+OrgName:        Internet Assigned Numbers Authority
+Address:        12025 Waterfront Drive
+Address:        Suite 300
+City:           Los Angeles
+StateProv:      CA
+Country:        US
+OrgName:        Internet Assigned Numbers Authority
+Address:        12025 Waterfront Drive
+Address:        Suite 300
+City:           Los Angeles
+StateProv:      CA
+Country:        US
+OrgName:        Internet Assigned Numbers Authority
+Address:        12025 Waterfront Drive
+Address:        Suite 300
+City:           Los Angeles
+StateProv:      CA
+Country:        US
+OrgName:        Internet Assigned Numbers Authority
+Address:        12025 Waterfront Drive
+Address:        Suite 300
+City:           Los Angeles
+StateProv:      CA
+Country:        US
+OrgName:        Asia Pacific Network Information Centre
+Address:        PO Box 3646
+City:           South Brisbane
+StateProv:      QLD
+Country:        AU
+netname:        GPRS-Subscribers-in-East
+country:        IN
+country:        IN
+country:        IN
+OrgName:        Internet Assigned Numbers Authority
+Address:        12025 Waterfront Drive
+Address:        Suite 300
+City:           Los Angeles
+StateProv:      CA
+Country:        US
+OrgName:        Asia Pacific Network Information Centre
+Address:        PO Box 3646
+City:           South Brisbane
+StateProv:      QLD
+Country:        AU
+netname:        BHARTI-IN
+country:        IN
+country:        IN
+country:        IN
+OrgName:        Asia Pacific Network Information Centre
+Address:        PO Box 3646
+City:           South Brisbane
+StateProv:      QLD
+Country:        AU
+netname:        BHARTI-IN
+country:        IN
+country:        IN
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+netname:        LINX-PEER-LON1
+country:        GB
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+netname:        SWISSCOM-PNI-1
+country:        CH
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+netname:        SWITCH-LAN
+country:        CH
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+netname:        SWITCH-LAN
+country:        CH
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+netname:        ETH-NET
+country:        CH
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+netname:        ETH-NET
+country:        CH
