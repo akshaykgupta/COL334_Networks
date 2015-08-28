@@ -20,11 +20,11 @@ DNS Server request sent to 10.10.1.2
 DNS Replies with answer : 10.7.174.111
 
 Using conversation statistics : 7 tcp conversations.
-61 HTTP Get requests ( using Statistics>HTTP>Packet Counter )
+60 HTTP Get requests ( using Statistics>HTTP>Packet Counter )
 Total time taken = ~1second ( DNS Server to last HTTP )
 
 TCP Losses/Retransmits :
-none ( using tcp.analysis.lost_segment filter)
+none ( using tcp.analysis filters)
 
 
 Screenshots are :
