@@ -1,0 +1,15 @@
+4a :
+
+handshake with proxy
+svchost
+searchUI ( cortana )
+backgroundTask.exe
+
+4b :
+Analysis of webpage download :
+
+DNS Server request sent to 10.10.1.2
+DNS Replies with answer : 10.7.174.111
+
+
+Screenshots are :
