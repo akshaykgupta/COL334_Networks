@@ -7,7 +7,7 @@ import sys
 #myip : 10.208.20.141
 
 def observe():
-	tim = datetime.datetime.now().strftime("%d/%m/%y %I:%M:%S %p")
+	tim = datetime.datetime.now().strftime("%Y-%m-%d %I:%M %p")
 	os.system("echo -n" + tim + ", >> 2aResults.csv")
 	os.system("nmap -n -sP " + sys.argv[1] + "| egrep -o \"([0-9]+) hosts up\" | egrep -o \"([0-9]+)\" >> 2aResults.csv")
 
