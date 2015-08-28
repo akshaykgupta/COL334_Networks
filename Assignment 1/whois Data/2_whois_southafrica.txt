@@ -1,0 +1,84 @@
+OrgName:        African Network Information Center
+Address:        Level 11ABC
+Address:        Raffles Tower
+Address:        Lot 19, Cybercity
+City:           Ebene
+StateProv:
+Country:        MU
+OrgName:        African Network Information Center
+Address:        Level 11ABC
+Address:        Raffles Tower
+Address:        Lot 19, Cybercity
+City:           Ebene
+StateProv:
+Country:        MU
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        University of Waterloo
+Address:        200 University Avenue West
+City:           Waterloo
+StateProv:      ON
+Country:        CA

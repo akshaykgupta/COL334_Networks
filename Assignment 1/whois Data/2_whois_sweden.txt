@@ -1,0 +1,36 @@
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        Allstream Corp.
+Address:        200 Wellington Street West
+Address:        16th Floor
+City:           Toronto
+StateProv:      ON
+Country:        CA
+OrgName:        University of Waterloo
+Address:        200 University Avenue West
+City:           Waterloo
+StateProv:      ON
+Country:        CA

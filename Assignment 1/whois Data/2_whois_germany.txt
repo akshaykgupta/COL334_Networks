@@ -1,0 +1,45 @@
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        Hydro One Telecom, Inc.
+Address:        483 Bay Street, 8th floor
+City:           Toronto
+StateProv:      ON
+Country:        CA
+OrgName:        Hydro One Telecom, Inc.
+Address:        483 Bay Street, 8th floor
+City:           Toronto
+StateProv:      ON
+Country:        CA
+OrgName:        Hydro One Telecom, Inc.
+Address:        483 Bay Street, 8th floor
+City:           Toronto
+StateProv:      ON
+Country:        CA
+OrgName:        Hydro One Telecom, Inc.
+Address:        483 Bay Street, 8th floor
+City:           Toronto
+StateProv:      ON
+Country:        CA
+OrgName:        Hydro One Telecom, Inc.
+Address:        483 Bay Street, 8th floor
+City:           Toronto
+StateProv:      ON
+Country:        CA
+OrgName:        University of Waterloo
+Address:        200 University Avenue West
+City:           Waterloo
+StateProv:      ON
+Country:        CA

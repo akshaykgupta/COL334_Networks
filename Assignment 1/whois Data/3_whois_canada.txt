@@ -1,0 +1,176 @@
+OrgName:        African Network Information Center
+Address:        Level 11ABC
+Address:        Raffles Tower
+Address:        Lot 19, Cybercity
+City:           Ebene
+StateProv:
+Country:        MU
+OrgName:        Tera-byte Dot Com Inc.
+Address:        Terminal Level
+Address:        10004-104 Ave
+City:           Edmonton
+StateProv:      AB
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        African Network Information Center
+Address:        Level 11ABC
+Address:        Raffles Tower
+Address:        Lot 19, Cybercity
+City:           Ebene
+StateProv:
+Country:        MU
+OrgName:        Tera-byte Dot Com Inc.
+Address:        Terminal Level
+Address:        10004-104 Ave
+City:           Edmonton
+StateProv:      AB
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        African Network Information Center
+Address:        Level 11ABC
+Address:        Raffles Tower
+Address:        Lot 19, Cybercity
+City:           Ebene
+StateProv:
+Country:        MU
+OrgName:        African Network Information Center
+Address:        Level 11ABC
+Address:        Raffles Tower
+Address:        Lot 19, Cybercity
+City:           Ebene
+StateProv:
+Country:        MU
+OrgName:        African Network Information Center
+Address:        Level 11ABC
+Address:        Raffles Tower
+Address:        Lot 19, Cybercity
+City:           Ebene
+StateProv:
+Country:        MU
+OrgName:        African Network Information Center
+Address:        Level 11ABC
+Address:        Raffles Tower
+Address:        Lot 19, Cybercity
+City:           Ebene
+StateProv:
+Country:        MU
+OrgName:        African Network Information Center
+Address:        Level 11ABC
+Address:        Raffles Tower
+Address:        Lot 19, Cybercity
+City:           Ebene
+StateProv:
+Country:        MU

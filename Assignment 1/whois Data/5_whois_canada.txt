@@ -1,0 +1,66 @@
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Tera-byte Dot Com Inc.
+Address:        Terminal Level
+Address:        10004-104 Ave
+City:           Edmonton
+StateProv:      AB
+Country:        CA
+OrgName:        AGT Advanced Communications
+Address:        Ste 200, 355 - 4th Ave SW
+City:           Calgary
+StateProv:      AB
+Country:        CA
+OrgName:        TELUS Communications Inc.
+Address:        10 - 3777 Kingsway
+City:           Burnaby
+StateProv:      BC
+Country:        CA
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US

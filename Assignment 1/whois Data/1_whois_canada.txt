@@ -1,0 +1,188 @@
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        Tera-byte Dot Com Inc.
+Address:        Terminal Level
+Address:        10004-104 Ave
+City:           Edmonton
+StateProv:      AB
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        Tera-byte Dot Com Inc.
+Address:        Terminal Level
+Address:        10004-104 Ave
+City:           Edmonton
+StateProv:      AB
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        TELEHOUSE International Corp. of America
+Address:        7 Teleport Drive
+City:           Staten Island
+StateProv:      NY
+Country:        US
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        Tera-byte Dot Com Inc.
+Address:        Terminal Level
+Address:        10004-104 Ave
+City:           Edmonton
+StateProv:      AB
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        TELEHOUSE International Corp. of America
+Address:        7 Teleport Drive
+City:           Staten Island
+StateProv:      NY
+Country:        US
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL

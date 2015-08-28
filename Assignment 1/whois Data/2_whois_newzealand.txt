@@ -1,0 +1,105 @@
+OrgName:        Asia Pacific Network Information Centre
+Address:        PO Box 3646
+City:           South Brisbane
+StateProv:      QLD
+Country:        AU
+OrgName:        Asia Pacific Network Information Centre
+Address:        PO Box 3646
+City:           South Brisbane
+StateProv:      QLD
+Country:        AU
+OrgName:        Asia Pacific Network Information Centre
+Address:        PO Box 3646
+City:           South Brisbane
+StateProv:      QLD
+Country:        AU
+OrgName:        Asia Pacific Network Information Centre
+Address:        PO Box 3646
+City:           South Brisbane
+StateProv:      QLD
+Country:        AU
+OrgName:        Asia Pacific Network Information Centre
+Address:        PO Box 3646
+City:           South Brisbane
+StateProv:      QLD
+Country:        AU
+OrgName:        Asia Pacific Network Information Centre
+Address:        PO Box 3646
+City:           South Brisbane
+StateProv:      QLD
+Country:        AU
+OrgName:        Asia Pacific Network Information Centre
+Address:        PO Box 3646
+City:           South Brisbane
+StateProv:      QLD
+Country:        AU
+OrgName:        Asia Pacific Network Information Centre
+Address:        PO Box 3646
+City:           South Brisbane
+StateProv:      QLD
+Country:        AU
+OrgName:        Asia Pacific Network Information Centre
+Address:        PO Box 3646
+City:           South Brisbane
+StateProv:      QLD
+Country:        AU
+OrgName:        Asia Pacific Network Information Centre
+Address:        PO Box 3646
+City:           South Brisbane
+StateProv:      QLD
+Country:        AU
+OrgName:        Asia Pacific Network Information Centre
+Address:        PO Box 3646
+City:           South Brisbane
+StateProv:      QLD
+Country:        AU
+OrgName:        Asia Pacific Network Information Centre
+Address:        PO Box 3646
+City:           South Brisbane
+StateProv:      QLD
+Country:        AU
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        PSINet, Inc.
+Address:        2450 N Street NW
+City:           Washington
+StateProv:      DC
+Country:        US
+OrgName:        University of Waterloo
+Address:        200 University Avenue West
+City:           Waterloo
+StateProv:      ON
+Country:        CA

@@ -1,0 +1,98 @@
+OrgName:        University of Waterloo
+Address:        200 University Avenue West
+City:           Waterloo
+StateProv:      ON
+Country:        CA
+OrgName:        Tera-byte Dot Com Inc.
+Address:        Terminal Level
+Address:        10004-104 Ave
+City:           Edmonton
+StateProv:      AB
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        Allstream Corp.
+Address:        200 Wellington Street West
+Address:        16th Floor
+City:           Toronto
+StateProv:      ON
+Country:        CA
+OrgName:        Allstream Corp.
+Address:        200 Wellington Street West
+Address:        16th Floor
+City:           Toronto
+StateProv:      ON
+Country:        CA
+OrgName:        Allstream Corp.
+Address:        200 Wellington Street West
+Address:        16th Floor
+City:           Toronto
+StateProv:      ON
+Country:        CA
+OrgName:        University of Waterloo
+Address:        200 University Avenue West
+City:           Waterloo
+StateProv:      ON
+Country:        CA
+OrgName:        University of Waterloo
+Address:        200 University Avenue West
+City:           Waterloo
+StateProv:      ON
+Country:        CA
+OrgName:        Tera-byte Dot Com Inc.
+Address:        Terminal Level
+Address:        10004-104 Ave
+City:           Edmonton
+StateProv:      AB
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        Allstream Corp.
+Address:        200 Wellington Street West
+Address:        16th Floor
+City:           Toronto
+StateProv:      ON
+Country:        CA
+OrgName:        Allstream Corp.
+Address:        200 Wellington Street West
+Address:        16th Floor
+City:           Toronto
+StateProv:      ON
+Country:        CA
+OrgName:        Allstream Corp.
+Address:        200 Wellington Street West
+Address:        16th Floor
+City:           Toronto
+StateProv:      ON
+Country:        CA
+OrgName:        University of Waterloo
+Address:        200 University Avenue West
+City:           Waterloo
+StateProv:      ON
+Country:        CA

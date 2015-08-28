@@ -1,0 +1,65 @@
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        Level 3 Communications, Inc.
+Address:        1025 Eldorado Blvd.
+City:           Broomfield
+StateProv:      CO
+Country:        US
+OrgName:        Level 3 Communications, Inc.
+Address:        1025 Eldorado Blvd.
+City:           Broomfield
+StateProv:      CO
+Country:        US
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL

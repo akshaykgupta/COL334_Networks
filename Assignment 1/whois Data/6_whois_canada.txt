@@ -1,0 +1,46 @@
+OrgName:        Facebook, Inc.
+Address:        1601 Willow Rd.
+City:           Menlo Park
+StateProv:      CA
+Country:        US
+OrgName:        Tera-byte Dot Com Inc.
+Address:        Terminal Level
+Address:        10004-104 Ave
+City:           Edmonton
+StateProv:      AB
+Country:        CA
+OrgName:        AGT Advanced Communications
+Address:        Ste 200, 355 - 4th Ave SW
+City:           Calgary
+StateProv:      AB
+Country:        CA
+OrgName:        TELUS Communications Inc.
+Address:        10 - 3777 Kingsway
+City:           Burnaby
+StateProv:      BC
+Country:        CA
+OrgName:        Asia Pacific Network Information Centre
+Address:        PO Box 3646
+City:           South Brisbane
+StateProv:      QLD
+Country:        AU
+OrgName:        Facebook, Inc.
+Address:        1601 Willow Rd.
+City:           Menlo Park
+StateProv:      CA
+Country:        US
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        Facebook, Inc.
+Address:        1601 Willow Rd.
+City:           Menlo Park
+StateProv:      CA
+Country:        US
+OrgName:        Facebook, Inc.
+Address:        1601 Willow Rd.
+City:           Menlo Park
+StateProv:      CA
+Country:        US

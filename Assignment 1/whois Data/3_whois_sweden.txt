@@ -1,0 +1,74 @@
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        African Network Information Center
+Address:        Level 11ABC
+Address:        Raffles Tower
+Address:        Lot 19, Cybercity
+City:           Ebene
+StateProv:
+Country:        MU
+OrgName:        African Network Information Center
+Address:        Level 11ABC
+Address:        Raffles Tower
+Address:        Lot 19, Cybercity
+City:           Ebene
+StateProv:
+Country:        MU
+OrgName:        African Network Information Center
+Address:        Level 11ABC
+Address:        Raffles Tower
+Address:        Lot 19, Cybercity
+City:           Ebene
+StateProv:
+Country:        MU
+OrgName:        African Network Information Center
+Address:        Level 11ABC
+Address:        Raffles Tower
+Address:        Lot 19, Cybercity
+City:           Ebene
+StateProv:
+Country:        MU
+OrgName:        African Network Information Center
+Address:        Level 11ABC
+Address:        Raffles Tower
+Address:        Lot 19, Cybercity
+City:           Ebene
+StateProv:
+Country:        MU
+OrgName:        African Network Information Center
+Address:        Level 11ABC
+Address:        Raffles Tower
+Address:        Lot 19, Cybercity
+City:           Ebene
+StateProv:
+Country:        MU
+OrgName:        African Network Information Center
+Address:        Level 11ABC
+Address:        Raffles Tower
+Address:        Lot 19, Cybercity
+City:           Ebene
+StateProv:
+Country:        MU

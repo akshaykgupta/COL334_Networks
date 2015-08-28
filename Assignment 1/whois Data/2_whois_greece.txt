@@ -1,0 +1,106 @@
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+address:        City House, 126-130 Hills Road
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+address:        City House, 126-130 Hills Road
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+address:        City House, 126-130 Hills Road
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+address:        City House, 126-130 Hills Road
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+address:        City House, 126-130 Hills Road
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+address:        City House, 126-130 Hills Road
+OrgName:        Canarie Inc
+Address:        45 O'Connor Street, suite 500
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        ORANO
+Address:        360 Bay Street, 7th Floor
+City:           TORONTO
+StateProv:      ON
+Country:        CA
+OrgName:        ORANO
+Address:        360 Bay Street, 7th Floor
+City:           TORONTO
+StateProv:      ON
+Country:        CA
+OrgName:        ORANO
+Address:        360 Bay Street, 7th Floor
+City:           TORONTO
+StateProv:      ON
+Country:        CA
+OrgName:        ORANO
+Address:        360 Bay Street, 7th Floor
+City:           TORONTO
+StateProv:      ON
+Country:        CA
+OrgName:        ORANO
+Address:        360 Bay Street, 7th Floor
+City:           TORONTO
+StateProv:      ON
+Country:        CA
+OrgName:        ORANO
+Address:        360 Bay Street, 7th Floor
+City:           TORONTO
+StateProv:      ON
+Country:        CA
+OrgName:        ORANO
+Address:        360 Bay Street, 7th Floor
+City:           TORONTO
+StateProv:      ON
+Country:        CA
+OrgName:        ORANO
+Address:        360 Bay Street, 7th Floor
+City:           TORONTO
+StateProv:      ON
+Country:        CA

@@ -1,0 +1,130 @@
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US
+OrgName:        Google Inc.
+Address:        1600 Amphitheatre Parkway
+City:           Mountain View
+StateProv:      CA
+Country:        US

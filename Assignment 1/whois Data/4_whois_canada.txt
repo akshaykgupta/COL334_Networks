@@ -1,0 +1,56 @@
+OrgName:        Asia Pacific Network Information Centre
+Address:        PO Box 3646
+City:           South Brisbane
+StateProv:      QLD
+Country:        AU
+OrgName:        Tera-byte Dot Com Inc.
+Address:        Terminal Level
+Address:        10004-104 Ave
+City:           Edmonton
+StateProv:      AB
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        Bell Canada
+Address:        160 Elgin Street
+City:           Ottawa
+StateProv:      ON
+Country:        CA
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        RIPE Network Coordination Centre
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:
+Country:        NL
+OrgName:        Asia Pacific Network Information Centre
+Address:        PO Box 3646
+City:           South Brisbane
+StateProv:      QLD
+Country:        AU
+OrgName:        Asia Pacific Network Information Centre
+Address:        PO Box 3646
+City:           South Brisbane
+StateProv:      QLD
+Country:        AU
+OrgName:        Asia Pacific Network Information Centre
+Address:        PO Box 3646
+City:           South Brisbane
+StateProv:      QLD
+Country:        AU
