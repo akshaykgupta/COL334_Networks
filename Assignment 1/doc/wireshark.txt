@@ -1,9 +1,17 @@
 4a :
 
-handshake with proxy
+Windows:
+OneDrive
 svchost
-searchUI ( cortana )
+searchUI (Cortana)
 backgroundTask.exe
+
+Mac:
+Adobe Creative Cloud
+Pushbullet
+WifiAgent
+TextMate
+Spotify
 
 4b :
 Analysis of webpage download :
