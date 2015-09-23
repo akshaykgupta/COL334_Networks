@@ -19,6 +19,7 @@ class handle_objects(threading.Thread):
 					break
 				else:
 					all_data = all_data + data 
+		connection.close()
 
 			#Store all_data somewhere.
 
