@@ -11,14 +11,15 @@ class tcp_thread(threading.Thread):
 		self.end = end
 		self.threadID = threadID
 		
-	def processObject(Obj):
-		resultString = ''
+	def processObject(obj):
+		resultString = "GET " + SOMETHING + " HTTP1.1\r\nConnection:keep-alive\r\n\r\n"
 		return resultString
 	
 	def run(self):
 		#I need to start a socket, then close it later.
 		global list_of_requests
 		connection = socket.socket(AF_INET , SOCK_STREAM, 0) #a tcp socket.
+		#IMPORTANT NOTE : For the last Request, Connection header needs to be "close"
 		for idx in range(self.start,self.end):
 			request = processObject(list_of_requests[idx])
 			portno = 80 # Check
