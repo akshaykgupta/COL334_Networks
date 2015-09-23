@@ -1,20 +1,31 @@
-import sys, socket, json, time, thread
+import sys, socket, json, time, thread, threading
 
 list_of_requests = [] # list of dictionary objects.
 
 #threading for TCP sockets:
 
 class tcp_thread(threading.Thread):
-	def __init__(self, threadID, name, counter, start, end):
+	def __init__(self, threadID, start, end):
 		threading.Thread.__init(self)
 		self.start = start
 		self.end = end
 		self.threadID = threadID
-		self.name = name
-		self.counter = counter
+		
+	def processObject(Obj):
+		resultString = ''
+		return resultString
+	
 	def run(self):
 		#I need to start a socket, then close it later.
-		self.connection = socket.socket(AF_INET , SOCK_STREAM, 0) #a tcp socket.
+		global list_of_requests
+		connection = socket.socket(AF_INET , SOCK_STREAM, 0) #a tcp socket.
+		for idx in range(self.start,self.end):
+			request = processObject(list_of_requests[idx])
+			portno = 80 # Check
+			connection.connect((request,portno))
+
+
+
 
 #Things I need for a HTTP Get request are :
 
