@@ -91,8 +91,18 @@ def classify(har_data):
 		for i,url in enumerate(obj_type_list[key]):
 			print str(i+1) + ". " + url + "\n"
 
-def print_data(domain_info):
-	pass
+def print_data(domain_list, domain_info, domain_size):
+	for i, domain in enumerate(domain_list):
+		print str(i+1) + ". Domain name: " + domain
+		print "Total number of objects downloaded: " + str(domain_size[domain][1])
+		print "Total size of objects downloaded: " + str(domain_size[domain][0]) + " bytes"
+		print "No. of TCP connections opened: " + str(len(domain_info[domain]))
+		for j, connection in enumerate(sorted(domain_info[domain].keys())):
+			print "TCP Connection: " + str(j+1)
+			print "No. of objects downloaded: " + str(len(domain_info[domain][connection]))
+			total_size = sum([pkt['size'] for pkt in domain_info[domain][connection] if 'size' in pkt])
+			print "Size of objects downloaded: " + str(total_size) + " bytes"
+		print ""
 
 def analyse(har_data, pcap_data):
 	n_objects = len(har_data)
@@ -137,7 +147,7 @@ def analyse(har_data, pcap_data):
 						domain_size[domain][0] += size
 						domain_size[domain][1] += 1
 	print "Total No. of objects downloaded: " + str(n_objects)
-	print "Total size of objects downloaded: " + str(total_size) + " bytes"
+	print "Total size of objects downloaded: " + str(total_size) + " bytes\n"
 	return domain_list, domain_info, domain_size
 
 if __name__ == '__main__':
@@ -152,7 +162,8 @@ if __name__ == '__main__':
 	with open(pcap_file) as pf:
 		pcap_data = ps.FileCapture(pcap_file, display_filter = "http && ip.src == 192.168.0.4")
 	domain_list, domain_info, domain_size = analyse(har_data, pcap_data)
-	#print_data(domain_info)
-	classify(har_data)
+	print domain_info
+	print_data(domain_list, domain_info, domain_size)
+	#classify(har_data)
 	build_download_tree(har_file, domain_info, domain_list)
 	build_object_tree(har_file, har_data)
