@@ -19,9 +19,10 @@ class handle_objects(threading.Thread):
 					break
 				else:
 					all_data = all_data + data 
+			#Store all_data somewhere.
 		connection.close()
 
-			#Store all_data somewhere.
+			
 
 class handle_domain(threading.Thread):
 	def __init__(self,domain_name,list_of_objects,maxTCP,maxOBJ):
@@ -54,17 +55,26 @@ class handle_domain(threading.Thread):
 class object_Tree_Handler:
 	def __init__(self,filename,maxdepth = 0):
 		f = open(filename)
+		id_to_level = {}
 		if(maxdepth != 0):
 			self.maxdepth = maxdepth
 			self.objects_per_level = [[] for it in range(0,self.maxdepth)]  
 		else:
 			self.objects_per_level = [[] for it in range(0,10)] #Assuming max Tree Depth to be 10
 			self.maxdepth = 0
+		
 		for line in f:
 			words = line.split()
-			self.objects_per_level[eval(words[0])].append(words[1])
-			if(eval(words[0]) > self.maxdepth):
-				self.maxdepth = eval(words[0])
+			current_id = eval(words[0])
+			parent_id = eval(words[2])
+			if(parent_id not in id_to_level):
+				id_to_level[parent_id] = 0
+			current_level = id_to_level[parent_id] + 1
+			id_to_level[current_id] = current_level
+			
+			self.objects_per_level[current_level].append(words[1])
+			if(current_level > self.maxdepth):
+				self.maxdepth = current_level
 
 	def setConstants(max_TCP_per_domain,max_objects_per_tcp):
 		self.maxTCP = max_TCP_per_domain
