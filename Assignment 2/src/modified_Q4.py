@@ -1,4 +1,15 @@
-import sys, socket, json, time, thread, threading
+import sys, socket, json, time, thread, threading, os, mutex
+
+mutex filemutex = mutex()
+
+def get_filestream( fullpath ):
+	global.filemutex #Is this needed?
+	directory = os.path.dirname(filename) #Will not having a directory part create a problem? Like, will directory = "" create problems?
+	if not os.path.exists(directory):
+		filemutex.lock(os.makedirs , directory)
+		filemutex.unlock()
+	f = open(fullpath)
+	return f
 
 class handle_objects(threading.Thread):
 	def __init__(self,domain_name,list_of_objects):
@@ -25,8 +36,10 @@ class handle_objects(threading.Thread):
 					break
 				else:
 					all_data = all_data + data 
-			print all_data
-			#f.write(all_data)
+			f = get_filestream
+			#print all_data
+			f.write(all_data)
+			f.close() #Is this necessary?
 			#Store all_data somewhere.
 		connection.close()
 
