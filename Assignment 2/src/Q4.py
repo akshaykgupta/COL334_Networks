@@ -35,10 +35,10 @@ class handle_objects(threading.Thread):
 					break
 				else:
 					all_data = all_data + data 
-			f = get_filestream
+			f = get_filestream(request)
 			#print all_data
 			f.write(all_data)
-			f.close() #Is this necessary?
+			f.close()
 			#Store all_data somewhere.
 		connection.close()
 
