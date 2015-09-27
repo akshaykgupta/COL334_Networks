@@ -1,16 +1,18 @@
 import sys, socket, json, time, thread, threading, os, mutex
 
 filemutex = mutex.mutex()
+my_lock = threading.Lock()
+your_lock = threading.Lock()
+oid = 0
 
 def get_filestream( fullpath ):
-	directory = os.path.dirname(filename) #Will not having a directory part create a problem? Like, will directory = "" create problems?
+	directory = os.path.dirname(fullpath) #Will not having a directory part create a problem? Like, will directory = "" create problems?
 	if not os.path.exists(directory):
-		filemutex.lock(os.makedirs , directory)
-		filemutex.unlock()
-	f = open(fullpath)
-	return f
+		os.makedirs(directory)
+	return;
 
 class handle_objects(threading.Thread):
+
 	def __init__(self,domain_name,list_of_objects):
 		threading.Thread.__init__(self)
 		self.domain = domain_name
@@ -18,33 +20,69 @@ class handle_objects(threading.Thread):
 
 	def run(self):
 		#TODO: Pretty Printing.
+		global my_lock
+		global oid
 		connection = socket.socket(socket.AF_INET,socket.SOCK_STREAM,0)
 		connection.connect((self.domain,80))
 		for idx in range(0,len(self.list_of_objects)):
 			request = self.list_of_objects[idx]
 			all_data = ''
 			if(idx != len(self.list_of_objects) -1):
-				request_string = "GET " + request + " HTTP/1.1\r\nHost: " + self.domain+ "\r\n\r\n"
+				request_string = "GET " + request + " HTTP/1.1\r\nHost: " + self.domain+ "\r\nConnection: keep-alive\r\n\r\n"
 			else:
 				request_string = "GET " + request + " HTTP/1.1\r\nHost: " + self.domain+ "\r\nConnection: close\r\n\r\n"
+				#print 'The id for request: ',str(oid)
 			connection.send(request_string)
+			'''if(bool('height_of_omayyad_caliphate' in request)):
+				print '\n\n'
+				print 'Request for height of dude: ' + request
+				print 'Domain name for the height dude: ' + self.domain
+				print 'For the sake of completion: ' + request_string
+				print '\n'''
+			
 			#f = open(request,'w')
+			#dir_path = 'dl/' + request.split('//')[1]
+			#filemutex.lock(get_filestream,dir_path)
+			#filemutex.unlock()
+			_oid = 0
+			with my_lock:
+				_oid = oid
+				g = open('Mapping.txt','a')
+				g.write(str(oid) + '\t' + request.split('//')[1] +'\n')
+				f = open('dl/'+str(oid)+'.txt','w')
+				oid = oid + 1
+				g.close()
+			flag = False
 			while(True):
-				data = connection.recv(1024)
+				try:
+					data = connection.recv(1024)
+						
+				except:
+					print 'Bad Request: ', request
+					data = ''
 				if(len(data) == 0):
 					break
 				else:
-					all_data = all_data + data 
-			f = get_filestream(request)
+					f.write(data)
+					flag = True
 			#print all_data
-			f.write(all_data)
+			if(not flag):
+				print '\n\n'
+				print 'Request : ' + request
+				print 'Domain name : ' + self.domain
+				print 'For the sake of completion: ' + request_string
+				print '\n'
+			'''with your_lock:
+				print( str(_oid) + " is done writing\n")'''
 			f.close()
+
 			#Store all_data somewhere.
 		connection.close()
 
 			
 
 class handle_domain(threading.Thread):
+
 	def __init__(self,domain_name,list_of_objects,maxTCP,maxOBJ):
 		threading.Thread.__init__(self)
 		self.domain = domain_name
