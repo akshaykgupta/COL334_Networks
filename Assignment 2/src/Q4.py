@@ -1,9 +1,8 @@
 import sys, socket, json, time, thread, threading, os, mutex
 
-mutex filemutex = mutex()
+filemutex = mutex.mutex()
 
 def get_filestream( fullpath ):
-	global.filemutex #Is this needed?
 	directory = os.path.dirname(filename) #Will not having a directory part create a problem? Like, will directory = "" create problems?
 	if not os.path.exists(directory):
 		filemutex.lock(os.makedirs , directory)
