@@ -27,31 +27,26 @@ class handle_objects(threading.Thread):
 		for idx in range(0,len(self.list_of_objects)):
 			request = self.list_of_objects[idx]
 			all_data = ''
-			if(idx != len(self.list_of_objects) -1):
-				request_string = "GET " + request + " HTTP/1.1\r\nHost: " + self.domain+ "\r\nConnection: keep-alive\r\n\r\n"
-			else:
-				request_string = "GET " + request + " HTTP/1.1\r\nHost: " + self.domain+ "\r\nConnection: close\r\n\r\n"
+			#if(idx != len(self.list_of_objects) -1):
+			request_string = "GET " + request + " HTTP/1.1\r\nHost: " + self.domain+ "\r\nConnection: keep-alive\r\n\r\n"
+			#else:
+				#request_string = "GET " + request + " HTTP/1.1\r\nHost: " + self.domain+ "\r\nConnection: close\r\n\r\n"
 				#print 'The id for request: ',str(oid)
 			connection.send(request_string)
-			'''if(bool('height_of_omayyad_caliphate' in request)):
-				print '\n\n'
-				print 'Request for height of dude: ' + request
-				print 'Domain name for the height dude: ' + self.domain
-				print 'For the sake of completion: ' + request_string
-				print '\n'''
 			
 			#f = open(request,'w')
 			#dir_path = 'dl/' + request.split('//')[1]
 			#filemutex.lock(get_filestream,dir_path)
 			#filemutex.unlock()
 			_oid = 0
-			with my_lock:
+			'''with my_lock:
 				_oid = oid
 				g = open('Mapping.txt','a')
 				g.write(str(oid) + '\t' + request.split('//')[1] +'\n')
 				f = open('dl/'+str(oid)+'.txt','w')
 				oid = oid + 1
-				g.close()
+				g.close()'''
+			f = open('ErrorText2.txt','a')
 			flag = False
 			while(True):
 				try:
@@ -63,15 +58,16 @@ class handle_objects(threading.Thread):
 				if(len(data) == 0):
 					break
 				else:
-					f.write(data)
+					#f.write(data)
 					flag = True
 			#print all_data
 			if(not flag):
-				print '\n\n'
-				print 'Request : ' + request
-				print 'Domain name : ' + self.domain
-				print 'For the sake of completion: ' + request_string
-				print '\n'
+				#print '\n\n'
+				with my_lock:
+					f.write('\nRequest : ' + request)
+					f.write('\nDomain name : ' + self.domain)
+					f.write('\nFor the sake of completion: ' + request_string)
+				
 			'''with your_lock:
 				print( str(_oid) + " is done writing\n")'''
 			f.close()
@@ -147,14 +143,37 @@ class object_Tree_Handler:
 				domain_map[key] = [object]
 			else:
 				domain_map[key].append(object)
-		thread_list = [] 
+		file = open('ErrorText2.txt')
+		Error_set = set()
+		for line in file:
+			line = line.split(' : ')
+			if(line[0]== 'Request'):
+				Error_set.add(line[1].rstrip('\n'))
+		
+		for item in domain_map.keys():
+			print '\nStart: ',item
+			counter = 0
+			bad_idx_list = []
+			for items in domain_map[item]:
+				print '\t',items
+				if(items in Error_set):
+					bad_idx_list.append(counter)
+				counter = counter + 1
+			print 'Total number of objects: ',str(len(domain_map[item]))
+			print 'The Bad Indices are as follows: ',
+			for item in bad_idx_list:
+				print item,
+			print ''
+			print 'End'
+
+		'''thread_list = [] 
 		for key in domain_map.keys():
 			thread = handle_domain(key,domain_map[key],self.maxTCP,self.maxOBJ)
 			thread.start()
 			thread_list.append(thread)
 
 		for thread in thread_list:
-			thread.join()
+			thread.join()'''
 
 
 	def getTree(self):
