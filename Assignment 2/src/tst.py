@@ -1,8 +1,6 @@
 import socket, sys, json
 
 
-
-
 ''' 
 The code below essentially reads all objects, and requests all objects which 
 '''
@@ -43,7 +41,10 @@ def request(reqs , lvl):
 				pass
 			else:
 				sock.close()
-				sock.connect((object["domain"], 80))
+				sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM , 0)
+				print object["domain"]
+				temp = object["domain"]
+				sock.connect((temp, 80))
 				cur_dom = object["domain"]
 			str_req = "GET " + object["url"] + " HTTP/1.1\r\nHost: " + object["domain"] + "\r\nConnection: keep-alive\r\n\r\n"
 			sock.send(str_req)
