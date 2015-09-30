@@ -1,65 +1,56 @@
-import sys, socket, json, time, thread, threading, os, mutex
-
-filemutex = mutex.mutex()
+import socket,threading
+requests = []
 my_lock = threading.Lock()
-your_lock = threading.Lock()
-oid = 0
-
-def get_filestream( fullpath ):
-	directory = os.path.dirname(fullpath) #Will not having a directory part create a problem? Like, will directory = "" create problems?
-	if not os.path.exists(directory):
-		os.makedirs(directory)
-	return;
-
-class handle_objects(threading.Thread):
-
-	def __init__(self,domain_name,list_of_objects):
+jdx = 0
+class handle_connection(threading.Thread):
+	def __init__(self,domain,domain_list,flag):
 		threading.Thread.__init__(self)
-		self.domain = domain_name
-		self.list_of_objects = list_of_objects
-
+		self.domain = domain
+		self.domain_list = domain_list
+		self.flag = flag
 	def run(self):
-		#TODO: Pretty Printing.
+		global jdx
 		global my_lock
-		global oid
-		connection = socket.socket(socket.AF_INET,socket.SOCK_STREAM,0)
-		connection.connect((self.domain,80))
+		sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM,0)
+		if(self.flag):
+			sock.connect((self.domain,80))
+		else:
+			sock.connect((self.domain,443))
 		filenames = []
-		for idx in range(0,len(self.list_of_objects)):
-			request = self.list_of_objects[idx]
-			all_data = ''
-			if(idx != len(self.list_of_objects) -1):
-				request_string = "GET " + request + " HTTP/1.1\r\nHost: " + self.domain+ "\r\nConnection: keep-alive\r\n\r\n"
+		f = open('Mapping.txt','a')
+		for idx in range(0,len(self.domain_list)):
+			request = self.domain_list[idx]
+			request_string = ''
+			if(idx != len(requests) -1):
+				request_string = "GET " + request + " HTTP/1.1\r\nHost: " + self.domain + "\r\nConnection: keep-alive\r\n\r\n"
 			else:
-				request_string = "GET " + request + " HTTP/1.1\r\nHost: " + self.domain+ "\r\nConnection: close\r\n\r\n"
-			filenames.append(request)
-			connection.send(request_string)
-		data = connection.recv(1024)
+				request_string = "GET " + request + " HTTP/1.1\r\nHost: " + self.domain + "\r\nConnection: close\r\n\r\n"
+			sock.send(request_string)
+			with my_lock:
+				f.write(str(jdx) + ' ' + request + '\n')
+				filenames.append(jdx)
+			jdx = jdx + 1
+		f.close()
 		all_data = ''
+		try:
+			sock.settimeout(2.0)
+			data = sock.recv(1024)
+			sock.settimeout(None)
+		except:
+			data = ''
 		while(len(data)!=0):
 			all_data = all_data + data
 			try:
-				connection.settimeout(2.0)
-				data = connection.recv(1024)
-				connection.settimeout(None)
+				sock.settimeout(2.0)
+				data = sock.recv(1024)
+				sock.settimeout(None)
 			except:
 				data = ''
-		start_id = -1
-		end_id = -1
-		with my_lock:
-			start_id = oid	
-			g = open('Mapping.txt','a')
-			for request in filenames:
-				g.write(str(oid) + '\t' + request.split('//')[1] +'\n')
-				oid = oid + 1
-			end_id = oid
-			g.close()
-		fileNumber = start_id
+		fileNumber = 0
 		while(len(all_data)!=0):
 			length_of_file = -1	
 			all_data = all_data.split('\n')
 			counter = -1
-			length_of_file = 0
 			for idx in range(0,len(all_data)):
 				counter = idx
 				line = all_data[idx].rstrip('\r')
@@ -72,17 +63,16 @@ class handle_objects(threading.Thread):
 							length_of_file = eval(line[1])
 
 			all_data = '\n'.join(all_data[counter+1:len(all_data)])
-			f = open('dl/' + str(fileNumber)+'.txt','w')
+			f = open('dl/'+str(filenames[fileNumber]) +'.txt','w')
 			if(length_of_file == -1):
 				# The very special case of no Content-length
-				#Everyone who uses HTTP/2 and does not set Content-Length can politely fuck off
 				all_data = all_data.split('HTTP/1')
 				f.write(all_data[0])
 				if(len(all_data) > 1):
 					all_data = 'HTTP/1' + 'HTTP/1'.join(all_data[1:len(all_data)])
 				else:
 					all_data = ''
-			else:
+			else:	
 				for idx in range(0,length_of_file):
 					if(idx < len(all_data)):
 						f.write(all_data[idx])
@@ -93,44 +83,38 @@ class handle_objects(threading.Thread):
 				else:
 					all_data = ''
 			fileNumber = fileNumber + 1
-		
-		while(fileNumber < end_id):
-			f = open('dl/' + str(fileNumber)+'.txt','w')
+		while(fileNumber < len(filenames)):
+			f = open('dl/'+str(filenames[fileNumber]) +'.txt','w')
 			fileNumber = fileNumber + 1
-			#Store all_data somewhere.
-		connection.close()
 
-			
-
-class handle_domain(threading.Thread):
-
-	def __init__(self,domain_name,list_of_objects,maxTCP,maxOBJ):
+class distribute_connections(threading.Thread):
+	def __init__(self,domain,domain_list,max_TCP,max_OBJ,flag):
 		threading.Thread.__init__(self)
-		self.domain = domain_name
-		self.list_of_objects = list_of_objects
-		self.maxTCP = maxTCP
-		self.maxOBJ = maxOBJ
+		self.domain = domain
+		self.domain_list = domain_list
+		self.k = max_TCP
+		self.t = max_OBJ
+		self.flag = flag
 	
 	def run(self):
 		low = 0
 		while(True):
 			thread_list = []
-			for i in range(0,self.maxTCP):
-				high = self.maxOBJ + low
-				if(high > len(self.list_of_objects)):
-					high = len(self.list_of_objects)
-				thread = handle_objects(self.domain,self.list_of_objects[low:high])
+			for i in xrange(0,self.k):
+				high = low + self.t
+				if(high > len(self.domain_list)):
+					high = len(self.domain_list)
+				thread = handle_connection(self.domain,self.domain_list[low:high],self.flag)
 				thread.start()
 				thread_list.append(thread)
 				low = high
-				if(len(self.list_of_objects) == low):
+				if(low == len(self.domain_list)):
 					break
-			#So that only maxTCP connections are active at any given time.
+
 			for thread in thread_list:
 				thread.join()
-			if(low == len(self.list_of_objects)):
+			if(low == len(self.domain_list)):
 				break
-
 
 class object_Tree_Handler:
 	def __init__(self,filename,maxdepth = 0):
@@ -156,36 +140,43 @@ class object_Tree_Handler:
 			if(current_level > self.maxdepth):
 				self.maxdepth = current_level
 
-	def setConstants(self,max_TCP_per_domain,max_objects_per_tcp):
-		self.maxTCP = max_TCP_per_domain
-		self.maxOBJ = max_objects_per_tcp
-	
-	def getLevelOfTree(self,level):
-		domain_map = {}
-		for object in self.objects_per_level[level]:
-			key = object.split('/')[2]
-			if(key not in domain_map):
-				domain_map[key] = [object]
-			else:
-				domain_map[key].append(object)
+	def set_max_values(self,max_TCP,max_OBJ):
+		self.maxTCP = max_TCP
+		self.maxOBJ = max_OBJ
 
-		thread_list = [] 
-		for key in domain_map.keys():
-			thread = handle_domain(key,domain_map[key],self.maxTCP,self.maxOBJ)
+	def get_level_of_tree(self,level):
+		requests = self.objects_per_level[level]
+		domain_map = {}
+		http_requests = set()
+		for item in requests:
+			[protocol,url] = item.split('//')
+			domain_name = url.split('/')[0]
+			if(not domain_name in domain_map):
+				domain_map[domain_name] = [item]
+			else:
+				domain_map[domain_name].append(item)
+			protocol = protocol.rstrip(':')
+			if(protocol == 'http'):
+				http_requests.add(domain_name)
+
+		thread_list = []
+		for domain in domain_map:
+			if(domain in http_requests):
+				thread = distribute_connections(domain,domain_map[domain],2,2,True)
+			else:
+				thread = distribute_connections(domain,domain_map[domain],2,2,False)
 			thread.start()
 			thread_list.append(thread)
-
+		
 		for thread in thread_list:
 			thread.join()
 
-
-	def getTree(self):
+	def get_tree(self):
 		for i in range(0,self.maxdepth):
-			self.getLevelOfTree(i)
-	
+			self.get_level_of_tree(i)
 
-x = object_Tree_Handler('../dumps/www.vox.com.objt')
-x.setConstants(2,2)
-x.getLevelOfTree(1)
-
-
+'''
+x = object_Tree_Handler('www.vox.com.objt')
+x.set_max_values(2,2)
+x.get_level_of_tree(1)
+'''
