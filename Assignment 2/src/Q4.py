@@ -24,54 +24,79 @@ class handle_objects(threading.Thread):
 		global oid
 		connection = socket.socket(socket.AF_INET,socket.SOCK_STREAM,0)
 		connection.connect((self.domain,80))
+		filenames = []
 		for idx in range(0,len(self.list_of_objects)):
 			request = self.list_of_objects[idx]
 			all_data = ''
-			#if(idx != len(self.list_of_objects) -1):
-			request_string = "GET " + request + " HTTP/1.1\r\nHost: " + self.domain+ "\r\nConnection: keep-alive\r\n\r\n"
-			#else:
-				#request_string = "GET " + request + " HTTP/1.1\r\nHost: " + self.domain+ "\r\nConnection: close\r\n\r\n"
-				#print 'The id for request: ',str(oid)
+			if(idx != len(self.list_of_objects) -1):
+				request_string = "GET " + request + " HTTP/1.1\r\nHost: " + self.domain+ "\r\nConnection: keep-alive\r\n\r\n"
+			else:
+				request_string = "GET " + request + " HTTP/1.1\r\nHost: " + self.domain+ "\r\nConnection: close\r\n\r\n"
+			filenames.append(request)
 			connection.send(request_string)
-			
-			#f = open(request,'w')
-			#dir_path = 'dl/' + request.split('//')[1]
-			#filemutex.lock(get_filestream,dir_path)
-			#filemutex.unlock()
-			_oid = 0
-			'''with my_lock:
-				_oid = oid
-				g = open('Mapping.txt','a')
+		data = connection.recv(1024)
+		all_data = ''
+		while(len(data)!=0):
+			all_data = all_data + data
+			try:
+				connection.settimeout(2.0)
+				data = connection.recv(1024)
+				connection.settimeout(None)
+			except:
+				data = ''
+		start_id = -1
+		end_id = -1
+		with my_lock:
+			start_id = oid	
+			g = open('Mapping.txt','a')
+			for request in filenames:
 				g.write(str(oid) + '\t' + request.split('//')[1] +'\n')
-				f = open('dl/'+str(oid)+'.txt','w')
 				oid = oid + 1
-				g.close()'''
-			f = open('ErrorText2.txt','a')
-			flag = False
-			while(True):
-				try:
-					data = connection.recv(1024)
-						
-				except:
-					print 'Bad Request: ', request
-					data = ''
-				if(len(data) == 0):
+			end_id = oid
+			g.close()
+		fileNumber = start_id
+		while(len(all_data)!=0):
+			length_of_file = -1	
+			all_data = all_data.split('\n')
+			counter = -1
+			length_of_file = 0
+			for idx in range(0,len(all_data)):
+				counter = idx
+				line = all_data[idx].rstrip('\r')
+				if(line == ''):
 					break
 				else:
-					#f.write(data)
-					flag = True
-			#print all_data
-			if(not flag):
-				#print '\n\n'
-				with my_lock:
-					f.write('\nRequest : ' + request)
-					f.write('\nDomain name : ' + self.domain)
-					f.write('\nFor the sake of completion: ' + request_string)
-				
-			'''with your_lock:
-				print( str(_oid) + " is done writing\n")'''
-			f.close()
+					line = line.split(':')
+					if(len(line) != 1):
+						if(line[0] =='Content-Length'):
+							length_of_file = eval(line[1])
 
+			all_data = '\n'.join(all_data[counter+1:len(all_data)])
+			f = open('dl/' + str(fileNumber)+'.txt','w')
+			if(length_of_file == -1):
+				# The very special case of no Content-length
+				#Everyone who uses HTTP/2 and does not set Content-Length can politely fuck off
+				all_data = all_data.split('HTTP/1')
+				f.write(all_data[0])
+				if(len(all_data) > 1):
+					all_data = 'HTTP/1' + 'HTTP/1'.join(all_data[1:len(all_data)])
+				else:
+					all_data = ''
+			else:
+				for idx in range(0,length_of_file):
+					if(idx < len(all_data)):
+						f.write(all_data[idx])
+					else:
+						break
+				if(len(all_data) > length_of_file):
+					all_data = all_data[length_of_file:len(all_data)]
+				else:
+					all_data = ''
+			fileNumber = fileNumber + 1
+		
+		while(fileNumber < end_id):
+			f = open('dl/' + str(fileNumber)+'.txt','w')
+			fileNumber = fileNumber + 1
 			#Store all_data somewhere.
 		connection.close()
 
@@ -143,37 +168,15 @@ class object_Tree_Handler:
 				domain_map[key] = [object]
 			else:
 				domain_map[key].append(object)
-		file = open('ErrorText2.txt')
-		Error_set = set()
-		for line in file:
-			line = line.split(' : ')
-			if(line[0]== 'Request'):
-				Error_set.add(line[1].rstrip('\n'))
-		
-		for item in domain_map.keys():
-			print '\nStart: ',item
-			counter = 0
-			bad_idx_list = []
-			for items in domain_map[item]:
-				print '\t',items
-				if(items in Error_set):
-					bad_idx_list.append(counter)
-				counter = counter + 1
-			print 'Total number of objects: ',str(len(domain_map[item]))
-			print 'The Bad Indices are as follows: ',
-			for item in bad_idx_list:
-				print item,
-			print ''
-			print 'End'
 
-		'''thread_list = [] 
+		thread_list = [] 
 		for key in domain_map.keys():
 			thread = handle_domain(key,domain_map[key],self.maxTCP,self.maxOBJ)
 			thread.start()
 			thread_list.append(thread)
 
 		for thread in thread_list:
-			thread.join()'''
+			thread.join()
 
 
 	def getTree(self):
