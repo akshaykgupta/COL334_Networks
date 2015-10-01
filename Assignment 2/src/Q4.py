@@ -29,7 +29,7 @@ class handle_connection(threading.Thread):
 			with my_lock:
 				f.write(str(jdx) + ' ' + request + '\n')
 				filenames.append(jdx)
-			jdx = jdx + 1
+				jdx = jdx + 1
 		f.close()
 		all_data = ''
 		try:
