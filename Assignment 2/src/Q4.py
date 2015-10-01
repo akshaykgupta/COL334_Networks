@@ -1,7 +1,9 @@
-import socket,threading
+import socket,threading,sys
+import Q3 as converter
 requests = []
 my_lock = threading.Lock()
 jdx = 0
+index_file = 'Mapping.txt'
 class handle_connection(threading.Thread):
 	def __init__(self,domain,domain_list,flag):
 		threading.Thread.__init__(self)
@@ -11,13 +13,14 @@ class handle_connection(threading.Thread):
 	def run(self):
 		global jdx
 		global my_lock
+		global index_file
 		sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM,0)
 		if(self.flag):
 			sock.connect((self.domain,80))
 		else:
 			sock.connect((self.domain,443))
 		filenames = []
-		f = open('Mapping.txt','a')
+		f = open(index_file,'a')
 		for idx in range(0,len(self.domain_list)):
 			request = self.domain_list[idx]
 			request_string = ''
@@ -172,11 +175,32 @@ class object_Tree_Handler:
 			thread.join()
 
 	def get_tree(self):
-		for i in range(0,self.maxdepth):
+		for i in range(0,self.maxdepth+1):
 			self.get_level_of_tree(i)
 
-'''
-x = object_Tree_Handler('www.vox.com.objt')
-x.set_max_values(2,2)
-x.get_level_of_tree(1)
-'''
+
+if __name__ == '__main__':
+	if(len(sys.argv) != 4):
+		print 'Improperly Formed request'
+		exit()
+	else:
+		if(sys.argv[1].endswith('.har')):
+			# What is har_data ?
+			with open(sys.argv[1]) as hf:
+				har_data = json.load(hf)['log']['entries']
+			converter.build_object_tree(sys.argv[1] + '.objt',har_data)
+			# Change index_file to whatever you like
+			object_file = sys.argv[1].rstrip('.har')
+			x = object_Tree_Handler(sys.argv[1])
+			x.set_max_values(eval(sys.argv[2]),eval(sys.argv[3]))
+			x.get_tree()
+		
+		elif(sys.argv[1].endswith('.objt')):
+			#Change index_file to whatever you like
+			x = object_Tree_Handler(sys.argv[1])
+			x.set_max_values(eval(sys.argv[2]),eval(sys.argv[3]))
+			x.get_tree()
+		
+		else:
+			print 'Invalid File type entered. Only HAR and OBJ_Trees allowed'
+
