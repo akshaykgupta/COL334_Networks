@@ -154,16 +154,19 @@ class object_Tree_Handler:
 		self.maxOBJ = max_OBJ
 
 	def get_level_of_tree(self,level):
+		global directory_name
 		requests = self.objects_per_level[level]
 		domain_map = {}
 		http_requests = set()
 		for item in requests:
+			
 			_itemlist = item.split('//')
 			protocol = _itemlist[0]
 			url = '//'.join(_itemlist[1:]) 
 			domain_name = url.split('/')[0]
 			if(not domain_name in domain_map):
 				domain_map[domain_name] = [item]
+				os.makedirs(directory_name + "/" + domain_name) #Make the domain in which to put it.
 			else:
 				domain_map[domain_name].append(item)
 			protocol = protocol.rstrip(':')
@@ -186,6 +189,23 @@ class object_Tree_Handler:
 		for i in range(0,self.maxdepth+1):
 			self.get_level_of_tree(i)
 
+	def post_process(self):
+		#ASSERT : The directories exist.
+		f = open(index_file,"r")
+		for line in f:
+			idx = eval(line.split(" ")[0])
+			present_file_name = directory_name + "/" + str(idx) + ".txt"
+			url = line.split(" ")[1]
+			domain_name = url.split("//")[1].split("/")[0]
+			# extension = url.split(".")[len(url.split(".")) - 1] #Last index.
+			# if extension == ".png" or  extension == ".jpg" or extension==".html" or extension==".css" or extension==".js":
+			# 	pass
+			# else:
+			# 	extension = ".txt"
+			extension = ".txt"
+			new_file_name = directory_name + "/" + domain_name + "/" + str(idx) + extension
+			os.rename(present_file_name,new_file_name) #Rename the file!
+		f.close()
 
 if __name__ == '__main__':
 	if(len(sys.argv) < 4):
@@ -209,13 +229,13 @@ if __name__ == '__main__':
 			x = object_Tree_Handler(object_file + '.objt')
 			x.set_max_values(eval(sys.argv[2]),eval(sys.argv[3]))
 			x.get_tree()
-		
+			x.post_process()
 		elif(sys.argv[1].endswith('.objt')):
 			#Change index_file to whatever you like
 			x = object_Tree_Handler(sys.argv[1])
 			x.set_max_values(eval(sys.argv[2]),eval(sys.argv[3]))
 			x.get_tree()
-		
+			x.post_process()
 		else:
 			print 'Invalid File type entered. Only HAR and OBJ_Trees allowed'
 
