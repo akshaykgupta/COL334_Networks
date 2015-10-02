@@ -1,5 +1,5 @@
 import os,Q4,sys,time
-from sys import platform as pf
+import platform as pf
 
 if(len(sys.argv) != 2):
 	print 'Syntax for correct usage: python timing.py <HAR file/OBJ Tree source>'
