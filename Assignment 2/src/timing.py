@@ -42,6 +42,7 @@ for tcp in range(1,max_tcp):
 		x.post_process()
 		#....Ending......
 		time_taken = time.time() - start
+		the_downloader.reset_constants()
 		#Writing to file
 		f.write( str(tcp) + "\t" + str(obj) + "\t" + str(time_taken))
 f.close()

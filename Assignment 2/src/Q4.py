@@ -11,7 +11,11 @@ class downloader:
 			downloader.index_file = index_filename
 		if(directory != ''):
 			downloader.directory_name = directory
-
+	def reset_constants(self):
+		downloader.jdx = 0
+		downloader.index_file = 'Mapping.txt'
+		downloader.directory_name = 'dl'
+	
 	class handle_connection(threading.Thread):
 		def __init__(self,domain,domain_list,flag):
 			threading.Thread.__init__(self)
