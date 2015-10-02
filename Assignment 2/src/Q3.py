@@ -32,6 +32,27 @@ def build_object_tree(har_file, har_data):
 		ofc.writerow(row)
 	of.close()
 
+def print_object_tree(har_data):
+	print "Object Tree:\n"
+	printed = {}
+
+	def print_descendants(parent_url, level):
+		for entry in har_data:
+			url = entry['request']['url']
+			for header in entry['request']['headers']:
+				if header['name'] == 'Referer' or header['name'] == 'referer':
+					if header['value'] == parent_url:
+						tabs = ''.join(['\t']*level)
+						print tabs + url[:50] + "...." + url[-10:]
+						printed[url] = True
+						print_descendants(url, level + 1)
+ 
+	for entry in har_data:
+		url = entry['request']['url']
+		if url not in printed:
+			print url[:50] + "...." + url[-10:]
+			print_descendants(url, 1)
+
 def build_download_tree(har_file, domain_info, domain_list):
 	down_file = ""
 	if har_file.endswith('.har'):
@@ -50,6 +71,17 @@ def build_download_tree(har_file, domain_info, domain_list):
 				row.append(pkt['url'])
 				dfc.writerow(row)
 	df.close()
+
+def print_download_tree(domain_info, domain_list):
+	print "Download Tree:\n"
+	for domain in domain_list:
+		print "Domain: " + domain
+		for i, connection in enumerate(sorted(domain_info[domain].keys())):
+			print "TCP Connection: " + str(i+1)
+			for pkt in domain_info[domain][connection]:
+				print pkt['url'][:50] + "...." + pkt['url'][-10:]
+			print ""
+		print ""
 
 def classify(har_data):
 	print "Object Type Classification:\n"
@@ -269,6 +301,9 @@ if __name__ == '__main__':
 	#print domain_info
 	#print_data(domain_list, domain_info, domain_size)
 	#classify(har_data)
+	print_object_tree(har_data)
+	print "\n"
+	print_download_tree(domain_info, domain_list)
 	build_download_tree(har_file, domain_info, domain_list)
 	build_object_tree(har_file, har_data)
-	timing_analysis(har_data, pcap_data, domain_info, domain_list)
+	#timing_analysis(har_data, pcap_data, domain_info, domain_list)
