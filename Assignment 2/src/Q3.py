@@ -43,14 +43,20 @@ def print_object_tree(har_data):
 				if header['name'] == 'Referer' or header['name'] == 'referer':
 					if header['value'] == parent_url:
 						tabs = ''.join(['\t']*level)
-						print tabs + url[:50] + "...." + url[-10:]
+						if len(url) > 70:
+							print tabs + url[:50] + "...." + url[-10:]
+						else:
+							print tabs + url
 						printed[url] = True
 						print_descendants(url, level + 1)
  
 	for entry in har_data:
 		url = entry['request']['url']
 		if url not in printed:
-			print url[:50] + "...." + url[-10:]
+			if len(url) > 70:
+				print url[:50] + "...." + url[-10:]
+			else:
+				print url
 			print_descendants(url, 1)
 
 def build_download_tree(har_file, domain_info, domain_list):
@@ -79,7 +85,10 @@ def print_download_tree(domain_info, domain_list):
 		for i, connection in enumerate(sorted(domain_info[domain].keys())):
 			print "TCP Connection: " + str(i+1)
 			for pkt in domain_info[domain][connection]:
-				print pkt['url'][:50] + "...." + pkt['url'][-10:]
+				if len(pkt['url']) > 70:
+					print pkt['url'][:50] + "...." + pkt['url'][-10:]
+				else:
+					print pkt['url']
 			print ""
 		print ""
 
