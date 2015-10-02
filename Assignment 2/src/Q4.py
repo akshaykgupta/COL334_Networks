@@ -36,7 +36,7 @@ class handle_connection(threading.Thread):
 		f.close()
 		all_data = ''
 		try:
-			sock.settimeout(2.0)
+			sock.settimeout(60.0)
 			data = sock.recv(1024)
 			sock.settimeout(None)
 		except:
@@ -44,7 +44,7 @@ class handle_connection(threading.Thread):
 		while(len(data)!=0):
 			all_data = all_data + data
 			try:
-				sock.settimeout(2.0)
+				sock.settimeout(60.0)
 				data = sock.recv(1024)
 				sock.settimeout(None)
 			except:
