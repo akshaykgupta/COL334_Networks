@@ -21,7 +21,7 @@ for tcp in range(1,max_tcp):
 		elif operating_system == "Darwin":
 			os.system("dscacheutil -flushcache")
 		else:
-			print 'Undrecognized OS. Quitting...'
+			print 'Unrecognized OS. Quitting...'
 			exit()
 		
 		#.idx for mapping index files.
@@ -42,7 +42,7 @@ for tcp in range(1,max_tcp):
 		x.post_process()
 		#....Ending......
 		time_taken = time.time() - start
-		
+
 		#Writing to file
 		f.write( str(tcp) + "\t" + str(obj) + "\t" + str(time_taken))
 f.close()
