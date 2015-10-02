@@ -1,9 +1,10 @@
-import socket,threading,sys
+import socket,threading,sys,json
 import Q3 as converter
 requests = []
 my_lock = threading.Lock()
 jdx = 0
 index_file = 'Mapping.txt'
+directory_name = 'dl'
 class handle_connection(threading.Thread):
 	def __init__(self,domain,domain_list,flag):
 		threading.Thread.__init__(self)
@@ -14,6 +15,7 @@ class handle_connection(threading.Thread):
 		global jdx
 		global my_lock
 		global index_file
+		global directory_name
 		sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM,0)
 		if(self.flag):
 			sock.connect((self.domain,80))
@@ -66,7 +68,7 @@ class handle_connection(threading.Thread):
 							length_of_file = eval(line[1])
 
 			all_data = '\n'.join(all_data[counter+1:len(all_data)])
-			f = open('dl/'+str(filenames[fileNumber]) +'.txt','w')
+			f = open(directory_name + '/' +str(filenames[fileNumber]) +'.txt','w')
 			if(length_of_file == -1):
 				# The very special case of no Content-length
 				all_data = all_data.split('HTTP/1')
@@ -131,7 +133,11 @@ class object_Tree_Handler:
 			self.maxdepth = 0
 		
 		for line in f:
-			words = line.split(',')
+			words = ['' , '', '']
+			_words = line.split(',')
+			words[0] = _words[0]
+			words[2] = _words[len(_words) - 1]
+			words[1] = ','.join(_words[1:len(_words) - 1])
 			current_id = eval(words[0])
 			parent_id = eval(words[2])
 			if(parent_id not in id_to_level):
@@ -152,7 +158,9 @@ class object_Tree_Handler:
 		domain_map = {}
 		http_requests = set()
 		for item in requests:
-			[protocol,url] = item.split('//')
+			_itemlist = item.split('//')
+			protocol = _itemlist[0]
+			url = '//'.join(_itemlist[1:]) 
 			domain_name = url.split('/')[0]
 			if(not domain_name in domain_map):
 				domain_map[domain_name] = [item]
@@ -180,10 +188,17 @@ class object_Tree_Handler:
 
 
 if __name__ == '__main__':
-	if(len(sys.argv) != 4):
+	if(len(sys.argv) < 4):
 		print 'Improperly Formed request'
 		exit()
 	else:
+		global index_file
+		global directory_name
+		if(len(sys.argv) == 5 or len(sys.argv) == 6):
+			index_file = sys.argv[4]
+			if(len(sys.argv) == 6):
+				directory_name = sys.argv[5]
+
 		if(sys.argv[1].endswith('.har')):
 			# What is har_data ?
 			with open(sys.argv[1]) as hf:
@@ -191,7 +206,7 @@ if __name__ == '__main__':
 			converter.build_object_tree(sys.argv[1] + '.objt',har_data)
 			# Change index_file to whatever you like
 			object_file = sys.argv[1].rstrip('.har')
-			x = object_Tree_Handler(sys.argv[1])
+			x = object_Tree_Handler(object_file + '.objt')
 			x.set_max_values(eval(sys.argv[2]),eval(sys.argv[3]))
 			x.get_tree()
 		
