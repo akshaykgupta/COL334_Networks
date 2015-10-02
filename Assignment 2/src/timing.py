@@ -8,7 +8,7 @@ if(len(sys.argv) != 2):
 #Edit these:
 max_tcp = 8
 max_obj = 8 
-f = open("timing_analysis.data" , "w")
+f = open("timing_analysis.data" , "a")
 f.write('Max TCP \t Max OBJ \t Time Taken')
 for tcp in range(1,max_tcp):
 	for obj in range(1,max_obj):
