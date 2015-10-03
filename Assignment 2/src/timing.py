@@ -9,7 +9,7 @@ if(len(sys.argv) != 2):
 max_tcp = 8
 max_obj = 8 
 f = open("timing_analysis.data" , "a")
-f.write('Max TCP \t Max OBJ \t Time Taken')
+f.write('TCP OBJ Time Taken\n')
 for tcp in range(1,max_tcp):
 	for obj in range(1,max_obj):
 		# Flushing the DNS cache
@@ -44,5 +44,5 @@ for tcp in range(1,max_tcp):
 		time_taken = time.time() - start
 
 		#Writing to file
-		f.write( str(tcp) + "\t" + str(obj) + "\t" + str(time_taken))
+		f.write( str(tcp) + "\t" + str(obj) + "\t" + str(time_taken) + '\n')
 f.close()
