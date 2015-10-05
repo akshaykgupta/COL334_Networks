@@ -25,7 +25,7 @@ class downloader:
 			self.domain_list = domain_list
 			self.flag = flag
 
-		def handle_data(all_data,filenames):
+		def handle_data(self,all_data,filenames):
 			fileNumber = 0
 			while(len(all_data)!=0):
 				length_of_file = -1	
@@ -81,7 +81,7 @@ class downloader:
 			f = open(downloader.index_file,'a')
 			for idx in range(0,len(self.domain_list)):
 				request = self.domain_list[idx]
-				if(request.startwith('https://')):
+				if(request.startswith('https://')):
 					https_requests.append(request)
 					continue
 				request_string = ''
@@ -110,10 +110,10 @@ class downloader:
 					sock.settimeout(None)
 				except:
 					data = ''
-			handle_connection.handle_data(all_data,filenames)
+			self.handle_data(all_data,filenames)
 			sock.close()
 			if(not https_requests == []):
-				ssl_wrapper = ssl.wrap_socket(sock)
+				ssl_wrapper = ssl.wrap_socket(socket.socket(socket.AF_INET,socket.SOCK_STREAM,0))
 				ssl_wrapper.connect((self.domain,443))
 				filenames = []
 				f = open(downloader.index_file,'a')
@@ -124,7 +124,7 @@ class downloader:
 						request_string = "GET " + request + " HTTP/1.1\r\nHost: " + self.domain + "\r\nConnection: keep-alive\r\n\r\n"
 					else:
 						request_string = "GET " + request + " HTTP/1.1\r\nHost: " + self.domain + "\r\nConnection: close\r\n\r\n"
-					#ssl_wrapper.send(request_string)
+					ssl_wrapper.send(request_string)
 					with downloader.my_lock:
 						f.write(str(downloader.jdx) + ' ' + request + '\n')
 						filenames.append(downloader.jdx)
@@ -145,7 +145,7 @@ class downloader:
 						ssl_wrapper.settimeout(None)
 					except:
 						data = ''
-				handle_connection.handle_data(all_data,filenames)
+				self.handle_data(all_data,filenames)
 				ssl_wrapper.close()
 			
 			
