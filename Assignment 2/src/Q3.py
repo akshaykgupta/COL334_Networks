@@ -145,11 +145,13 @@ def classify(har_data):
 				print str(i+1) + ". " + url + "\n"
 
 def print_data(domain_list, domain_info, domain_size):
+	total_tcp_connections = 0
 	for i, domain in enumerate(domain_list):
 		print str(i+1) + ". Domain name: " + domain
 		print "Total number of objects downloaded: " + str(domain_size[domain][1])
 		print "Total size of objects downloaded: " + str(domain_size[domain][0]) + " bytes"
 		print "No. of TCP connections opened: " + str(len(domain_info[domain]))
+		total_tcp_connections += len(domain_info[domain])
 		for j, connection in enumerate(sorted(domain_info[domain].keys())):
 			print "TCP Connection: " + str(j+1)
 			print "No. of objects downloaded: " + str(len(domain_info[domain][connection]))
@@ -162,7 +164,7 @@ def timing_analysis(har_data, pcap_data, domain_info, domain_list):
 	first_request_time = parser.parse(har_data[0]['startedDateTime'])
 	last_load_time = max([(parser.parse(entry['startedDateTime']) + datetime.timedelta(microseconds = int(entry['time']) * 1000)) for entry in har_data])
 	delta = relativedelta.relativedelta(last_load_time, first_request_time)
-	print "Page load time: " + str(delta.minutes) + " minutes, " + str(delta.seconds) + " seconds and " + str(delta.microseconds // 1000) + " milliseconds"
+	print "Page load time: " + str(delta.minutes) + " minutes, " + str(delta.seconds) + " seconds and " + str(delta.microseconds // 1000) + " milliseconds\n"
 	network_max_goodput = 0
 	network_size = 0
 	network_receive = 0
@@ -308,11 +310,11 @@ if __name__ == '__main__':
 		pcap_data = ps.FileCapture(pcap_file, display_filter = display_filter)
 	domain_list, domain_info, domain_size = analyse(har_data, pcap_data)
 	#print domain_info
-	#print_data(domain_list, domain_info, domain_size)
-	#classify(har_data)
+	print_data(domain_list, domain_info, domain_size)
+	classify(har_data)
 	print_object_tree(har_data)
 	print "\n"
 	print_download_tree(domain_info, domain_list)
 	build_download_tree(har_file, domain_info, domain_list)
 	build_object_tree(har_file, har_data)
-	#timing_analysis(har_data, pcap_data, domain_info, domain_list)
+	timing_analysis(har_data, pcap_data, domain_info, domain_list)
