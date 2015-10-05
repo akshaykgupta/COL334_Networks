@@ -23,17 +23,26 @@ class downloader:
 			threading.Thread.__init__(self)
 			self.domain = domain
 			self.domain_list = domain_list
-			self.flag = flag
+			self.flag = flag #Deprecated!
 		def run(self):
+			
 			sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM,0)
-			if(self.flag):
+			try:
 				sock.connect((self.domain,80))
-			else:
-				sock.connect((self.domain,443))
+			except:
+				print "something went wrong. lol."
 			filenames = []
 			f = open(downloader.index_file,'a')
+			
+			https_requests = []
+
 			for idx in range(0,len(self.domain_list)):
 				request = self.domain_list[idx]
+				if "https://" in request:
+					#Continue and deal with this later.
+					https_requests.append(request)
+					continue
+
 				request_string = ''
 				if(idx != len(self.domain_list) -1):
 					request_string = "GET " + request + " HTTP/1.1\r\nHost: " + self.domain + "\r\nConnection: keep-alive\r\n\r\n"
@@ -202,18 +211,21 @@ class downloader:
 			#ASSERT : The directories exist.
 			f = open(downloader.index_file,"r")
 			for line in f:
-				idx = eval(line.split(" ")[0])
-				present_file_name = downloader.directory_name + "/" + str(idx) + ".txt"
-				url = line.split(" ")[1]
-				domain_name = url.split("//")[1].split("/")[0]
-				# extension = url.split(".")[len(url.split(".")) - 1] #Last index.
-				# if extension == ".png" or  extension == ".jpg" or extension==".html" or extension==".css" or extension==".js":
-				# 	pass
-				# else:
-				# 	extension = ".txt"
-				extension = ".txt"
-				new_file_name = downloader.directory_name + "/" + domain_name + "/" + str(idx) + extension
-				os.rename(present_file_name,new_file_name) #Rename the file!
+				try:
+					idx = eval(line.split(" ")[0])
+					present_file_name = downloader.directory_name + "/" + str(idx) + ".txt"
+					url = line.split(" ")[1]
+					domain_name = url.split("//")[1].split("/")[0]
+					# extension = url.split(".")[len(url.split(".")) - 1] #Last index.
+					# if extension == ".png" or  extension == ".jpg" or extension==".html" or extension==".css" or extension==".js":
+					# 	pass
+					# else:
+					# 	extension = ".txt"
+					extension = ".txt"
+					new_file_name = downloader.directory_name + "/" + domain_name + "/" + str(idx) + extension
+					os.rename(present_file_name,new_file_name) #Rename the file!
+				except:
+					continue
 			f.close()
 
 if __name__ == '__main__':
