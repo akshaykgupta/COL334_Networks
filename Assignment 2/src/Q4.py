@@ -119,7 +119,11 @@ class downloader:
 			sock.close()
 			if(not https_requests == []):
 				ssl_wrapper = ssl.wrap_socket(socket.socket(socket.AF_INET,socket.SOCK_STREAM,0))
-				ssl_wrapper.connect((self.domain,443))
+				try:
+					ssl_wrapper.connect((self.domain,443))
+				except:
+					print "Could not connect to domain. ",self.domain
+					return
 				filenames = []
 				f = open(downloader.index_file,'a')
 				for idx in range(0,len(https_requests)):
@@ -135,7 +139,7 @@ class downloader:
 						filenames.append(downloader.jdx)
 						downloader.jdx = downloader.jdx + 1
 				f.close()
-				all_data = get_data(ssl_wrapper)
+				all_data = self.get_data(ssl_wrapper)
 				self.handle_data(all_data,filenames)
 				ssl_wrapper.close()
 			
