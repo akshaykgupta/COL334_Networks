@@ -156,23 +156,47 @@ class downloader:
 		
 		def run(self):
 			low = 0
+			m = len(self.domain_list)
+			kt = self.k * self.t
 			while(True):
-				thread_list = []
-				for i in xrange(0,self.k):
-					high = low + self.t
-					if(high > len(self.domain_list)):
-						high = len(self.domain_list)
-					thread = downloader.handle_connection(self.domain,self.domain_list[low:high],self.flag)
-					thread.start()
-					thread_list.append(thread)
-					low = high
-					if(low == len(self.domain_list)):
-						break
-
-				for thread in thread_list:
-					thread.join()
+				if(low + kt <= m - low):
+					thread_list = []
+					for i in xrange(0,self.k):
+						high = low + self.t
+						if(high > len(self.domain_list)):
+							high = len(self.domain_list)
+						thread = downloader.handle_connection(self.domain,self.domain_list[low:high],self.flag)
+						thread.start()
+						thread_list.append(thread)
+						low = high
+					for thread in thread_list:
+						thread.join()
+				else:
+					thread_list = []
+					num_objects = [((m - low) / self.k) for it in range(0,self.k)]
+					left_overs = (m - low) % self.k
+					ii = 0
+					while(left_overs != 0):
+						num_objects[ii] = num_objects[ii] + 1
+						ii = ii + 1
+						left_overs = left_overs - 1
+					for item in num_objects:
+						if(item == 0):
+							break
+						else:
+							high = low + item 
+							if(high > m):
+								high = m
+							thread = downloader.handle_connection(self.domain,self.domain_list[low:high],self.flag)
+							thread.start()
+							thread_list.append(thread)
+							low = high
+							if(low == m):
+								break
+					for thread in thread_list:
+						thread.join()
 				if(low == len(self.domain_list)):
-					break
+						break
 
 	class object_Tree_Handler:
 		def __init__(self,filename,maxdepth = 0):
@@ -250,13 +274,8 @@ class downloader:
 				present_file_name = downloader.directory_name + "/" + str(idx) + ".txt"
 				url = line.split(" ")[1]
 				domain_name = url.split("//")[1].split("/")[0]
-				# extension = url.split(".")[len(url.split(".")) - 1] #Last index.
-				# if extension == ".png" or  extension == ".jpg" or extension==".html" or extension==".css" or extension==".js":
-				# 	pass
-				# else:
-				# 	extension = ".txt"
-				extension = ".txt"
-				new_file_name = downloader.directory_name + "/" + domain_name + "/" + str(idx) + extension
+				new_file_name = downloader.directory_name + "/" + domain_name + "/" + str(idx) + '.txt'
+				#print present_file_name,new_file_name
 				os.rename(present_file_name,new_file_name) #Rename the file!
 			f.close()
 
