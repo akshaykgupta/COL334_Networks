@@ -1,0 +1,45 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1.2in]{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{amssymb}
+\usepackage{subcaption}
+%\renewcommand{\labelitemii}{$\star$}
+\begin{document}
+\title{COL334 - Assignment 2\\ HTTP}
+\author{Akshay Kumar Gupta\\\texttt{2013CS50275} \and  Barun Patra\\\texttt{2013CS10773} \and Haroun Habeeb\\\texttt{2013CS10225}}
+\date{}
+\maketitle
+\noindent { We made a python script ( Q4.py ) on the two Object Tree files, namely, www.nytimes.com.objt and www.vox.com.objt. All data collection was performed on the same network, i.e, Airtel Broadband }
+\\\\\\
+{\bfseries Q4a. Overview} %TODO : Brief overview of code?
+\\The script takes in as input an \texttt{Object Tree} or a \texttt{HAR file}, the \texttt{maximum allowed TCP connections} per domain, and the \texttt{maximum number of objects} per TCP connection. If the input is a \texttt{HAR file}, it is first converted to an \texttt{Object Tree} and then processed. \\
+Each layer of the \texttt{Object Tree} is processed sequentially, i.e objects of parents are downloaded before the objects of the children. At every layer, objects belonging to a domain are passed to the thread.\\ 
+In the thread, at any given time, \texttt{TCP connections} $\leq$ \texttt{(TCP connections)$_{max}$} are opened in parallel to the domain in consideration, with each TCP connection requesting and downloading \texttt{objects} $\leq$ \texttt{(objects)$_{max}$}. Downloading across domains is done in parallel on separate threads.
+\\
+{\bfseries Q4c.} %TODO
+\\The parameters obtained from Q3c. were :
+\begin{itemize}
+\item \textbf{nytimes}: 
+\begin{itemize}
+	\item TCP Connections:
+	\item Number of Objects:
+	\item Browser Time:
+	\item Downloader Time:
+\end{itemize}
+\item \textbf{vox}:
+\begin{itemize}
+	\item TCP Connections:
+	\item Number of Objects:
+	\item Browser Time:
+	\item Downloader Time:
+\end{itemize}
+\end{itemize}
+In conclusion, 
+\\\\\\
+{\bfseries Q4d. Running time for different parameters}
+\\\\\\
+{\bfseries Q4e.}
+
+\end{document}

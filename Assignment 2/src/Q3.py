@@ -316,15 +316,11 @@ def analyse(har_data, pcap_data):
 		except:
 			size = entry['response']['bodySize']
 		total_size += size
-		if url == "http://ox-d.sbnation.com/w/1.0/jstag":
-			print 'bl'
 		matched = False
 		if domain in domain_info:
 			for connection in domain_info[domain]:
 				for pkt in domain_info[domain][connection]:
 					if pkt['url'] == url and not pkt['matched']:
-						if pkt['url'] == "http://ox-d.sbnation.com/w/1.0/jstag":
-							print connection
 						pkt['size'] = size
 						pkt['entry'] = entry
 						domain_size[domain][0] += size
