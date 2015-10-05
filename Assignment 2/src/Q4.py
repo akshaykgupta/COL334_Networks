@@ -67,6 +67,23 @@ class downloader:
 				f = open(downloader.directory_name + '/' +str(filenames[fileNumber]) +'.txt','w')
 				fileNumber = fileNumber + 1
 		
+		def get_data(self,sock):
+			all_data = ''
+			try:
+				sock.settimeout(60.0)
+				data = sock.recv(1024)
+				sock.settimeout(None)
+			except:
+				data = ''
+			while(len(data)!=0):
+				all_data = all_data + data
+				try:
+					sock.settimeout(60.0)
+					data = sock.recv(1024)
+					sock.settimeout(None)
+				except:
+					data = ''
+			return all_data	
 		
 		def run(self):
 			sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM,0)
@@ -95,21 +112,9 @@ class downloader:
 					filenames.append(downloader.jdx)
 					downloader.jdx = downloader.jdx + 1
 			f.close()
-			all_data = ''
-			try:
-				sock.settimeout(60.0)
-				data = sock.recv(1024)
-				sock.settimeout(None)
-			except:
-				data = ''
-			while(len(data)!=0):
-				all_data = all_data + data
-				try:
-					sock.settimeout(60.0)
-					data = sock.recv(1024)
-					sock.settimeout(None)
-				except:
-					data = ''
+			
+			all_data = self.get_data(sock)
+
 			self.handle_data(all_data,filenames)
 			sock.close()
 			if(not https_requests == []):
@@ -130,21 +135,7 @@ class downloader:
 						filenames.append(downloader.jdx)
 						downloader.jdx = downloader.jdx + 1
 				f.close()
-				all_data = ''
-				try:
-					ssl_wrapper.settimeout(60.0)
-					data = ssl_wrapper.recv(1024)
-					ssl_wrapper.settimeout(None)
-				except:
-					data = ''
-				while(len(data)!=0):
-					all_data = all_data + data
-					try:
-						ssl_wrapper.settimeout(60.0)
-						data = ssl_wrapper.recv(1024)
-						ssl_wrapper.settimeout(None)
-					except:
-						data = ''
+				all_data = get_data(ssl_wrapper)
 				self.handle_data(all_data,filenames)
 				ssl_wrapper.close()
 			
