@@ -176,7 +176,7 @@ def print_data(domain_list, domain_info, domain_size):
 		for j, connection in enumerate(sorted(domain_info[domain].keys())):
 			print "TCP Connection: " + str(j+1)
 			print "No. of objects downloaded: " + str(len(domain_info[domain][connection]))
-			total_size = sum([pkt['size'] for pkt in domain_info[domain][connection]])
+			total_size = sum([pkt['size'] for pkt in domain_info[domain][connection] if 'size' in pkt])
 			print "Size of objects downloaded: " + str(total_size) + " bytes"
 			print ""
 		print ""
@@ -280,14 +280,20 @@ def analyse(har_data, pcap_data):
 	domain_info = {}
 	domain_size = {}
 	domain_list = []
-	url_set = set()
+	matched = {}
 	for entry in har_data:
-		url_set.add(entry['request']['url'])
+		if entry['request']['url'] not in matched:
+			matched[entry['request']['url']] = 1
+		else:
+			matched[entry['request']['url']] += 1
 	for pkt in pcap_data:
 		try:
 			if pkt.http.request_method == 'GET':
-				if pkt.http.request_full_uri not in url_set:
+				if pkt.http.request_full_uri not in matched:
 					continue
+				if matched[pkt.http.request_full_uri] == 0:
+					continue
+				matched[pkt.http.request_full_uri] -= 1
 				domain = pkt.http.host
 				src_port = pkt.tcp.port
 				if domain not in domain_info:
@@ -296,7 +302,7 @@ def analyse(har_data, pcap_data):
 					domain_list.append(domain)
 				if src_port not in domain_info[domain]:
 					domain_info[domain][src_port] = []
-				domain_info[domain][src_port].append({'url' : pkt.http.request_full_uri})
+				domain_info[domain][src_port].append({'url' : pkt.http.request_full_uri, 'matched' : False})
 		except:
 			pass
 	for entry in har_data:
@@ -310,14 +316,25 @@ def analyse(har_data, pcap_data):
 		except:
 			size = entry['response']['bodySize']
 		total_size += size
+		if url == "http://ox-d.sbnation.com/w/1.0/jstag":
+			print 'bl'
+		matched = False
 		if domain in domain_info:
 			for connection in domain_info[domain]:
 				for pkt in domain_info[domain][connection]:
-					if pkt['url'] == url:
+					if pkt['url'] == url and not pkt['matched']:
+						if pkt['url'] == "http://ox-d.sbnation.com/w/1.0/jstag":
+							print connection
 						pkt['size'] = size
 						pkt['entry'] = entry
 						domain_size[domain][0] += size
 						domain_size[domain][1] += 1
+						pkt['matched'] = True
+						matched = True
+						break
+				if matched:
+					break
+
 	print "Total No. of objects downloaded: " + str(n_objects)
 	print "Total size of objects downloaded: " + str(total_size) + " bytes\n"
 	return domain_list, domain_info, domain_size
@@ -332,6 +349,8 @@ if __name__ == '__main__':
 		src_ip = sys.argv[3]
 	if len(sys.argv) == 5:
 		compare = sys.argv[4]
+	else:
+		compare = "False"
 	with open(har_file) as hf:
 		har_data = json.load(hf)['log']['entries']
 	with open(pcap_file) as pf:

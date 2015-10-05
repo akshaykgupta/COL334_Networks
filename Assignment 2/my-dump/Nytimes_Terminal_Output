@@ -1,0 +1,4205 @@
+Vasudhas-MacBook-Pro:my-dump Akshay$ python ../src/Q3.py www.nytimes.com.har nytimes.pcap 192.168.1.5 True
+Total No. of objects downloaded: 304
+Total size of objects downloaded: 2804835 bytes
+
+1. Domain name: www.nytimes.com
+Total number of objects downloaded: 13
+Total size of objects downloaded: 49630 bytes
+No. of TCP connections opened: 6
+
+TCP Connection: 1
+No. of objects downloaded: 2
+Size of objects downloaded: 35381 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 2
+Size of objects downloaded: 2381 bytes
+
+TCP Connection: 3
+No. of objects downloaded: 1
+Size of objects downloaded: 45 bytes
+
+TCP Connection: 4
+No. of objects downloaded: 2
+Size of objects downloaded: 3636 bytes
+
+TCP Connection: 5
+No. of objects downloaded: 2
+Size of objects downloaded: 3010 bytes
+
+TCP Connection: 6
+No. of objects downloaded: 2
+Size of objects downloaded: 5087 bytes
+
+
+2. Domain name: typeface.nytimes.com
+Total number of objects downloaded: 14
+Total size of objects downloaded: 330727 bytes
+No. of TCP connections opened: 7
+
+TCP Connection: 1
+No. of objects downloaded: 2
+Size of objects downloaded: 48016 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 2
+Size of objects downloaded: 627 bytes
+
+TCP Connection: 3
+No. of objects downloaded: 3
+Size of objects downloaded: 88232 bytes
+
+TCP Connection: 4
+No. of objects downloaded: 1
+Size of objects downloaded: 29324 bytes
+
+TCP Connection: 5
+No. of objects downloaded: 2
+Size of objects downloaded: 55324 bytes
+
+TCP Connection: 6
+No. of objects downloaded: 3
+Size of objects downloaded: 76672 bytes
+
+TCP Connection: 7
+No. of objects downloaded: 1
+Size of objects downloaded: 32532 bytes
+
+
+3. Domain name: graphics8.nytimes.com
+Total number of objects downloaded: 36
+Total size of objects downloaded: 301687 bytes
+No. of TCP connections opened: 6
+
+TCP Connection: 1
+No. of objects downloaded: 8
+Size of objects downloaded: 67670 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 8
+Size of objects downloaded: 90551 bytes
+
+TCP Connection: 3
+No. of objects downloaded: 7
+Size of objects downloaded: 42288 bytes
+
+TCP Connection: 4
+No. of objects downloaded: 3
+Size of objects downloaded: 19794 bytes
+
+TCP Connection: 5
+No. of objects downloaded: 7
+Size of objects downloaded: 56062 bytes
+
+TCP Connection: 6
+No. of objects downloaded: 3
+Size of objects downloaded: 25322 bytes
+
+
+4. Domain name: a1.nyt.com
+Total number of objects downloaded: 10
+Total size of objects downloaded: 318836 bytes
+No. of TCP connections opened: 3
+
+TCP Connection: 1
+No. of objects downloaded: 7
+Size of objects downloaded: 296322 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 2
+Size of objects downloaded: 20140 bytes
+
+TCP Connection: 3
+No. of objects downloaded: 1
+Size of objects downloaded: 2374 bytes
+
+
+5. Domain name: cdn.optimizely.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 61542 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 61542 bytes
+
+
+6. Domain name: www.googletagservices.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 1296 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 1296 bytes
+
+
+7. Domain name: static01.nyt.com
+Total number of objects downloaded: 48
+Total size of objects downloaded: 323485 bytes
+No. of TCP connections opened: 6
+
+TCP Connection: 1
+No. of objects downloaded: 10
+Size of objects downloaded: 59679 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 7
+Size of objects downloaded: 42398 bytes
+
+TCP Connection: 3
+No. of objects downloaded: 10
+Size of objects downloaded: 97099 bytes
+
+TCP Connection: 4
+No. of objects downloaded: 10
+Size of objects downloaded: 58890 bytes
+
+TCP Connection: 5
+No. of objects downloaded: 10
+Size of objects downloaded: 61091 bytes
+
+TCP Connection: 6
+No. of objects downloaded: 1
+Size of objects downloaded: 4328 bytes
+
+
+8. Domain name: i1.nyt.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 46 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 46 bytes
+
+
+9. Domain name: partner.googleadservices.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 49912 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 49912 bytes
+
+
+10. Domain name: json8.nytimes.com
+Total number of objects downloaded: 2
+Total size of objects downloaded: 12815 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 2
+Size of objects downloaded: 12815 bytes
+
+
+11. Domain name: tpc.googlesyndication.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 1877 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 1877 bytes
+
+
+12. Domain name: js-agent.newrelic.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 8454 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 8454 bytes
+
+
+13. Domain name: int.nyt.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 21225 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 21225 bytes
+
+
+14. Domain name: bam.nr-data.net
+Total number of objects downloaded: 1
+Total size of objects downloaded: 41 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 41 bytes
+
+
+15. Domain name: tagx.nytimes.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 10621 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 10621 bytes
+
+
+16. Domain name: s1.nyt.com
+Total number of objects downloaded: 2
+Total size of objects downloaded: 91653 bytes
+No. of TCP connections opened: 2
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 6738 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 1
+Size of objects downloaded: 84915 bytes
+
+
+17. Domain name: markets.on.nytimes.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 2162 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 2162 bytes
+
+
+18. Domain name: core.fabrik.nytimes.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 302 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 302 bytes
+
+
+19. Domain name: www.google-analytics.com
+Total number of objects downloaded: 4
+Total size of objects downloaded: 11385 bytes
+No. of TCP connections opened: 2
+
+TCP Connection: 1
+No. of objects downloaded: 3
+Size of objects downloaded: 11350 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 1
+Size of objects downloaded: 35 bytes
+
+
+20. Domain name: b.scorecardresearch.com
+Total number of objects downloaded: 4
+Total size of objects downloaded: 20 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 4
+Size of objects downloaded: 20 bytes
+
+
+21. Domain name: js.moatads.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 606 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 606 bytes
+
+
+22. Domain name: dc8xl0ndzn2cb.cloudfront.net
+Total number of objects downloaded: 2
+Total size of objects downloaded: 68416 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 2
+Size of objects downloaded: 68416 bytes
+
+
+23. Domain name: secure-us.imrworldwide.com
+Total number of objects downloaded: 2
+Total size of objects downloaded: 44 bytes
+No. of TCP connections opened: 2
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 0 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 1
+Size of objects downloaded: 44 bytes
+
+
+24. Domain name: static.chartbeat.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 10926 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 10926 bytes
+
+
+25. Domain name: s.tagsrvcs.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 0 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 0 bytes
+
+
+26. Domain name: s.moatads.com
+Total number of objects downloaded: 2
+Total size of objects downloaded: 4010 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 2
+Size of objects downloaded: 4010 bytes
+
+
+27. Domain name: st.dynamicyield.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 2280 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 2280 bytes
+
+
+28. Domain name: pnytimes.chartbeat.net
+Total number of objects downloaded: 3
+Total size of objects downloaded: 129 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 3
+Size of objects downloaded: 129 bytes
+
+
+29. Domain name: et.nytimes.com
+Total number of objects downloaded: 12
+Total size of objects downloaded: 84589 bytes
+No. of TCP connections opened: 3
+
+TCP Connection: 1
+No. of objects downloaded: 3
+Size of objects downloaded: 39836 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 6
+Size of objects downloaded: 40425 bytes
+
+TCP Connection: 3
+No. of objects downloaded: 3
+Size of objects downloaded: 4328 bytes
+
+
+30. Domain name: wt.o.nytimes.com
+Total number of objects downloaded: 3
+Total size of objects downloaded: 268 bytes
+No. of TCP connections opened: 3
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 201 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 1
+Size of objects downloaded: 0 bytes
+
+TCP Connection: 3
+No. of objects downloaded: 1
+Size of objects downloaded: 67 bytes
+
+
+31. Domain name: connect.facebook.net
+Total number of objects downloaded: 1
+Total size of objects downloaded: 1559 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 1559 bytes
+
+
+32. Domain name: v4.moatads.com
+Total number of objects downloaded: 4
+Total size of objects downloaded: 172 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 4
+Size of objects downloaded: 172 bytes
+
+
+33. Domain name: static.dynamicyield.com
+Total number of objects downloaded: 2
+Total size of objects downloaded: 66638 bytes
+No. of TCP connections opened: 2
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 26268 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 1
+Size of objects downloaded: 40370 bytes
+
+
+34. Domain name: t.brand-server.com
+Total number of objects downloaded: 6
+Total size of objects downloaded: 2489 bytes
+No. of TCP connections opened: 2
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 0 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 5
+Size of objects downloaded: 2489 bytes
+
+
+35. Domain name: pixel.keywee.co
+Total number of objects downloaded: 1
+Total size of objects downloaded: 43 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 43 bytes
+
+
+36. Domain name: pagead2.googlesyndication.com
+Total number of objects downloaded: 7
+Total size of objects downloaded: 125179 bytes
+No. of TCP connections opened: 3
+
+TCP Connection: 1
+No. of objects downloaded: 5
+Size of objects downloaded: 125095 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 1
+Size of objects downloaded: 42 bytes
+
+TCP Connection: 3
+No. of objects downloaded: 1
+Size of objects downloaded: 42 bytes
+
+
+37. Domain name: 79423.analytics.edgekey.net
+Total number of objects downloaded: 1
+Total size of objects downloaded: 98633 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 98633 bytes
+
+
+38. Domain name: px.dynamicyield.com
+Total number of objects downloaded: 3
+Total size of objects downloaded: 81199 bytes
+No. of TCP connections opened: 2
+
+TCP Connection: 1
+No. of objects downloaded: 2
+Size of objects downloaded: 36288 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 1
+Size of objects downloaded: 44911 bytes
+
+
+39. Domain name: core8_euw1.fabrik.nytimes.com.
+Total number of objects downloaded: 2
+Total size of objects downloaded: 168 bytes
+No. of TCP connections opened: 2
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 86 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 1
+Size of objects downloaded: 82 bytes
+
+
+40. Domain name: cdn.krxd.net
+Total number of objects downloaded: 3
+Total size of objects downloaded: 55202 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 3
+Size of objects downloaded: 55202 bytes
+
+
+41. Domain name: ip.casalemedia.com
+Total number of objects downloaded: 2
+Total size of objects downloaded: 2144 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 2
+Size of objects downloaded: 2144 bytes
+
+
+42. Domain name: sync.mathtag.com
+Total number of objects downloaded: 2
+Total size of objects downloaded: 0 bytes
+No. of TCP connections opened: 2
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 0 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 1
+Size of objects downloaded: 0 bytes
+
+
+43. Domain name: cas.pxl.ace.advertising.com
+Total number of objects downloaded: 4
+Total size of objects downloaded: 0 bytes
+No. of TCP connections opened: 2
+
+TCP Connection: 1
+No. of objects downloaded: 2
+Size of objects downloaded: 0 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 2
+Size of objects downloaded: 0 bytes
+
+
+44. Domain name: dis.criteo.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 220 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 220 bytes
+
+
+45. Domain name: cdn.optmd.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 38 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 38 bytes
+
+
+46. Domain name: pixel.quantserve.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 0 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 0 bytes
+
+
+47. Domain name: pixel.everesttech.net
+Total number of objects downloaded: 1
+Total size of objects downloaded: 439 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 439 bytes
+
+
+48. Domain name: cm.adgrx.com
+Total number of objects downloaded: 2
+Total size of objects downloaded: 0 bytes
+No. of TCP connections opened: 2
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 0 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 1
+Size of objects downloaded: 0 bytes
+
+
+49. Domain name: dsum.casalemedia.com
+Total number of objects downloaded: 5
+Total size of objects downloaded: 215 bytes
+No. of TCP connections opened: 5
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 43 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 1
+Size of objects downloaded: 43 bytes
+
+TCP Connection: 3
+No. of objects downloaded: 1
+Size of objects downloaded: 43 bytes
+
+TCP Connection: 4
+No. of objects downloaded: 1
+Size of objects downloaded: 43 bytes
+
+TCP Connection: 5
+No. of objects downloaded: 1
+Size of objects downloaded: 43 bytes
+
+
+50. Domain name: ad.turn.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 38 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 38 bytes
+
+
+51. Domain name: p.rfihub.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 0 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 0 bytes
+
+
+52. Domain name: r.casalemedia.com
+Total number of objects downloaded: 2
+Total size of objects downloaded: 86 bytes
+No. of TCP connections opened: 2
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 43 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 1
+Size of objects downloaded: 43 bytes
+
+
+53. Domain name: cdn.turn.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 5561 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 5561 bytes
+
+
+54. Domain name: pixel.sitescout.com
+Total number of objects downloaded: 2
+Total size of objects downloaded: 0 bytes
+No. of TCP connections opened: 2
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 0 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 1
+Size of objects downloaded: 0 bytes
+
+
+55. Domain name: tags.bluekai.com
+Total number of objects downloaded: 2
+Total size of objects downloaded: 62 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 2
+Size of objects downloaded: 62 bytes
+
+
+56. Domain name: match.adsrvr.org
+Total number of objects downloaded: 3
+Total size of objects downloaded: 623 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 3
+Size of objects downloaded: 623 bytes
+
+
+57. Domain name: x.bidswitch.net
+Total number of objects downloaded: 2
+Total size of objects downloaded: 43 bytes
+No. of TCP connections opened: 2
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 0 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 1
+Size of objects downloaded: 43 bytes
+
+
+58. Domain name: ml314.com
+Total number of objects downloaded: 7
+Total size of objects downloaded: 41617 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 5
+Size of objects downloaded: 21161 bytes
+
+
+59. Domain name: rs.gwallet.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 43 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 43 bytes
+
+
+60. Domain name: beacon.krxd.net
+Total number of objects downloaded: 11
+Total size of objects downloaded: 312 bytes
+No. of TCP connections opened: 5
+
+TCP Connection: 1
+No. of objects downloaded: 4
+Size of objects downloaded: 176 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 2
+Size of objects downloaded: 0 bytes
+
+TCP Connection: 3
+No. of objects downloaded: 1
+Size of objects downloaded: 0 bytes
+
+TCP Connection: 4
+No. of objects downloaded: 1
+Size of objects downloaded: 0 bytes
+
+TCP Connection: 5
+No. of objects downloaded: 1
+Size of objects downloaded: 0 bytes
+
+
+61. Domain name: adadvisor.net
+Total number of objects downloaded: 1
+Total size of objects downloaded: 0 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 0 bytes
+
+
+62. Domain name: rtd.tubemogul.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 10228 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 10228 bytes
+
+
+63. Domain name: jslog.krxd.net
+Total number of objects downloaded: 1
+Total size of objects downloaded: 0 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 0 bytes
+
+
+64. Domain name: d.agkn.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 0 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 0 bytes
+
+
+65. Domain name: bcp.crwdcntrl.net
+Total number of objects downloaded: 1
+Total size of objects downloaded: 0 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 0 bytes
+
+
+66. Domain name: idsync.rlcdn.com
+Total number of objects downloaded: 3
+Total size of objects downloaded: 43 bytes
+No. of TCP connections opened: 3
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 0 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 1
+Size of objects downloaded: 0 bytes
+
+TCP Connection: 3
+No. of objects downloaded: 1
+Size of objects downloaded: 43 bytes
+
+
+67. Domain name: rtg.ml314.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 0 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 0 bytes
+
+
+68. Domain name: trc.taboola.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 0 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 0 bytes
+
+
+Object Type Classification:
+
+Fonts:
+1. http://typeface.nytimes.com/fonts/nyt-cheltenham-400-normal.woff
+
+2. http://typeface.nytimes.com/fonts/nyt-cheltenham-700-italic.woff
+
+3. http://typeface.nytimes.com/fonts/nyt-franklin-500-normal.woff
+
+4. http://typeface.nytimes.com/fonts/nyt-cheltenham-sh-700-normal.woff
+
+5. http://typeface.nytimes.com/fonts/nyt-cheltenham-sh-400-normal.woff
+
+6. http://typeface.nytimes.com/fonts/nyt-cheltenham-500-normal.woff
+
+7. http://typeface.nytimes.com/fonts/nyt-franklin-700-normal.woff
+
+8. http://typeface.nytimes.com/fonts/nyt-cheltenham-700-normal.woff
+
+9. http://typeface.nytimes.com/fonts/nyt-karnak-displ....ormal.woff
+
+10. http://typeface.nytimes.com/fonts/nyt-cheltenham-200-normal.woff
+
+11. http://typeface.nytimes.com/fonts/nyt-cheltenham-300-normal.woff
+
+12. http://typeface.nytimes.com/fonts/nyt-franklin-300-normal.woff
+
+13. http://static01.nyt.com/video/vhs/2.44.0-435/font/vhs.woff?42519492
+
+Javascript:
+1. http://typeface.nytimes.com/zam5nzz.js
+
+2. http://cdn.optimizely.com/js/3338050995.js
+
+3. http://a1.nyt.com/assets/homepage/20150930-222007/....amework.js
+
+4. http://graphics8.nytimes.com/packages/js/multimedi....7.1.min.js
+
+5. http://graphics8.nytimes.com/packages/js/multimedi....deShow2.js
+
+6. http://graphics8.nytimes.com/packages/js/nytint/pr....0724-v1.js
+
+7. http://www.googletagservices.com/tag/js/gpt.js
+
+8. http://partner.googleadservices.com/gpt/pubads_impl_73.js
+
+9. http://json8.nytimes.com/slideshow/2015/10/04/nytn....owCallback
+
+10. http://a1.nyt.com/assets/homepage/20150930-222007/....on/main.js
+
+11. http://js-agent.newrelic.com/nr-686.min.js
+
+12. http://a1.nyt.com/assets/homepage/20150930-222007/....n/hosts.js
+
+13. http://int.nyt.com/data/promotron/rankings/hp-watc....motronData
+
+14. https://www.nytimes.com/svc/recommendations/v3/use....3984783901
+
+15. http://a1.nyt.com/assets/homepage/20150930-222007/js/homepage/main.js
+
+16. http://static01.nyt.com/bi/js/tagx/tagx.js
+
+17. http://bam.nr-data.net/1/b5bcf2eba4?a=4491446&pl=1....M.setToken
+
+18. http://tagx.nytimes.com/?url=http%3A%2F%2Fwww.nyti....App=nyt-v5
+
+19. https://securepubads.g.doubleclick.net/gampad/ads?....1331997613
+
+20. http://www.nytimes.com/adx/bin/adxrun.html?jsonp=j....ationships
+
+21. http://markets.on.nytimes.com/research/Net/Section....sonMarkets
+
+22. http://s1.nyt.com/messaging/follow/available_follo....esCallback
+
+23. http://core.fabrik.nytimes.com/endpoints.json?json....3984783902
+
+24. http://json8.nytimes.com/services/json/taxonomy/v2....myCallback
+
+25. http://a1.nyt.com/assets/homepage/20150930-222007/....manager.js
+
+26. http://static01.nyt.com/marketing/ADX/bar1/bar1_et_inyt.js
+
+27. http://js.moatads.com/nyt952824751/moatad.js#moatC...._RE_Module
+
+28. https://securepubads.g.doubleclick.net/gampad/ads?....1331997613
+
+29. https://securepubads.g.doubleclick.net/gampad/ads?....1331997613
+
+30. https://securepubads.g.doubleclick.net/gampad/ads?....1331997613
+
+31. http://www.nytimes.com/svc/video/api/v2/playlist/1....stCallback
+
+32. http://js.moatads.com/nytdfp348531439194/moatad.js....MoatPR=nyt
+
+33. http://graphics8.nytimes.com/bi/js/analytics/EventTracker.js
+
+34. http://www.google-analytics.com/analytics.js
+
+35. http://static.chartbeat.com/js/chartbeat.js
+
+36. http://b.scorecardresearch.com/c2/3005403/cs.js
+
+37. http://graphics8.nytimes.com/bi/js/analytics/comscore.js
+
+38. http://graphics8.nytimes.com/bi/js/analytics/wtHelperFunctions.js
+
+39. http://graphics8.nytimes.com/bi/js/analytics/webtrends.js
+
+40. http://dc8xl0ndzn2cb.cloudfront.net/js/nytimes/v1/keywee.js
+
+41. http://js.moatads.com/googleessencenyt485873431/mo....=undefined
+
+42. http://st.dynamicyield.com/ast?sec=8765260
+
+43. http://et.nytimes.com/?subject=page&url=http%3A%2F....land%22%7D
+
+44. http://graphics8.nytimes.com/bi/js/analytics/show_ads.js
+
+45. http://wt.o.nytimes.com/dcsa5pgfq10000c9zuysqk0lm_....IdCallback
+
+46. https://securepubads.g.doubleclick.net/gampad/ads?....1331997613
+
+47. http://dc8xl0ndzn2cb.cloudfront.net/sp.js
+
+48. http://connect.facebook.net/en_US/fbds.js
+
+49. http://static.dynamicyield.com/scripts/12007/dyjq-min.js?v=12088
+
+50. http://static.dynamicyield.com/scripts/12007/dy-min.js?v=12088
+
+51. https://securepubads.g.doubleclick.net/gampad/ads?....1331997613
+
+52. http://pagead2.googlesyndication.com/pagead/osd.js
+
+53. http://et.nytimes.com/?subject=page&url=http%3A%2F....A%22%22%7D
+
+54. http://et.nytimes.com/?assetUrl=http%3A%2F%2Fwww.n....racker.cb2
+
+55. http://et.nytimes.com/?assetUrl=http%3A%2F%2Fwww.n....racker.cb3
+
+56. http://static01.nyt.com/video/vhs/build/vhs-2.x.min.js
+
+57. http://79423.analytics.edgekey.net/js/csma.js
+
+58. http://www.nytimes.com/svc/video/api/v2/video/1000....0003951623
+
+59. http://www.nytimes.com/svc/video/api/v2/video/1000....0003956073
+
+60. http://et.nytimes.com/?assetUrl=http%3A%2F%2Fwww.n....racker.cb4
+
+61. http://t.brand-server.com/ul_cb/adj?s=19569&sz=728x90
+
+62. http://et.nytimes.com/?subject=video-nytv&url=http....racker.cb5
+
+63. http://et.nytimes.com/?assetUrl=http%3A%2F%2Fwww.n....racker.cb6
+
+64. http://et.nytimes.com/?subject=video-nytv&url=http....racker.cb7
+
+65. http://et.nytimes.com/?assetUrl=http%3A%2F%2Fwww.n....racker.cb8
+
+66. http://cdn.krxd.net/controltag?confid=JeGqRsy-
+
+67. http://pagead2.googlesyndication.com/pagead/show_ads.js
+
+68. https://pagead2.googlesyndication.com/pub-config/c....6555934.js
+
+69. http://pagead2.googlesyndication.com/pagead/js/r20....ds_impl.js
+
+70. http://cdn.krxd.net/ctjs/controltag.js.875fd5b280a....4a5a268e2c
+
+71. https://pagead2.googlesyndication.com/pagead/osd.js
+
+72. https://securepubads.g.doubleclick.net/gampad/ads?....1331997613
+
+73. http://ml314.com/tag.aspx?592015
+
+74. http://beacon.krxd.net/optout_check?callback=Krux.....ptOutCheck
+
+75. http://cdn.krxd.net/userdata/get?pub=7b3785dc-e5e8....p_userdata
+
+76. http://ml314.com/tag.aspx?592015
+
+77. http://ml314.com/utsync.ashx?pub=748&adv=&et=0&eid....66x768&rp=
+
+78. http://ml314.com/tpsync.ashx?eid=&pub=748&adv=&ret....cb=1267526
+
+79. http://et.nytimes.com/?subject=page&url=http%3A%2F....A%22%22%7D
+
+80. http://beacon.krxd.net/optout_check?callback=Krux.....ptOutCheck
+
+81. http://et.nytimes.com/?subject=page&url=http%3A%2F....A%22%22%7D
+
+82. http://rtg.ml314.com/fp.ashx?fp=&eid=50146&person_....9329825962
+
+83. https://securepubads.g.doubleclick.net/gampad/ads?....1331997613
+
+84. http://et.nytimes.com/?subject=page&url=http%3A%2F....A%22%22%7D
+
+Flash:
+1. http://s.moatads.com/swf/MessageSenderV3.swf
+
+2. http://s.moatads.com/swf/cap.swf
+
+JSON:
+1. http://www.nytimes.com/svc/recommendations/v3/pers....n=homepage
+
+2. http://www.nytimes.com/svc/weather/v2/current-and-....ecast.json
+
+3. http://s1.nyt.com/ugc/comments/commentData.json
+
+4. http://core8_euw1.fabrik.nytimes.com./info
+
+HTML:
+1. http://www.nytimes.com/
+
+2. http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html
+
+3. http://www.nytimes.com/packages/html/recommendations/ad.html
+
+4. https://cm.g.doubleclick.net/push?client=ca-pub-42....01&srn=gdn
+
+5. http://www.nytimes.com/svc/comscore/pvc.html
+
+6. http://www.google-analytics.com/r/collect?v=1&_v=j....=212185424
+
+7. http://t.brand-server.com/adj?s=19569&sz=728x90
+
+8. https://stats.g.doubleclick.net/r/collect?v=1&aip=....=212185424
+
+9. http://px.dynamicyield.com/uia?id=-628702494522124....3984792560
+
+10. https://www.google.com/ads/ga-audiences?v=1&aip=1&....=212185424
+
+11. https://googleads.g.doubleclick.net/pagead/html/r2....ookup.html
+
+12. http://ip.casalemedia.com/usermatch?s=178372&cb=ht....user_id%3D
+
+13. http://pagead2.googlesyndication.com/pagead/gen_20....rl=missing
+
+14. https://googleads.g.doubleclick.net/pagead/ads?cli....=1&dtd=496
+
+15. http://px.dynamicyield.com/imp?id=-628702494522124....3984795240
+
+16. http://ip.casalemedia.com/usermatch?s=178372&cb=ht...._id%3D&C=1
+
+17. http://pixel.everesttech.net/1/gr?url=http%3A%2F%2....D__EFGCK__
+
+18. http://dis.criteo.com/dis/usersync.aspx?r=10&p=7&c....ERID%40%40
+
+19. http://t.brand-server.com/match_back?bidder_id=2&e....AADG%26834
+
+20. http://cdn.optmd.com/blank.html
+
+21. http://ad.turn.com/server/pixel.htm?fpid=21&sp=y
+
+22. https://cm.g.doubleclick.net/pixel?google_nid=ever....D__EFGCK__
+
+23. https://pixel2368.everesttech.net/2368/m?cookieid=....gle_cver=1
+
+24. http://cdn.turn.com/server/ddc.htm?uid=32799567114....=4&cyid=85
+
+25. http://t.brand-server.com/match_back?bidder_id=6&e....6555390049
+
+26. http://tags.bluekai.com/site/17724?id=9db6c579-05d....415be07bc4
+
+27. http://t.brand-server.com/match_back?bidder_id=5&e....415be07bc4
+
+28. http://match.adsrvr.org/track/cmf/generic?ttd_pid=centro&ttd_tpi=1
+
+29. http://match.adsrvr.org/track/cmb/generic?ttd_pid=centro&ttd_tpi=1
+
+30. http://t.brand-server.com/match_back?bidder_id=1&e....340748c798
+
+31. http://x.bidswitch.net/sync?ssp=centro
+
+32. http://match.adsrvr.org/track/cmf/generic?ttd_pid=krux&ttd_tpi=1
+
+33. http://px.dynamicyield.com/rimp?id=-62870249452212....3984805404
+
+34. http://ml314.com/imsync.ashx?pi=597815125932982596....kwfQ%3D%3D
+
+Images:
+1. http://a1.nyt.com/assets/homepage/20150930-222007/....379x64.svg
+
+2. http://static01.nyt.com/images/2015/10/05/us/05sco....andard.jpg
+
+3. http://static01.nyt.com/images/2015/10/05/us/05whl....andard.jpg
+
+4. http://static01.nyt.com/images/2015/10/04/books/re....andard.jpg
+
+5. http://static01.nyt.com/images/2015/10/05/us/05joa....ard-v3.jpg
+
+6. http://static01.nyt.com/images/2015/10/05/sports/0....Two210.jpg
+
+7. http://static01.nyt.com/images/2015/10/04/magazine....Two210.jpg
+
+8. http://static01.nyt.com/images/2015/10/04/fashion/....Two210.jpg
+
+9. http://static01.nyt.com/images/2015/10/04/opinion/....177-v2.jpg
+
+10. http://static01.nyt.com/images/blogs_v5/times-insi....lacked.png
+
+11. http://static01.nyt.com/images/crosswords/crosswords_30x30.png
+
+12. http://static01.nyt.com/images/2015/10/04/fashion/....are149.jpg
+
+13. http://static01.nyt.com/images/2015/10/04/fashion/....are149.jpg
+
+14. http://static01.nyt.com/images/2015/10/04/arts/04C....are149.jpg
+
+15. http://static01.nyt.com/images/2012/07/08/opinion/....are149.png
+
+16. http://static01.nyt.com/images/2015/10/04/nyregion....149-v2.jpg
+
+17. http://static01.nyt.com/images/2015/10/04/arts/04R....are149.jpg
+
+18. http://static01.nyt.com/images/2015/10/04/fashion/....149-v2.jpg
+
+19. http://static01.nyt.com/images/2015/10/04/nyregion....149-v2.jpg
+
+20. http://static01.nyt.com/images/2015/10/04/opinion/....are149.jpg
+
+21. http://static01.nyt.com/images/2015/10/04/fashion/....are149.jpg
+
+22. http://static01.nyt.com/images/2015/10/05/world/05....andard.jpg
+
+23. http://static01.nyt.com/images/2015/10/04/business....andard.jpg
+
+24. http://static01.nyt.com/images/2015/10/04/opinion/....andard.jpg
+
+25. http://static01.nyt.com/images/2015/10/04/business....andard.jpg
+
+26. http://static01.nyt.com/images/2015/10/04/arts/04N....andard.jpg
+
+27. http://static01.nyt.com/images/2015/10/04/us/trump....andard.jpg
+
+28. http://static01.nyt.com/images/2015/10/04/fashion/....andard.jpg
+
+29. http://static01.nyt.com/images/2015/10/04/arts/04C....andard.jpg
+
+30. http://static01.nyt.com/images/2015/10/05/nyregion....andard.jpg
+
+31. http://static01.nyt.com/images/2015/10/05/sports/f....andard.jpg
+
+32. http://static01.nyt.com/images/2015/10/04/arts/04S....andard.jpg
+
+33. http://static01.nyt.com/images/2015/10/02/science/....andard.jpg
+
+34. http://static01.nyt.com/images/2015/10/04/arts/04f....ard-v3.jpg
+
+35. http://static01.nyt.com/images/2015/10/05/arts/05a....andard.jpg
+
+36. http://static01.nyt.com/images/2015/09/30/health/w....ard-v5.jpg
+
+37. http://static01.nyt.com/images/2015/10/02/travel/0....andard.jpg
+
+38. http://static01.nyt.com/images/2015/10/04/books/re....andard.jpg
+
+39. http://static01.nyt.com/images/2015/10/03/us/03dun....andard.jpg
+
+40. http://static01.nyt.com/images/2015/10/07/dining/0....andard.jpg
+
+41. http://static01.nyt.com/images/2015/10/04/opinion/....andard.jpg
+
+42. http://static01.nyt.com/images/2015/10/04/realesta....andard.jpg
+
+43. http://static01.nyt.com/images/2015/09/30/upshot/0....ard-v2.jpg
+
+44. http://static01.nyt.com/images/2015/10/04/magazine....andard.jpg
+
+45. http://static01.nyt.com/images/2015/10/03/business....ard-v2.jpg
+
+46. http://static01.nyt.com/images/2015/10/04/t-magazi....andard.jpg
+
+47. http://static01.nyt.com/images/2015/09/30/insider/....andard.jpg
+
+48. http://static01.nyt.com/images/2015/10/04/realesta....andard.jpg
+
+49. http://static01.nyt.com/images/2015/10/04/realesta....andard.jpg
+
+50. http://static01.nyt.com/images/2015/10/04/realesta....andard.jpg
+
+51. http://a1.nyt.com/assets/homepage/20150930-222007/....repeat.svg
+
+52. http://a1.nyt.com/assets/homepage/20150930-222007/....185x26.svg
+
+53. http://a1.nyt.com/assets/homepage/20150930-222007/....185x26.png
+
+54. http://i1.nyt.com/images/global/borders/aColumnHorizontalBorder.gif
+
+55. http://graphics8.nytimes.com/images/2015/10/04/nyt....mbWide.jpg
+
+56. http://graphics8.nytimes.com/images/2015/10/04/nyt....mbWide.jpg
+
+57. http://graphics8.nytimes.com/images/2015/10/04/nyt....mbWide.jpg
+
+58. http://graphics8.nytimes.com/images/2015/10/04/nyt....mbWide.jpg
+
+59. http://graphics8.nytimes.com/images/2015/10/04/nyt....mbWide.jpg
+
+60. http://graphics8.nytimes.com/images/2015/10/04/tra....mbWide.jpg
+
+61. http://graphics8.nytimes.com/images/2015/10/04/tra....ide-v2.jpg
+
+62. http://graphics8.nytimes.com/images/2015/10/01/art....mbWide.jpg
+
+63. http://graphics8.nytimes.com/images/2015/10/02/lea....mbWide.png
+
+64. http://graphics8.nytimes.com/images/2015/09/29/sci....ide-v3.jpg
+
+65. http://graphics8.nytimes.com/images/2015/09/29/us/....mbWide.jpg
+
+66. http://graphics8.nytimes.com/images/2012/02/29/hea....mbWide.jpg
+
+67. http://graphics8.nytimes.com/images/2015/10/01/boo....mbWide.jpg
+
+68. http://graphics8.nytimes.com/images/2015/10/01/sci....mbWide.jpg
+
+69. http://graphics8.nytimes.com/images/2015/10/04/mag....mbWide.jpg
+
+70. http://graphics8.nytimes.com/images/2015/09/27/boo....mbWide.jpg
+
+71. https://tpc.googlesyndication.com/pagead/imgad?id=....IqNYv-leQl
+
+72. https://tpc.googlesyndication.com/pagead/imgad?id=....fQBio619yw
+
+73. https://tpc.googlesyndication.com/pagead/imgad?id=....4f43GnuIPg
+
+74. http://graphics8.nytimes.com/ads/blank.gif
+
+75. http://www.nytimes.com/adx/bin/clientside/61352017....EQ5ERrQ27I
+
+76. http://www.nytimes.com/adx/bin/clientside/61352017....EQ5ERrQ27I
+
+77. http://graphics8.nytimes.com/adx/images/ADS/41/11/...._Final.jpg
+
+78. http://graphics8.nytimes.com/images/2015/10/04/wor....andard.jpg
+
+79. http://graphics8.nytimes.com/images/2015/10/03/us/....ard-v5.jpg
+
+80. http://graphics8.nytimes.com/images/2015/10/03/us/....ard-v3.jpg
+
+81. http://graphics8.nytimes.com/images/2015/10/01/fas....andard.jpg
+
+82. http://graphics8.nytimes.com/images/2015/10/04/opi....andard.jpg
+
+83. http://graphics8.nytimes.com/images/2015/10/04/bus....andard.jpg
+
+84. http://graphics8.nytimes.com/images/2015/10/03/mul....andard.jpg
+
+85. http://graphics8.nytimes.com/images/2015/10/03/us/....andard.jpg
+
+86. http://graphics8.nytimes.com/images/2015/10/03/us/....andard.jpg
+
+87. http://graphics8.nytimes.com/images/2015/10/02/mul....ard-v2.jpg
+
+88. https://tpc.googlesyndication.com/simgad/4190352927752258463
+
+89. http://static01.nyt.com/images/2015/10/01/multimed....ine150.jpg
+
+90. http://static01.nyt.com/images/2015/10/04/multimed....ine150.jpg
+
+91. http://static01.nyt.com/images/2015/09/29/multimed....ine150.jpg
+
+92. http://static01.nyt.com/images/2015/09/29/multimed....ine150.jpg
+
+93. http://static01.nyt.com/images/2015/10/02/multimed....ine150.jpg
+
+94. http://static01.nyt.com/images/2015/10/01/multimed....ine150.jpg
+
+95. http://static01.nyt.com/images/2015/10/02/multimed....ine150.jpg
+
+96. http://static01.nyt.com/images/2015/10/01/multimed....ine150.jpg
+
+97. http://static01.nyt.com/images/2015/10/03/us/03gun....150-v2.jpg
+
+98. http://static01.nyt.com/images/2014/06/02/multimed....ide-v2.jpg
+
+99. http://pnytimes.chartbeat.net/ping?h=nytimes.com&p....330&sn=1&_
+
+100. http://www.google-analytics.com/collect?v=1&_v=j39....=865593880
+
+101. http://v4.moatads.com/pixel.gif?e=17&i=NYTIMESDFP1....2%242&cs=0
+
+102. http://secure-us.imrworldwide.com/cgi-bin/m?ci=us-....89440&ja=1
+
+103. https://www.facebook.com/tr/?id=100468016962764&ev....3984791594
+
+104. http://pixel.keywee.co/i?e=pv&url=http%3A%2F%2Fwww....p=37442777
+
+105. http://v4.moatads.com/pixel.gif?e=0&q=0&lo=0&qs=5&....2%242&cs=0
+
+106. http://wt.o.nytimes.com/dcsa5pgfq10000c9zuysqk0lm_....e454d64770
+
+107. http://v4.moatads.com/pixel.gif?e=17&i=NYTIMESDFP1....2%242&cs=0
+
+108. http://static01.nyt.com/images/2015/10/01/multimed....ine768.jpg
+
+109. http://static01.nyt.com/images/2015/10/03/multimed....ine390.jpg
+
+110. http://v4.moatads.com/pixel.gif?e=0&q=0&lo=0&qs=5&....2%242&cs=0
+
+111. https://www.google.co.in/ads/ga-audiences?v=1&aip=....5424&ipr=y
+
+112. http://pagead2.googlesyndication.com/activeview?id....t=IMG&cl=1
+
+113. http://pagead2.googlesyndication.com/activeview?id....t=IMG&cl=1
+
+114. http://sync.mathtag.com/sync/img?mt_exid=15&redir=....MM_UUID%5D
+
+115. http://cm.adgrx.com/bridge?AG_PID=casale_us&AG_SETCOOKIE
+
+116. http://dsum.casalemedia.com/crum?cm_dsp_id=20&exte....c7d0e9184a
+
+117. http://sync.mathtag.com/sync/img?mt_exid=15&redir=....bnc&mm_bct
+
+118. https://dsum-sec.casalemedia.com/rum?cm_dsp_id=81&....MchpV-gJhV
+
+119. http://cm.adgrx.com/bridge.gif?AG_PID=casale_us
+
+120. http://r.casalemedia.com/rum?cm_dsp_id=62&external....9847980033
+
+121. http://r.casalemedia.com/rum?cm_dsp_id=66&external....9847980033
+
+122. http://dsum.casalemedia.com/crum?cm_dsp_id=3&exter....07b97ec058
+
+123. http://dsum.casalemedia.com/rum?cm_dsp_id=72&exter....831f002a08
+
+124. http://dsum.casalemedia.com/rum?cm_dsp_id=4&extern....1429523308
+
+125. http://dsum.casalemedia.com/crum?cm_dsp_id=71&exte....fTpFpXVE40
+
+126. http://pagead2.googlesyndication.com/activeview?id....t=IMG&cl=1
+
+127. http://x.bidswitch.net/ul_cb/sync?ssp=centro
+
+128. http://rs.gwallet.com/r1/cm/p70r1443984802271
+
+129. http://beacon.krxd.net/pixel.gif?source=smarttag&f....Fget%2C504
+
+130. http://jslog.krxd.net/jslog.gif?commit=1&pubid=7b3....d%22%7D%5D
+
+131. http://beacon.krxd.net/usermatch.gif?partner=ttd&p....340748c798
+
+132. http://beacon.krxd.net/usermatch.gif?partner_id=ss....429ecd92d1
+
+133. http://beacon.krxd.net/usermatch.gif?partner_id=cb....1217756746
+
+134. http://tags.bluekai.com/site/20486?limit=0&id=5978151259329825962
+
+135. http://idsync.rlcdn.com/395886.gif?partner_uid=5978151259329825962
+
+136. http://beacon.krxd.net/usermatch.gif?partner=madis....9329825962
+
+137. http://beacon.krxd.net/data.gif?_kdpid=2111c0af-fc....visor_key=
+
+138. http://idsync.rlcdn.com/395886.gif?partner_uid=597....redirect=1
+
+139. http://www.google-analytics.com/collect?v=1&_v=j39....1557786612
+
+140. http://idsync.rlcdn.com/382389.gif?partner_uid=1e6....731a3e5272
+
+141. http://pnytimes.chartbeat.net/ping?h=nytimes.com&p....&eM=2138&_
+
+142. http://pnytimes.chartbeat.net/ping?h=nytimes.com&p....&eM=1810&_
+
+143. http://pixel.keywee.co/i?e=pp&url=http%3A%2F%2Fwww....p=37442777
+
+144. http://pnytimes.chartbeat.net/ping?h=nytimes.com&p....330&sn=4&_
+
+CSS:
+1. http://a1.nyt.com/assets/homepage/20150930-222007/....styles.css
+
+2. http://typeface.nytimes.com/css/zam5nzz.css
+
+3. http://static01.nyt.com/video/vhs/2.44.0-435/vhs.css
+
+
+Object Tree:
+
+http://www.nytimes.com/
+	http://a1.nyt.com/assets/homepage/20150930-222007/....styles.css
+		http://a1.nyt.com/assets/homepage/20150930-222007/....repeat.svg
+		http://i1.nyt.com/images/global/borders/aColumnHorizontalBorder.gif
+	http://typeface.nytimes.com/zam5nzz.js
+	http://cdn.optimizely.com/js/3338050995.js
+	http://a1.nyt.com/assets/homepage/20150930-222007/....amework.js
+	http://a1.nyt.com/assets/homepage/20150930-222007/....379x64.svg
+	http://graphics8.nytimes.com/packages/js/multimedi....7.1.min.js
+	http://graphics8.nytimes.com/packages/js/multimedi....deShow2.js
+	http://static01.nyt.com/images/2015/10/05/us/05sco....andard.jpg
+	http://static01.nyt.com/images/2015/10/05/us/05whl....andard.jpg
+	http://static01.nyt.com/images/2015/10/04/books/re....andard.jpg
+	http://static01.nyt.com/images/2015/10/05/us/05joa....ard-v3.jpg
+	http://static01.nyt.com/images/2015/10/05/sports/0....Two210.jpg
+	http://static01.nyt.com/images/2015/10/04/magazine....Two210.jpg
+	http://static01.nyt.com/images/2015/10/04/fashion/....Two210.jpg
+	http://static01.nyt.com/images/2015/10/04/opinion/....177-v2.jpg
+	http://static01.nyt.com/images/blogs_v5/times-insi....lacked.png
+	http://static01.nyt.com/images/crosswords/crosswords_30x30.png
+	http://graphics8.nytimes.com/packages/js/nytint/pr....0724-v1.js
+	http://static01.nyt.com/images/2015/10/04/fashion/....are149.jpg
+	http://static01.nyt.com/images/2015/10/04/fashion/....are149.jpg
+	http://static01.nyt.com/images/2015/10/04/arts/04C....are149.jpg
+	http://static01.nyt.com/images/2012/07/08/opinion/....are149.png
+	http://static01.nyt.com/images/2015/10/04/nyregion....149-v2.jpg
+	http://static01.nyt.com/images/2015/10/04/arts/04R....are149.jpg
+	http://static01.nyt.com/images/2015/10/04/fashion/....149-v2.jpg
+	http://static01.nyt.com/images/2015/10/04/nyregion....149-v2.jpg
+	http://static01.nyt.com/images/2015/10/04/opinion/....are149.jpg
+	http://static01.nyt.com/images/2015/10/04/fashion/....are149.jpg
+	http://static01.nyt.com/images/2015/10/05/world/05....andard.jpg
+	http://static01.nyt.com/images/2015/10/04/business....andard.jpg
+	http://static01.nyt.com/images/2015/10/04/opinion/....andard.jpg
+	http://static01.nyt.com/images/2015/10/04/business....andard.jpg
+	http://static01.nyt.com/images/2015/10/04/arts/04N....andard.jpg
+	http://static01.nyt.com/images/2015/10/04/us/trump....andard.jpg
+	http://static01.nyt.com/images/2015/10/04/fashion/....andard.jpg
+	http://static01.nyt.com/images/2015/10/04/arts/04C....andard.jpg
+	http://static01.nyt.com/images/2015/10/05/nyregion....andard.jpg
+	http://static01.nyt.com/images/2015/10/05/sports/f....andard.jpg
+	http://static01.nyt.com/images/2015/10/04/arts/04S....andard.jpg
+	http://static01.nyt.com/images/2015/10/02/science/....andard.jpg
+	http://static01.nyt.com/images/2015/10/04/arts/04f....ard-v3.jpg
+	http://static01.nyt.com/images/2015/10/05/arts/05a....andard.jpg
+	http://static01.nyt.com/images/2015/09/30/health/w....ard-v5.jpg
+	http://static01.nyt.com/images/2015/10/02/travel/0....andard.jpg
+	http://static01.nyt.com/images/2015/10/04/books/re....andard.jpg
+	http://static01.nyt.com/images/2015/10/03/us/03dun....andard.jpg
+	http://static01.nyt.com/images/2015/10/07/dining/0....andard.jpg
+	http://static01.nyt.com/images/2015/10/04/opinion/....andard.jpg
+	http://static01.nyt.com/images/2015/10/04/realesta....andard.jpg
+	http://static01.nyt.com/images/2015/09/30/upshot/0....ard-v2.jpg
+	http://static01.nyt.com/images/2015/10/04/magazine....andard.jpg
+	http://static01.nyt.com/images/2015/10/03/business....ard-v2.jpg
+	http://static01.nyt.com/images/2015/10/04/t-magazi....andard.jpg
+	http://static01.nyt.com/images/2015/09/30/insider/....andard.jpg
+	http://static01.nyt.com/images/2015/10/04/realesta....andard.jpg
+	http://static01.nyt.com/images/2015/10/04/realesta....andard.jpg
+	http://static01.nyt.com/images/2015/10/04/realesta....andard.jpg
+	http://www.googletagservices.com/tag/js/gpt.js
+	http://typeface.nytimes.com/css/zam5nzz.css
+		http://typeface.nytimes.com/fonts/nyt-cheltenham-400-normal.woff
+		http://typeface.nytimes.com/fonts/nyt-cheltenham-700-italic.woff
+		http://typeface.nytimes.com/fonts/nyt-franklin-500-normal.woff
+		http://typeface.nytimes.com/fonts/nyt-cheltenham-sh-700-normal.woff
+		http://typeface.nytimes.com/fonts/nyt-cheltenham-sh-400-normal.woff
+		http://typeface.nytimes.com/fonts/nyt-cheltenham-500-normal.woff
+		http://typeface.nytimes.com/fonts/nyt-franklin-700-normal.woff
+		http://typeface.nytimes.com/fonts/nyt-cheltenham-700-normal.woff
+		http://typeface.nytimes.com/fonts/nyt-karnak-displ....ormal.woff
+		http://typeface.nytimes.com/fonts/nyt-cheltenham-200-normal.woff
+		http://typeface.nytimes.com/fonts/nyt-cheltenham-300-normal.woff
+		http://typeface.nytimes.com/fonts/nyt-franklin-300-normal.woff
+	http://a1.nyt.com/assets/homepage/20150930-222007/....185x26.svg
+	http://a1.nyt.com/assets/homepage/20150930-222007/....185x26.png
+	http://partner.googleadservices.com/gpt/pubads_impl_73.js
+	http://json8.nytimes.com/slideshow/2015/10/04/nytn....owCallback
+	http://a1.nyt.com/assets/homepage/20150930-222007/....on/main.js
+	http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html
+	http://graphics8.nytimes.com/images/2015/10/04/nyt....mbWide.jpg
+	http://graphics8.nytimes.com/images/2015/10/04/nyt....mbWide.jpg
+	http://graphics8.nytimes.com/images/2015/10/04/nyt....mbWide.jpg
+	http://graphics8.nytimes.com/images/2015/10/04/nyt....mbWide.jpg
+	http://graphics8.nytimes.com/images/2015/10/04/nyt....mbWide.jpg
+	http://js-agent.newrelic.com/nr-686.min.js
+	http://a1.nyt.com/assets/homepage/20150930-222007/....n/hosts.js
+	http://int.nyt.com/data/promotron/rankings/hp-watc....motronData
+	https://www.nytimes.com/svc/recommendations/v3/use....3984783901
+	http://a1.nyt.com/assets/homepage/20150930-222007/js/homepage/main.js
+	http://static01.nyt.com/bi/js/tagx/tagx.js
+	http://bam.nr-data.net/1/b5bcf2eba4?a=4491446&pl=1....M.setToken
+	http://graphics8.nytimes.com/images/2015/10/04/tra....mbWide.jpg
+	http://graphics8.nytimes.com/images/2015/10/04/tra....ide-v2.jpg
+	http://graphics8.nytimes.com/images/2015/10/01/art....mbWide.jpg
+	http://graphics8.nytimes.com/images/2015/10/02/lea....mbWide.png
+	http://graphics8.nytimes.com/images/2015/09/29/sci....ide-v3.jpg
+	http://graphics8.nytimes.com/images/2015/09/29/us/....mbWide.jpg
+	http://graphics8.nytimes.com/images/2012/02/29/hea....mbWide.jpg
+	http://graphics8.nytimes.com/images/2015/10/01/boo....mbWide.jpg
+	http://graphics8.nytimes.com/images/2015/10/01/sci....mbWide.jpg
+	http://graphics8.nytimes.com/images/2015/10/04/mag....mbWide.jpg
+	http://graphics8.nytimes.com/images/2015/09/27/boo....mbWide.jpg
+	http://tagx.nytimes.com/?url=http%3A%2F%2Fwww.nyti....App=nyt-v5
+	https://securepubads.g.doubleclick.net/gampad/ads?....1331997613
+	http://www.nytimes.com/adx/bin/adxrun.html?jsonp=j....ationships
+	http://www.nytimes.com/svc/recommendations/v3/pers....n=homepage
+	http://www.nytimes.com/svc/weather/v2/current-and-....ecast.json
+	http://markets.on.nytimes.com/research/Net/Section....sonMarkets
+	http://s1.nyt.com/messaging/follow/available_follo....esCallback
+	http://core.fabrik.nytimes.com/endpoints.json?json....3984783902
+	http://json8.nytimes.com/services/json/taxonomy/v2....myCallback
+	http://a1.nyt.com/assets/homepage/20150930-222007/....manager.js
+	https://tpc.googlesyndication.com/pagead/imgad?id=....IqNYv-leQl
+	https://tpc.googlesyndication.com/pagead/imgad?id=....fQBio619yw
+	https://tpc.googlesyndication.com/pagead/imgad?id=....4f43GnuIPg
+	http://static01.nyt.com/marketing/ADX/bar1/bar1_et_inyt.js
+	http://graphics8.nytimes.com/ads/blank.gif
+	http://www.nytimes.com/adx/bin/clientside/61352017....EQ5ERrQ27I
+	http://www.nytimes.com/adx/bin/clientside/61352017....EQ5ERrQ27I
+	http://graphics8.nytimes.com/adx/images/ADS/41/11/...._Final.jpg
+	http://js.moatads.com/nyt952824751/moatad.js#moatC...._RE_Module
+	http://graphics8.nytimes.com/images/2015/10/04/wor....andard.jpg
+	http://graphics8.nytimes.com/images/2015/10/03/us/....ard-v5.jpg
+	http://graphics8.nytimes.com/images/2015/10/03/us/....ard-v3.jpg
+	http://graphics8.nytimes.com/images/2015/10/01/fas....andard.jpg
+	http://graphics8.nytimes.com/images/2015/10/04/opi....andard.jpg
+	http://graphics8.nytimes.com/images/2015/10/04/bus....andard.jpg
+	http://graphics8.nytimes.com/images/2015/10/03/mul....andard.jpg
+	http://graphics8.nytimes.com/images/2015/10/03/us/....andard.jpg
+	http://graphics8.nytimes.com/images/2015/10/03/us/....andard.jpg
+	http://graphics8.nytimes.com/images/2015/10/02/mul....ard-v2.jpg
+	http://www.nytimes.com/packages/html/recommendations/ad.html
+	https://securepubads.g.doubleclick.net/gampad/ads?....1331997613
+	https://securepubads.g.doubleclick.net/gampad/ads?....1331997613
+	https://securepubads.g.doubleclick.net/gampad/ads?....1331997613
+	http://www.nytimes.com/svc/video/api/v2/playlist/1....stCallback
+	http://js.moatads.com/nytdfp348531439194/moatad.js....MoatPR=nyt
+	http://s.tagsrvcs.com/2/818492/analytics.js?pp=www....1988867000
+	http://graphics8.nytimes.com/bi/js/analytics/EventTracker.js
+	http://www.google-analytics.com/analytics.js
+	http://static.chartbeat.com/js/chartbeat.js
+	http://b.scorecardresearch.com/c2/3005403/cs.js
+	http://graphics8.nytimes.com/bi/js/analytics/comscore.js
+	http://secure-us.imrworldwide.com/cgi-bin/m?ci=us-....3984789440
+	http://graphics8.nytimes.com/bi/js/analytics/wtHelperFunctions.js
+	http://graphics8.nytimes.com/bi/js/analytics/webtrends.js
+	http://dc8xl0ndzn2cb.cloudfront.net/js/nytimes/v1/keywee.js
+	http://js.moatads.com/googleessencenyt485873431/mo....=undefined
+	https://tpc.googlesyndication.com/simgad/4190352927752258463
+	https://cm.g.doubleclick.net/push?client=ca-pub-42....01&srn=gdn
+	http://www.nytimes.com/svc/comscore/pvc.html
+	http://s.moatads.com/swf/MessageSenderV3.swf
+	http://st.dynamicyield.com/ast?sec=8765260
+	http://et.nytimes.com/?subject=page&url=http%3A%2F....land%22%7D
+	http://graphics8.nytimes.com/bi/js/analytics/show_ads.js
+	http://static01.nyt.com/images/2015/10/01/multimed....ine150.jpg
+	http://static01.nyt.com/images/2015/10/04/multimed....ine150.jpg
+	http://static01.nyt.com/images/2015/09/29/multimed....ine150.jpg
+	http://static01.nyt.com/images/2015/09/29/multimed....ine150.jpg
+	http://static01.nyt.com/images/2015/10/02/multimed....ine150.jpg
+	http://static01.nyt.com/images/2015/10/01/multimed....ine150.jpg
+	http://static01.nyt.com/images/2015/10/02/multimed....ine150.jpg
+	http://static01.nyt.com/images/2015/10/01/multimed....ine150.jpg
+	http://static01.nyt.com/images/2015/10/03/us/03gun....150-v2.jpg
+	http://static01.nyt.com/images/2014/06/02/multimed....ide-v2.jpg
+	http://pnytimes.chartbeat.net/ping?h=nytimes.com&p....330&sn=1&_
+	http://b.scorecardresearch.com/b?c1=2&c2=3005403&n....com%2F&c9=
+	http://wt.o.nytimes.com/dcsa5pgfq10000c9zuysqk0lm_....IdCallback
+	https://securepubads.g.doubleclick.net/gampad/ads?....1331997613
+	http://www.google-analytics.com/r/collect?v=1&_v=j....=212185424
+	http://www.google-analytics.com/collect?v=1&_v=j39....=865593880
+	http://dc8xl0ndzn2cb.cloudfront.net/sp.js
+	http://connect.facebook.net/en_US/fbds.js
+	http://v4.moatads.com/pixel.gif?e=17&i=NYTIMESDFP1....2%242&cs=0
+	http://s.moatads.com/swf/cap.swf
+	http://wt.o.nytimes.com/dcsa5pgfq10000c9zuysqk0lm_....e454d64770
+	http://secure-us.imrworldwide.com/cgi-bin/m?ci=us-....89440&ja=1
+	http://t.brand-server.com/adj?s=19569&sz=728x90
+	http://static.dynamicyield.com/scripts/12007/dyjq-min.js?v=12088
+	http://static.dynamicyield.com/scripts/12007/dy-min.js?v=12088
+	http://b.scorecardresearch.com/b2?c1=2&c2=3005403&....com%2F&c9=
+	https://www.facebook.com/tr/?id=100468016962764&ev....3984791594
+	http://pixel.keywee.co/i?e=pv&url=http%3A%2F%2Fwww....p=37442777
+	https://stats.g.doubleclick.net/r/collect?v=1&aip=....=212185424
+	http://v4.moatads.com/pixel.gif?e=0&q=0&lo=0&qs=5&....2%242&cs=0
+	http://wt.o.nytimes.com/dcsa5pgfq10000c9zuysqk0lm_....e454d64770
+	https://securepubads.g.doubleclick.net/gampad/ads?....1331997613
+	http://s1.nyt.com/ugc/comments/commentData.json
+	http://pagead2.googlesyndication.com/pagead/osd.js
+	http://et.nytimes.com/?subject=page&url=http%3A%2F....A%22%22%7D
+	http://et.nytimes.com/?assetUrl=http%3A%2F%2Fwww.n....racker.cb2
+	http://b.scorecardresearch.com/b?c1=2&c2=3005403&n....com%2F&c9=
+	http://et.nytimes.com/?assetUrl=http%3A%2F%2Fwww.n....racker.cb3
+	http://static01.nyt.com/video/vhs/build/vhs-2.x.min.js
+	http://px.dynamicyield.com/uia?id=-628702494522124....3984792560
+	http://79423.analytics.edgekey.net/js/csma.js
+	http://www.nytimes.com/svc/video/api/v2/video/1000....0003951623
+	http://static01.nyt.com/video/vhs/2.44.0-435/vhs.css
+		http://static01.nyt.com/video/vhs/2.44.0-435/font/vhs.woff?42519492
+	http://v4.moatads.com/pixel.gif?e=17&i=NYTIMESDFP1....2%242&cs=0
+	http://core8_euw1.fabrik.nytimes.com./info
+	http://www.nytimes.com/svc/video/api/v2/video/1000....0003956073
+	http://et.nytimes.com/?assetUrl=http%3A%2F%2Fwww.n....racker.cb4
+	http://t.brand-server.com/ul_cb/adj?s=19569&sz=728x90
+	https://www.google.com/ads/ga-audiences?v=1&aip=1&....=212185424
+	http://static01.nyt.com/images/2015/10/01/multimed....ine768.jpg
+	http://et.nytimes.com/?subject=video-nytv&url=http....racker.cb5
+	http://et.nytimes.com/?assetUrl=http%3A%2F%2Fwww.n....racker.cb6
+	http://static01.nyt.com/images/2015/10/03/multimed....ine390.jpg
+	http://et.nytimes.com/?subject=video-nytv&url=http....racker.cb7
+	http://et.nytimes.com/?assetUrl=http%3A%2F%2Fwww.n....racker.cb8
+	http://v4.moatads.com/pixel.gif?e=0&q=0&lo=0&qs=5&....2%242&cs=0
+	http://cdn.krxd.net/controltag?confid=JeGqRsy-
+	http://pagead2.googlesyndication.com/pagead/show_ads.js
+	https://pagead2.googlesyndication.com/pub-config/c....6555934.js
+	https://googleads.g.doubleclick.net/pagead/html/r2....ookup.html
+	http://pagead2.googlesyndication.com/pagead/js/r20....ds_impl.js
+	https://www.google.co.in/ads/ga-audiences?v=1&aip=....5424&ipr=y
+	http://pagead2.googlesyndication.com/activeview?id....t=IMG&cl=1
+	http://pagead2.googlesyndication.com/activeview?id....t=IMG&cl=1
+	http://ip.casalemedia.com/usermatch?s=178372&cb=ht....user_id%3D
+	http://pagead2.googlesyndication.com/pagead/gen_20....rl=missing
+	https://googleads.g.doubleclick.net/pagead/ads?cli....=1&dtd=496
+	http://cdn.krxd.net/ctjs/controltag.js.875fd5b280a....4a5a268e2c
+	http://px.dynamicyield.com/imp?id=-628702494522124....3984795240
+	http://ip.casalemedia.com/usermatch?s=178372&cb=ht...._id%3D&C=1
+		http://sync.mathtag.com/sync/img?mt_exid=15&redir=....MM_UUID%5D
+		http://pixel.everesttech.net/1/gr?url=http%3A%2F%2....D__EFGCK__
+		http://cas.pxl.ace.advertising.com/cfcm.ashx?provi....=1&rcode=1
+		http://cm.adgrx.com/bridge?AG_PID=casale_us&AG_SETCOOKIE
+		http://pixel.quantserve.com/pixel/p-Z8PuJEk6U7Hyq.gif?idmatch=0
+		http://cas.pxl.ace.advertising.com/cfcm.ashx?provi....=1&rcode=2
+		http://dis.criteo.com/dis/usersync.aspx?r=10&p=7&c....ERID%40%40
+		http://t.brand-server.com/match_back?bidder_id=2&e....AADG%26834
+		http://cdn.optmd.com/blank.html
+		http://ad.turn.com/server/pixel.htm?fpid=21&sp=y
+			http://cdn.turn.com/server/ddc.htm?uid=32799567114....=4&cyid=85
+				http://dsum.casalemedia.com/rum?cm_dsp_id=4&extern....1429523308
+		http://dsum.casalemedia.com/crum?cm_dsp_id=20&exte....c7d0e9184a
+		http://cas.pxl.ace.advertising.com/cfcm.ashx?provi....e=1&ctst=1
+		http://sync.mathtag.com/sync/img?mt_exid=15&redir=....bnc&mm_bct
+		http://cas.pxl.ace.advertising.com/cfcm.ashx?provi....e=2&ctst=1
+		http://p.rfihub.com/cm?in=1&pub=10905
+		https://dsum-sec.casalemedia.com/rum?cm_dsp_id=81&....MchpV-gJhV
+		https://cm.g.doubleclick.net/pixel?google_nid=ever....D__EFGCK__
+		http://cm.adgrx.com/bridge.gif?AG_PID=casale_us
+		https://pixel2368.everesttech.net/2368/m?cookieid=....gle_cver=1
+		http://r.casalemedia.com/rum?cm_dsp_id=62&external....9847980033
+		http://r.casalemedia.com/rum?cm_dsp_id=66&external....9847980033
+		http://dsum.casalemedia.com/crum?cm_dsp_id=3&exter....07b97ec058
+		http://dsum.casalemedia.com/rum?cm_dsp_id=72&exter....831f002a08
+		http://t.brand-server.com/match_back?bidder_id=6&e....6555390049
+		http://pixel.sitescout.com/dmp/pixelSync?network=CBX
+		http://dsum.casalemedia.com/crum?cm_dsp_id=71&exte....fTpFpXVE40
+		http://tags.bluekai.com/site/17724?id=9db6c579-05d....415be07bc4
+		http://t.brand-server.com/match_back?bidder_id=5&e....415be07bc4
+		http://match.adsrvr.org/track/cmf/generic?ttd_pid=centro&ttd_tpi=1
+		http://match.adsrvr.org/track/cmb/generic?ttd_pid=centro&ttd_tpi=1
+		http://t.brand-server.com/match_back?bidder_id=1&e....340748c798
+		http://x.bidswitch.net/sync?ssp=centro
+		http://x.bidswitch.net/ul_cb/sync?ssp=centro
+	https://pagead2.googlesyndication.com/pagead/osd.js
+	https://securepubads.g.doubleclick.net/gampad/ads?....1331997613
+	http://pagead2.googlesyndication.com/activeview?id....t=IMG&cl=1
+	http://ml314.com/tag.aspx?592015
+	http://pixel.sitescout.com/connectors/krux/usersyn....%3D%24UUID
+	http://beacon.krxd.net/optout_check?callback=Krux.....ptOutCheck
+	http://cdn.krxd.net/userdata/get?pub=7b3785dc-e5e8....p_userdata
+	http://ml314.com/tag.aspx?592015
+	http://rtd.tubemogul.com/upi/pid/NC4WTmcy?redir=ht....USER_ID%7D
+	http://match.adsrvr.org/track/cmf/generic?ttd_pid=krux&ttd_tpi=1
+	http://adadvisor.net/adscores/g.js?sid=9212244187&....aa74fbde8e
+	http://rs.gwallet.com/r1/cm/p70r1443984802271
+	http://ml314.com/utsync.ashx?pub=748&adv=&et=0&eid....66x768&rp=
+	http://beacon.krxd.net/pixel.gif?source=smarttag&f....Fget%2C504
+	http://jslog.krxd.net/jslog.gif?commit=1&pubid=7b3....d%22%7D%5D
+	http://beacon.krxd.net/usermatch.gif?partner=ttd&p....340748c798
+	http://beacon.krxd.net/usermatch.gif?partner_id=ss....429ecd92d1
+	http://d.agkn.com/pixel/5500/?atr=000&fl=&age=&gen....visor_key=
+	http://ml314.com/tpsync.ashx?eid=&pub=748&adv=&ret....cb=1267526
+	http://beacon.krxd.net/usermatch.gif?partner_id=cb....1217756746
+	http://et.nytimes.com/?subject=page&url=http%3A%2F....A%22%22%7D
+	http://beacon.krxd.net/optout_check?callback=Krux.....ptOutCheck
+	http://tags.bluekai.com/site/20486?limit=0&id=5978151259329825962
+	http://idsync.rlcdn.com/395886.gif?partner_uid=5978151259329825962
+	http://bcp.crwdcntrl.net/5/c=6985/pe=y?http://rtg.....9329825962
+	http://beacon.krxd.net/usermatch.gif?partner=madis....9329825962
+	http://et.nytimes.com/?subject=page&url=http%3A%2F....A%22%22%7D
+	http://rtg.ml314.com/fp.ashx?fp=&eid=50146&person_....9329825962
+	http://beacon.krxd.net/data.gif?_kdpid=2111c0af-fc....visor_key=
+	http://idsync.rlcdn.com/395886.gif?partner_uid=597....redirect=1
+	https://securepubads.g.doubleclick.net/gampad/ads?....1331997613
+	http://trc.taboola.com/sg/liveramp/1/usg
+	http://www.google-analytics.com/collect?v=1&_v=j39....1557786612
+	http://et.nytimes.com/?subject=page&url=http%3A%2F....A%22%22%7D
+	http://idsync.rlcdn.com/382389.gif?partner_uid=1e6....731a3e5272
+	http://px.dynamicyield.com/rimp?id=-62870249452212....3984805404
+	http://pnytimes.chartbeat.net/ping?h=nytimes.com&p....&eM=2138&_
+	http://ml314.com/imsync.ashx?pi=597815125932982596....kwfQ%3D%3D
+	http://pnytimes.chartbeat.net/ping?h=nytimes.com&p....&eM=1810&_
+	http://pixel.keywee.co/i?e=pp&url=http%3A%2F%2Fwww....p=37442777
+	http://pnytimes.chartbeat.net/ping?h=nytimes.com&p....330&sn=4&_
+http://core8_euw1.fabrik.nytimes.com./504/zcg7ms3y/websocket
+
+
+Download Tree:
+
+Domain: www.nytimes.com
+TCP Connection: 1
+http://www.nytimes.com/
+http://www.nytimes.com/adx/bin/adxrun.html?jsonp=j....ationships
+
+TCP Connection: 2
+http://www.nytimes.com/svc/recommendations/v3/pers....n=homepage
+http://www.nytimes.com/packages/html/recommendations/ad.html
+
+TCP Connection: 3
+http://www.nytimes.com/adx/bin/clientside/61352017....EQ5ERrQ27I
+
+TCP Connection: 4
+http://www.nytimes.com/svc/video/api/v2/playlist/1....stCallback
+http://www.nytimes.com/svc/comscore/pvc.html
+
+TCP Connection: 5
+http://www.nytimes.com/svc/weather/v2/current-and-....ecast.json
+http://www.nytimes.com/adx/bin/clientside/61352017....EQ5ERrQ27I
+
+TCP Connection: 6
+http://www.nytimes.com/svc/video/api/v2/video/1000....0003951623
+http://www.nytimes.com/svc/video/api/v2/video/1000....0003956073
+
+
+Domain: typeface.nytimes.com
+TCP Connection: 1
+http://typeface.nytimes.com/fonts/nyt-cheltenham-400-normal.woff
+http://typeface.nytimes.com/fonts/nyt-cheltenham-300-normal.woff
+
+TCP Connection: 2
+http://typeface.nytimes.com/zam5nzz.js
+http://typeface.nytimes.com/css/zam5nzz.css
+
+TCP Connection: 3
+http://typeface.nytimes.com/fonts/nyt-cheltenham-700-italic.woff
+http://typeface.nytimes.com/fonts/nyt-karnak-displ....ormal.woff
+http://typeface.nytimes.com/fonts/nyt-franklin-300-normal.woff
+
+TCP Connection: 4
+http://typeface.nytimes.com/fonts/nyt-franklin-500-normal.woff
+
+TCP Connection: 5
+http://typeface.nytimes.com/fonts/nyt-cheltenham-sh-700-normal.woff
+http://typeface.nytimes.com/fonts/nyt-franklin-700-normal.woff
+
+TCP Connection: 6
+http://typeface.nytimes.com/fonts/nyt-cheltenham-sh-400-normal.woff
+http://typeface.nytimes.com/fonts/nyt-cheltenham-700-normal.woff
+http://typeface.nytimes.com/fonts/nyt-cheltenham-200-normal.woff
+
+TCP Connection: 7
+http://typeface.nytimes.com/fonts/nyt-cheltenham-500-normal.woff
+
+
+Domain: graphics8.nytimes.com
+TCP Connection: 1
+http://graphics8.nytimes.com/packages/js/multimedi....7.1.min.js
+http://graphics8.nytimes.com/images/2015/10/04/nyt....mbWide.jpg
+http://graphics8.nytimes.com/images/2015/10/04/tra....mbWide.jpg
+http://graphics8.nytimes.com/images/2012/02/29/hea....mbWide.jpg
+http://graphics8.nytimes.com/images/2015/09/27/boo....mbWide.jpg
+http://graphics8.nytimes.com/images/2015/10/03/us/....ard-v5.jpg
+http://graphics8.nytimes.com/images/2015/10/03/us/....andard.jpg
+http://graphics8.nytimes.com/bi/js/analytics/comscore.js
+
+TCP Connection: 2
+http://graphics8.nytimes.com/images/2015/10/04/nyt....mbWide.jpg
+http://graphics8.nytimes.com/images/2015/10/02/lea....mbWide.png
+http://graphics8.nytimes.com/ads/blank.gif
+http://graphics8.nytimes.com/adx/images/ADS/41/11/...._Final.jpg
+http://graphics8.nytimes.com/images/2015/10/04/wor....andard.jpg
+http://graphics8.nytimes.com/images/2015/10/03/mul....andard.jpg
+http://graphics8.nytimes.com/bi/js/analytics/EventTracker.js
+http://graphics8.nytimes.com/bi/js/analytics/show_ads.js
+
+TCP Connection: 3
+http://graphics8.nytimes.com/packages/js/multimedi....deShow2.js
+http://graphics8.nytimes.com/images/2015/10/04/nyt....mbWide.jpg
+http://graphics8.nytimes.com/images/2015/10/04/tra....ide-v2.jpg
+http://graphics8.nytimes.com/images/2015/10/01/boo....mbWide.jpg
+http://graphics8.nytimes.com/images/2015/10/03/us/....ard-v3.jpg
+http://graphics8.nytimes.com/images/2015/10/03/us/....andard.jpg
+http://graphics8.nytimes.com/bi/js/analytics/wtHelperFunctions.js
+
+TCP Connection: 4
+http://graphics8.nytimes.com/images/2015/09/29/us/....mbWide.jpg
+http://graphics8.nytimes.com/images/2015/10/04/mag....mbWide.jpg
+http://graphics8.nytimes.com/images/2015/10/04/bus....andard.jpg
+
+TCP Connection: 5
+http://graphics8.nytimes.com/packages/js/nytint/pr....0724-v1.js
+http://graphics8.nytimes.com/images/2015/10/04/nyt....mbWide.jpg
+http://graphics8.nytimes.com/images/2015/10/01/art....mbWide.jpg
+http://graphics8.nytimes.com/images/2015/10/01/sci....mbWide.jpg
+http://graphics8.nytimes.com/images/2015/10/01/fas....andard.jpg
+http://graphics8.nytimes.com/images/2015/10/02/mul....ard-v2.jpg
+http://graphics8.nytimes.com/bi/js/analytics/webtrends.js
+
+TCP Connection: 6
+http://graphics8.nytimes.com/images/2015/10/04/nyt....mbWide.jpg
+http://graphics8.nytimes.com/images/2015/09/29/sci....ide-v3.jpg
+http://graphics8.nytimes.com/images/2015/10/04/opi....andard.jpg
+
+
+Domain: a1.nyt.com
+TCP Connection: 1
+http://a1.nyt.com/assets/homepage/20150930-222007/....styles.css
+http://a1.nyt.com/assets/homepage/20150930-222007/....379x64.svg
+http://a1.nyt.com/assets/homepage/20150930-222007/....repeat.svg
+http://a1.nyt.com/assets/homepage/20150930-222007/....on/main.js
+http://a1.nyt.com/assets/homepage/20150930-222007/....n/hosts.js
+http://a1.nyt.com/assets/homepage/20150930-222007/js/homepage/main.js
+http://a1.nyt.com/assets/homepage/20150930-222007/....manager.js
+
+TCP Connection: 2
+http://a1.nyt.com/assets/homepage/20150930-222007/....amework.js
+http://a1.nyt.com/assets/homepage/20150930-222007/....185x26.svg
+
+TCP Connection: 3
+http://a1.nyt.com/assets/homepage/20150930-222007/....185x26.png
+
+
+Domain: cdn.optimizely.com
+TCP Connection: 1
+http://cdn.optimizely.com/js/3338050995.js
+
+
+Domain: www.googletagservices.com
+TCP Connection: 1
+http://www.googletagservices.com/tag/js/gpt.js
+
+
+Domain: static01.nyt.com
+TCP Connection: 1
+http://static01.nyt.com/images/2015/10/05/sports/0....Two210.jpg
+http://static01.nyt.com/images/2015/10/04/fashion/....are149.jpg
+http://static01.nyt.com/images/2015/10/04/arts/04R....are149.jpg
+http://static01.nyt.com/images/2015/10/05/world/05....andard.jpg
+http://static01.nyt.com/images/2015/10/04/us/trump....andard.jpg
+http://static01.nyt.com/images/2015/10/04/arts/04S....andard.jpg
+http://static01.nyt.com/images/2015/10/02/travel/0....andard.jpg
+http://static01.nyt.com/images/2015/10/04/realesta....andard.jpg
+http://static01.nyt.com/images/2015/10/04/realesta....andard.jpg
+http://static01.nyt.com/images/2015/10/01/multimed....ine150.jpg
+
+TCP Connection: 2
+http://static01.nyt.com/images/2015/10/05/us/05whl....andard.jpg
+http://static01.nyt.com/images/2015/10/04/opinion/....177-v2.jpg
+http://static01.nyt.com/images/2015/10/04/arts/04C....are149.jpg
+http://static01.nyt.com/images/2015/10/04/opinion/....are149.jpg
+http://static01.nyt.com/images/2015/10/04/t-magazi....andard.jpg
+http://static01.nyt.com/images/2015/09/29/multimed....ine150.jpg
+http://static01.nyt.com/images/2014/06/02/multimed....ide-v2.jpg
+
+TCP Connection: 3
+http://static01.nyt.com/images/2015/10/04/books/re....andard.jpg
+http://static01.nyt.com/images/blogs_v5/times-insi....lacked.png
+http://static01.nyt.com/images/2012/07/08/opinion/....are149.png
+http://static01.nyt.com/images/2015/10/04/arts/04N....andard.jpg
+http://static01.nyt.com/images/2015/10/05/sports/f....andard.jpg
+http://static01.nyt.com/images/2015/09/30/health/w....ard-v5.jpg
+http://static01.nyt.com/images/2015/10/04/opinion/....andard.jpg
+http://static01.nyt.com/images/2015/09/30/insider/....andard.jpg
+http://static01.nyt.com/images/2015/10/04/multimed....ine150.jpg
+http://static01.nyt.com/images/2015/10/01/multimed....ine150.jpg
+
+TCP Connection: 4
+http://static01.nyt.com/images/2015/10/05/us/05joa....ard-v3.jpg
+http://static01.nyt.com/images/crosswords/crosswords_30x30.png
+http://static01.nyt.com/images/2015/10/04/nyregion....149-v2.jpg
+http://static01.nyt.com/images/2015/10/04/fashion/....are149.jpg
+http://static01.nyt.com/images/2015/10/04/business....andard.jpg
+http://static01.nyt.com/images/2015/10/05/nyregion....andard.jpg
+http://static01.nyt.com/images/2015/10/05/arts/05a....andard.jpg
+http://static01.nyt.com/images/2015/10/07/dining/0....andard.jpg
+http://static01.nyt.com/images/2015/10/03/business....ard-v2.jpg
+http://static01.nyt.com/images/2015/10/02/multimed....ine150.jpg
+
+TCP Connection: 5
+http://static01.nyt.com/images/2015/10/04/magazine....Two210.jpg
+http://static01.nyt.com/images/2015/10/04/fashion/....149-v2.jpg
+http://static01.nyt.com/images/2015/10/04/business....andard.jpg
+http://static01.nyt.com/images/2015/10/04/fashion/....andard.jpg
+http://static01.nyt.com/images/2015/10/02/science/....andard.jpg
+http://static01.nyt.com/images/2015/10/04/books/re....andard.jpg
+http://static01.nyt.com/images/2015/09/30/upshot/0....ard-v2.jpg
+http://static01.nyt.com/images/2015/10/04/realesta....andard.jpg
+http://static01.nyt.com/images/2015/09/29/multimed....ine150.jpg
+http://static01.nyt.com/images/2015/10/03/us/03gun....150-v2.jpg
+
+TCP Connection: 6
+http://static01.nyt.com/video/vhs/2.44.0-435/font/vhs.woff?42519492
+
+
+Domain: i1.nyt.com
+TCP Connection: 1
+http://i1.nyt.com/images/global/borders/aColumnHorizontalBorder.gif
+
+
+Domain: partner.googleadservices.com
+TCP Connection: 1
+http://partner.googleadservices.com/gpt/pubads_impl_73.js
+
+
+Domain: json8.nytimes.com
+TCP Connection: 1
+http://json8.nytimes.com/slideshow/2015/10/04/nytn....owCallback
+http://json8.nytimes.com/services/json/taxonomy/v2....myCallback
+
+
+Domain: tpc.googlesyndication.com
+TCP Connection: 1
+http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html
+
+
+Domain: js-agent.newrelic.com
+TCP Connection: 1
+http://js-agent.newrelic.com/nr-686.min.js
+
+
+Domain: int.nyt.com
+TCP Connection: 1
+http://int.nyt.com/data/promotron/rankings/hp-watc....motronData
+
+
+Domain: bam.nr-data.net
+TCP Connection: 1
+http://bam.nr-data.net/1/b5bcf2eba4?a=4491446&pl=1....M.setToken
+
+
+Domain: tagx.nytimes.com
+TCP Connection: 1
+http://tagx.nytimes.com/?url=http%3A%2F%2Fwww.nyti....App=nyt-v5
+
+
+Domain: s1.nyt.com
+TCP Connection: 1
+http://s1.nyt.com/messaging/follow/available_follo....esCallback
+
+TCP Connection: 2
+http://s1.nyt.com/ugc/comments/commentData.json
+
+
+Domain: markets.on.nytimes.com
+TCP Connection: 1
+http://markets.on.nytimes.com/research/Net/Section....sonMarkets
+
+
+Domain: core.fabrik.nytimes.com
+TCP Connection: 1
+http://core.fabrik.nytimes.com/endpoints.json?json....3984783902
+
+
+Domain: www.google-analytics.com
+TCP Connection: 1
+http://www.google-analytics.com/analytics.js
+http://www.google-analytics.com/r/collect?v=1&_v=j....=212185424
+http://www.google-analytics.com/collect?v=1&_v=j39....1557786612
+
+TCP Connection: 2
+http://www.google-analytics.com/collect?v=1&_v=j39....=865593880
+
+
+Domain: b.scorecardresearch.com
+TCP Connection: 1
+http://b.scorecardresearch.com/c2/3005403/cs.js
+http://b.scorecardresearch.com/b?c1=2&c2=3005403&n....com%2F&c9=
+http://b.scorecardresearch.com/b2?c1=2&c2=3005403&....com%2F&c9=
+http://b.scorecardresearch.com/b?c1=2&c2=3005403&n....com%2F&c9=
+
+
+Domain: js.moatads.com
+TCP Connection: 1
+http://js.moatads.com/googleessencenyt485873431/mo....=undefined
+
+
+Domain: dc8xl0ndzn2cb.cloudfront.net
+TCP Connection: 1
+http://dc8xl0ndzn2cb.cloudfront.net/js/nytimes/v1/keywee.js
+http://dc8xl0ndzn2cb.cloudfront.net/sp.js
+
+
+Domain: secure-us.imrworldwide.com
+TCP Connection: 1
+http://secure-us.imrworldwide.com/cgi-bin/m?ci=us-....3984789440
+
+TCP Connection: 2
+http://secure-us.imrworldwide.com/cgi-bin/m?ci=us-....89440&ja=1
+
+
+Domain: static.chartbeat.com
+TCP Connection: 1
+http://static.chartbeat.com/js/chartbeat.js
+
+
+Domain: s.tagsrvcs.com
+TCP Connection: 1
+http://s.tagsrvcs.com/2/818492/analytics.js?pp=www....1988867000
+
+
+Domain: s.moatads.com
+TCP Connection: 1
+http://s.moatads.com/swf/MessageSenderV3.swf
+http://s.moatads.com/swf/cap.swf
+
+
+Domain: st.dynamicyield.com
+TCP Connection: 1
+http://st.dynamicyield.com/ast?sec=8765260
+
+
+Domain: pnytimes.chartbeat.net
+TCP Connection: 1
+http://pnytimes.chartbeat.net/ping?h=nytimes.com&p....330&sn=1&_
+http://pnytimes.chartbeat.net/ping?h=nytimes.com&p....&eM=2138&_
+http://pnytimes.chartbeat.net/ping?h=nytimes.com&p....&eM=2138&_
+
+
+Domain: et.nytimes.com
+TCP Connection: 1
+http://et.nytimes.com/?assetUrl=http%3A%2F%2Fwww.n....racker.cb2
+http://et.nytimes.com/?subject=video-nytv&url=http....racker.cb5
+http://et.nytimes.com/?assetUrl=http%3A%2F%2Fwww.n....racker.cb8
+
+TCP Connection: 2
+http://et.nytimes.com/?subject=page&url=http%3A%2F....land%22%7D
+http://et.nytimes.com/?subject=page&url=http%3A%2F....A%22%22%7D
+http://et.nytimes.com/?assetUrl=http%3A%2F%2Fwww.n....racker.cb4
+http://et.nytimes.com/?subject=video-nytv&url=http....racker.cb7
+http://et.nytimes.com/?subject=page&url=http%3A%2F....A%22%22%7D
+http://et.nytimes.com/?subject=page&url=http%3A%2F....A%22%22%7D
+
+TCP Connection: 3
+http://et.nytimes.com/?assetUrl=http%3A%2F%2Fwww.n....racker.cb3
+http://et.nytimes.com/?assetUrl=http%3A%2F%2Fwww.n....racker.cb6
+http://et.nytimes.com/?subject=page&url=http%3A%2F....A%22%22%7D
+
+
+Domain: wt.o.nytimes.com
+TCP Connection: 1
+http://wt.o.nytimes.com/dcsa5pgfq10000c9zuysqk0lm_....IdCallback
+
+TCP Connection: 2
+http://wt.o.nytimes.com/dcsa5pgfq10000c9zuysqk0lm_....e454d64770
+
+TCP Connection: 3
+http://wt.o.nytimes.com/dcsa5pgfq10000c9zuysqk0lm_....e454d64770
+
+
+Domain: connect.facebook.net
+TCP Connection: 1
+http://connect.facebook.net/en_US/fbds.js
+
+
+Domain: v4.moatads.com
+TCP Connection: 1
+http://v4.moatads.com/pixel.gif?e=17&i=NYTIMESDFP1....2%242&cs=0
+http://v4.moatads.com/pixel.gif?e=0&q=0&lo=0&qs=5&....2%242&cs=0
+http://v4.moatads.com/pixel.gif?e=17&i=NYTIMESDFP1....2%242&cs=0
+http://v4.moatads.com/pixel.gif?e=0&q=0&lo=0&qs=5&....2%242&cs=0
+
+
+Domain: static.dynamicyield.com
+TCP Connection: 1
+http://static.dynamicyield.com/scripts/12007/dy-min.js?v=12088
+
+TCP Connection: 2
+http://static.dynamicyield.com/scripts/12007/dyjq-min.js?v=12088
+
+
+Domain: t.brand-server.com
+TCP Connection: 1
+http://t.brand-server.com/adj?s=19569&sz=728x90
+
+TCP Connection: 2
+http://t.brand-server.com/ul_cb/adj?s=19569&sz=728x90
+http://t.brand-server.com/match_back?bidder_id=2&e....AADG%26834
+http://t.brand-server.com/match_back?bidder_id=6&e....6555390049
+http://t.brand-server.com/match_back?bidder_id=5&e....415be07bc4
+http://t.brand-server.com/match_back?bidder_id=1&e....340748c798
+
+
+Domain: pixel.keywee.co
+TCP Connection: 1
+http://pixel.keywee.co/i?e=pv&url=http%3A%2F%2Fwww....p=37442777
+
+
+Domain: pagead2.googlesyndication.com
+TCP Connection: 1
+http://pagead2.googlesyndication.com/pagead/osd.js
+http://pagead2.googlesyndication.com/pagead/show_ads.js
+http://pagead2.googlesyndication.com/pagead/js/r20....ds_impl.js
+http://pagead2.googlesyndication.com/pagead/gen_20....rl=missing
+http://pagead2.googlesyndication.com/activeview?id....t=IMG&cl=1
+
+TCP Connection: 2
+http://pagead2.googlesyndication.com/activeview?id....t=IMG&cl=1
+
+TCP Connection: 3
+http://pagead2.googlesyndication.com/activeview?id....t=IMG&cl=1
+
+
+Domain: 79423.analytics.edgekey.net
+TCP Connection: 1
+http://79423.analytics.edgekey.net/js/csma.js
+
+
+Domain: px.dynamicyield.com
+TCP Connection: 1
+http://px.dynamicyield.com/uia?id=-628702494522124....3984792560
+http://px.dynamicyield.com/rimp?id=-62870249452212....3984805404
+
+TCP Connection: 2
+http://px.dynamicyield.com/imp?id=-628702494522124....3984795240
+
+
+Domain: core8_euw1.fabrik.nytimes.com.
+TCP Connection: 1
+http://core8_euw1.fabrik.nytimes.com./info
+
+TCP Connection: 2
+http://core8_euw1.fabrik.nytimes.com./504/zcg7ms3y/websocket
+
+
+Domain: cdn.krxd.net
+TCP Connection: 1
+http://cdn.krxd.net/controltag?confid=JeGqRsy-
+http://cdn.krxd.net/ctjs/controltag.js.875fd5b280a....4a5a268e2c
+http://cdn.krxd.net/userdata/get?pub=7b3785dc-e5e8....p_userdata
+
+
+Domain: ip.casalemedia.com
+TCP Connection: 1
+http://ip.casalemedia.com/usermatch?s=178372&cb=ht....user_id%3D
+http://ip.casalemedia.com/usermatch?s=178372&cb=ht...._id%3D&C=1
+
+
+Domain: sync.mathtag.com
+TCP Connection: 1
+http://sync.mathtag.com/sync/img?mt_exid=15&redir=....bnc&mm_bct
+
+TCP Connection: 2
+http://sync.mathtag.com/sync/img?mt_exid=15&redir=....MM_UUID%5D
+
+
+Domain: cas.pxl.ace.advertising.com
+TCP Connection: 1
+http://cas.pxl.ace.advertising.com/cfcm.ashx?provi....=1&rcode=1
+http://cas.pxl.ace.advertising.com/cfcm.ashx?provi....e=1&ctst=1
+
+TCP Connection: 2
+http://cas.pxl.ace.advertising.com/cfcm.ashx?provi....=1&rcode=2
+http://cas.pxl.ace.advertising.com/cfcm.ashx?provi....e=2&ctst=1
+
+
+Domain: dis.criteo.com
+TCP Connection: 1
+http://dis.criteo.com/dis/usersync.aspx?r=10&p=7&c....ERID%40%40
+
+
+Domain: cdn.optmd.com
+TCP Connection: 1
+http://cdn.optmd.com/blank.html
+
+
+Domain: pixel.quantserve.com
+TCP Connection: 1
+http://pixel.quantserve.com/pixel/p-Z8PuJEk6U7Hyq.gif?idmatch=0
+
+
+Domain: pixel.everesttech.net
+TCP Connection: 1
+http://pixel.everesttech.net/1/gr?url=http%3A%2F%2....D__EFGCK__
+
+
+Domain: cm.adgrx.com
+TCP Connection: 1
+http://cm.adgrx.com/bridge?AG_PID=casale_us&AG_SETCOOKIE
+
+TCP Connection: 2
+http://cm.adgrx.com/bridge.gif?AG_PID=casale_us
+
+
+Domain: dsum.casalemedia.com
+TCP Connection: 1
+http://dsum.casalemedia.com/rum?cm_dsp_id=72&exter....831f002a08
+
+TCP Connection: 2
+http://dsum.casalemedia.com/rum?cm_dsp_id=4&extern....1429523308
+
+TCP Connection: 3
+http://dsum.casalemedia.com/crum?cm_dsp_id=20&exte....c7d0e9184a
+
+TCP Connection: 4
+http://dsum.casalemedia.com/crum?cm_dsp_id=71&exte....fTpFpXVE40
+
+TCP Connection: 5
+http://dsum.casalemedia.com/crum?cm_dsp_id=3&exter....07b97ec058
+
+
+Domain: ad.turn.com
+TCP Connection: 1
+http://ad.turn.com/server/pixel.htm?fpid=21&sp=y
+
+
+Domain: p.rfihub.com
+TCP Connection: 1
+http://p.rfihub.com/cm?in=1&pub=10905
+
+
+Domain: r.casalemedia.com
+TCP Connection: 1
+http://r.casalemedia.com/rum?cm_dsp_id=62&external....9847980033
+
+TCP Connection: 2
+http://r.casalemedia.com/rum?cm_dsp_id=66&external....9847980033
+
+
+Domain: cdn.turn.com
+TCP Connection: 1
+http://cdn.turn.com/server/ddc.htm?uid=32799567114....=4&cyid=85
+
+
+Domain: pixel.sitescout.com
+TCP Connection: 1
+http://pixel.sitescout.com/dmp/pixelSync?network=CBX
+
+TCP Connection: 2
+http://pixel.sitescout.com/connectors/krux/usersyn....%3D%24UUID
+
+
+Domain: tags.bluekai.com
+TCP Connection: 1
+http://tags.bluekai.com/site/17724?id=9db6c579-05d....415be07bc4
+http://tags.bluekai.com/site/20486?limit=0&id=5978151259329825962
+
+
+Domain: match.adsrvr.org
+TCP Connection: 1
+http://match.adsrvr.org/track/cmf/generic?ttd_pid=centro&ttd_tpi=1
+http://match.adsrvr.org/track/cmb/generic?ttd_pid=centro&ttd_tpi=1
+http://match.adsrvr.org/track/cmf/generic?ttd_pid=krux&ttd_tpi=1
+
+
+Domain: x.bidswitch.net
+TCP Connection: 1
+http://x.bidswitch.net/sync?ssp=centro
+
+TCP Connection: 2
+http://x.bidswitch.net/ul_cb/sync?ssp=centro
+
+
+Domain: ml314.com
+TCP Connection: 1
+http://ml314.com/tag.aspx?592015
+http://ml314.com/tag.aspx?592015
+http://ml314.com/utsync.ashx?pub=748&adv=&et=0&eid....66x768&rp=
+http://ml314.com/tpsync.ashx?eid=&pub=748&adv=&ret....cb=1267526
+http://ml314.com/imsync.ashx?pi=597815125932982596....kwfQ%3D%3D
+
+
+Domain: rs.gwallet.com
+TCP Connection: 1
+http://rs.gwallet.com/r1/cm/p70r1443984802271
+
+
+Domain: beacon.krxd.net
+TCP Connection: 1
+http://beacon.krxd.net/optout_check?callback=Krux.....ptOutCheck
+http://beacon.krxd.net/pixel.gif?source=smarttag&f....Fget%2C504
+http://beacon.krxd.net/optout_check?callback=Krux.....ptOutCheck
+http://beacon.krxd.net/data.gif?_kdpid=2111c0af-fc....visor_key=
+
+TCP Connection: 2
+http://beacon.krxd.net/usermatch.gif?partner=ttd&p....340748c798
+http://beacon.krxd.net/usermatch.gif?partner=madis....9329825962
+
+TCP Connection: 3
+http://beacon.krxd.net/usermatch.gif?partner_id=ss....429ecd92d1
+
+TCP Connection: 4
+http://beacon.krxd.net/usermatch.gif?partner_id=cb....1217756746
+
+TCP Connection: 5
+http://beacon.krxd.net/data.gif?_kdpid=2111c0af-fc....visor_key=
+
+
+Domain: adadvisor.net
+TCP Connection: 1
+http://adadvisor.net/adscores/g.js?sid=9212244187&....aa74fbde8e
+
+
+Domain: rtd.tubemogul.com
+TCP Connection: 1
+http://rtd.tubemogul.com/upi/pid/NC4WTmcy?redir=ht....USER_ID%7D
+
+
+Domain: jslog.krxd.net
+TCP Connection: 1
+http://jslog.krxd.net/jslog.gif?commit=1&pubid=7b3....d%22%7D%5D
+
+
+Domain: d.agkn.com
+TCP Connection: 1
+http://d.agkn.com/pixel/5500/?atr=000&fl=&age=&gen....visor_key=
+
+
+Domain: bcp.crwdcntrl.net
+TCP Connection: 1
+http://bcp.crwdcntrl.net/5/c=6985/pe=y?http://rtg.....9329825962
+
+
+Domain: idsync.rlcdn.com
+TCP Connection: 1
+http://idsync.rlcdn.com/395886.gif?partner_uid=5978151259329825962
+
+TCP Connection: 2
+http://idsync.rlcdn.com/395886.gif?partner_uid=597....redirect=1
+
+TCP Connection: 3
+http://idsync.rlcdn.com/382389.gif?partner_uid=1e6....731a3e5272
+
+
+Domain: rtg.ml314.com
+TCP Connection: 1
+http://rtg.ml314.com/fp.ashx?fp=&eid=50146&person_....9329825962
+
+
+Domain: trc.taboola.com
+TCP Connection: 1
+http://trc.taboola.com/sg/liveramp/1/usg
+
+
+Timing Information:
+Page load time: 1 minutes, 8 seconds and 306 milliseconds
+
+1. Domain name: www.nytimes.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 637
+Receiving Time: 580
+Sending Time: 0
+Time for which connection was active: 0 minutes, 19 seconds and 117 milliseconds
+Percentage of Time Active: 0.064
+Percentage of Time Idle: 0.936
+Average Goodput of Connection: 61.002
+Maximum Goodput of Connection: 57.478
+Maximum Goodput through direct request: 82.8335932032
+
+TCP Connection: 2
+Connection Establishment Time: 187
+Waiting Time: 862
+Receiving Time: 327
+Sending Time: 0
+Time for which connection was active: 0 minutes, 1 seconds and 511 milliseconds
+Percentage of Time Active: 0.787
+Percentage of Time Idle: 0.213
+Average Goodput of Connection: 7.281
+Maximum Goodput of Connection: 6.602
+Maximum Goodput through direct request: 4.22050671981
+
+TCP Connection: 3
+Connection Establishment Time: 0
+Waiting Time: 344
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 344 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 6.94147054121
+
+TCP Connection: 4
+Connection Establishment Time: 0
+Waiting Time: 647
+Receiving Time: 3
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 852 milliseconds
+Percentage of Time Active: 0.763
+Percentage of Time Idle: 0.237
+Average Goodput of Connection: 1212.000
+Maximum Goodput of Connection: 1195.667
+Maximum Goodput through direct request: 9.15062244921
+
+TCP Connection: 5
+Connection Establishment Time: 293
+Waiting Time: 730
+Receiving Time: 1
+Sending Time: 0
+Time for which connection was active: 0 minutes, 2 seconds and 394 milliseconds
+Percentage of Time Active: 0.305
+Percentage of Time Idle: 0.695
+Average Goodput of Connection: 3010.000
+Maximum Goodput of Connection: 2965.000
+Maximum Goodput through direct request: 9.51451712881
+
+TCP Connection: 6
+Connection Establishment Time: 0
+Waiting Time: 706
+Receiving Time: 4
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 772 milliseconds
+Percentage of Time Active: 0.920
+Percentage of Time Idle: 0.080
+Average Goodput of Connection: 1271.750
+Maximum Goodput of Connection: 1301.000
+Maximum Goodput through direct request: 6.32709759609
+
+Maximum No. of TCP connections open simultaneously: 3 
+
+
+2. Domain name: typeface.nytimes.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 143
+Receiving Time: 455
+Sending Time: 0
+Time for which connection was active: 0 minutes, 5 seconds and 87 milliseconds
+Percentage of Time Active: 0.118
+Percentage of Time Idle: 0.882
+Average Goodput of Connection: 105.530
+Maximum Goodput of Connection: 70.685
+Maximum Goodput through direct request: 318.689323031
+
+TCP Connection: 2
+Connection Establishment Time: 0
+Waiting Time: 70
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 12 seconds and 243 milliseconds
+Percentage of Time Active: 0.006
+Percentage of Time Idle: 0.994
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 406.398327369
+
+TCP Connection: 3
+Connection Establishment Time: 0
+Waiting Time: 137
+Receiving Time: 216
+Sending Time: 0
+Time for which connection was active: 0 minutes, 7 seconds and 448 milliseconds
+Percentage of Time Active: 0.047
+Percentage of Time Idle: 0.953
+Average Goodput of Connection: 408.481
+Maximum Goodput of Connection: 233.209
+Maximum Goodput through direct request: 434.879732334
+
+TCP Connection: 4
+Connection Establishment Time: 0
+Waiting Time: 83
+Receiving Time: 88
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 171 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Average Goodput of Connection: 333.227
+Maximum Goodput of Connection: 333.227
+Maximum Goodput through direct request: 396.774577062
+
+TCP Connection: 5
+Connection Establishment Time: 0
+Waiting Time: 103
+Receiving Time: 123
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 227 milliseconds
+Percentage of Time Active: 0.996
+Percentage of Time Idle: 0.004
+Average Goodput of Connection: 449.789
+Maximum Goodput of Connection: 1134.769
+Maximum Goodput through direct request: 327.607304634
+
+TCP Connection: 6
+Connection Establishment Time: 0
+Waiting Time: 176
+Receiving Time: 159
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 437 milliseconds
+Percentage of Time Active: 0.767
+Percentage of Time Idle: 0.233
+Average Goodput of Connection: 482.214
+Maximum Goodput of Connection: 651.321
+Maximum Goodput through direct request: 427.508729793
+
+TCP Connection: 7
+Connection Establishment Time: 0
+Waiting Time: 87
+Receiving Time: 159
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 246 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Average Goodput of Connection: 204.604
+Maximum Goodput of Connection: 204.604
+Maximum Goodput through direct request: 337.661711774
+
+Maximum No. of TCP connections open simultaneously: 6 
+
+
+3. Domain name: graphics8.nytimes.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 469
+Receiving Time: 56
+Sending Time: 0
+Time for which connection was active: 0 minutes, 20 seconds and 499 milliseconds
+Percentage of Time Active: 0.026
+Percentage of Time Idle: 0.974
+Average Goodput of Connection: 1208.393
+Maximum Goodput of Connection: 1104.667
+Maximum Goodput through direct request: 48.5911748712
+
+TCP Connection: 2
+Connection Establishment Time: 0
+Waiting Time: 373
+Receiving Time: 441
+Sending Time: 0
+Time for which connection was active: 0 minutes, 7 seconds and 466 milliseconds
+Percentage of Time Active: 0.109
+Percentage of Time Idle: 0.891
+Average Goodput of Connection: 205.331
+Maximum Goodput of Connection: 110.822
+Maximum Goodput through direct request: 246.767425416
+
+TCP Connection: 3
+Connection Establishment Time: 0
+Waiting Time: 468
+Receiving Time: 31
+Sending Time: 0
+Time for which connection was active: 0 minutes, 20 seconds and 519 milliseconds
+Percentage of Time Active: 0.024
+Percentage of Time Idle: 0.976
+Average Goodput of Connection: 1364.129
+Maximum Goodput of Connection: 1381.125
+Maximum Goodput through direct request: 24.115079629
+
+TCP Connection: 4
+Connection Establishment Time: 0
+Waiting Time: 245
+Receiving Time: 12
+Sending Time: 0
+Time for which connection was active: 0 minutes, 2 seconds and 474 milliseconds
+Percentage of Time Active: 0.104
+Percentage of Time Idle: 0.896
+Average Goodput of Connection: 1649.500
+Maximum Goodput of Connection: 1319.500
+Maximum Goodput through direct request: 120.685577515
+
+TCP Connection: 5
+Connection Establishment Time: 0
+Waiting Time: 485
+Receiving Time: 52
+Sending Time: 0
+Time for which connection was active: 0 minutes, 20 seconds and 524 milliseconds
+Percentage of Time Active: 0.026
+Percentage of Time Idle: 0.974
+Average Goodput of Connection: 1078.115
+Maximum Goodput of Connection: 1198.077
+Maximum Goodput through direct request: 77.0970817573
+
+TCP Connection: 6
+Connection Establishment Time: 0
+Waiting Time: 244
+Receiving Time: 268
+Sending Time: 0
+Time for which connection was active: 0 minutes, 6 seconds and 129 milliseconds
+Percentage of Time Active: 0.084
+Percentage of Time Idle: 0.916
+Average Goodput of Connection: 94.485
+Maximum Goodput of Connection: 45.806
+Maximum Goodput through direct request: 130.055426131
+
+Maximum No. of TCP connections open simultaneously: 6 
+
+
+4. Domain name: a1.nyt.com
+DNS Query Time: 11943 ms (On connection 1)
+DNS Query Time: 11978 ms (On connection 2)
+
+TCP Connection: 1
+Connection Establishment Time: 19
+Waiting Time: 213
+Receiving Time: 680
+Sending Time: 0
+Time for which connection was active: 0 minutes, 7 seconds and 397 milliseconds
+Percentage of Time Active: 0.121
+Percentage of Time Idle: 0.879
+Average Goodput of Connection: 435.768
+Maximum Goodput of Connection: 1010.431
+Maximum Goodput through direct request: 118.814114013
+
+TCP Connection: 2
+Connection Establishment Time: 21
+Waiting Time: 89
+Receiving Time: 32
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 910 milliseconds
+Percentage of Time Active: 0.133
+Percentage of Time Idle: 0.867
+Average Goodput of Connection: 629.375
+Maximum Goodput of Connection: 586.724
+Maximum Goodput through direct request: 147.467950895
+
+TCP Connection: 3
+Connection Establishment Time: 0
+Waiting Time: 52
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 52 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 145.309372144
+
+Maximum No. of TCP connections open simultaneously: 3 
+
+
+5. Domain name: cdn.optimizely.com
+DNS Query Time: 11979 ms (On connection 1)
+
+TCP Connection: 1
+Connection Establishment Time: 77
+Waiting Time: 68
+Receiving Time: 175
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 320 milliseconds
+Percentage of Time Active: 0.759
+Percentage of Time Idle: 0.241
+Average Goodput of Connection: 351.669
+Maximum Goodput of Connection: 351.669
+Maximum Goodput through direct request: 157.083861824
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+6. Domain name: www.googletagservices.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 26
+Waiting Time: 158
+Receiving Time: 1
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 185 milliseconds
+Percentage of Time Active: 0.859
+Percentage of Time Idle: 0.141
+Average Goodput of Connection: 1296.000
+Maximum Goodput of Connection: 1296.000
+Maximum Goodput through direct request: 10.5367567645
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+7. Domain name: static01.nyt.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 638
+Receiving Time: 48
+Sending Time: 0
+Time for which connection was active: 0 minutes, 9 seconds and 159 milliseconds
+Percentage of Time Active: 0.075
+Percentage of Time Idle: 0.925
+Average Goodput of Connection: 1243.312
+Maximum Goodput of Connection: 1157.643
+Maximum Goodput through direct request: 297.119525707
+
+TCP Connection: 2
+Connection Establishment Time: 0
+Waiting Time: 346
+Receiving Time: 360
+Sending Time: 0
+Time for which connection was active: 0 minutes, 9 seconds and 189 milliseconds
+Percentage of Time Active: 0.077
+Percentage of Time Idle: 0.923
+Average Goodput of Connection: 117.772
+Maximum Goodput of Connection: 27.716
+Maximum Goodput through direct request: 207.445435151
+
+TCP Connection: 3
+Connection Establishment Time: 0
+Waiting Time: 522
+Receiving Time: 178
+Sending Time: 0
+Time for which connection was active: 0 minutes, 9 seconds and 171 milliseconds
+Percentage of Time Active: 0.076
+Percentage of Time Idle: 0.924
+Average Goodput of Connection: 545.500
+Maximum Goodput of Connection: 344.883
+Maximum Goodput through direct request: 117.488665249
+
+TCP Connection: 4
+Connection Establishment Time: 0
+Waiting Time: 622
+Receiving Time: 39
+Sending Time: 0
+Time for which connection was active: 0 minutes, 9 seconds and 156 milliseconds
+Percentage of Time Active: 0.072
+Percentage of Time Idle: 0.928
+Average Goodput of Connection: 1510.000
+Maximum Goodput of Connection: 1370.154
+Maximum Goodput through direct request: 229.746426127
+
+TCP Connection: 5
+Connection Establishment Time: 0
+Waiting Time: 618
+Receiving Time: 100
+Sending Time: 0
+Time for which connection was active: 0 minutes, 9 seconds and 177 milliseconds
+Percentage of Time Active: 0.078
+Percentage of Time Idle: 0.922
+Average Goodput of Connection: 610.910
+Maximum Goodput of Connection: 281.693
+Maximum Goodput through direct request: 138.804267223
+
+TCP Connection: 6
+Connection Establishment Time: 12
+Waiting Time: 59
+Receiving Time: 4
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 75 milliseconds
+Percentage of Time Active: 0.840
+Percentage of Time Idle: 0.160
+Average Goodput of Connection: 1082.000
+Maximum Goodput of Connection: 1082.000
+Maximum Goodput through direct request: 33.3968924997
+
+Maximum No. of TCP connections open simultaneously: 5 
+
+
+8. Domain name: i1.nyt.com
+DNS Query Time: 51 ms (On connection 1)
+
+TCP Connection: 1
+Connection Establishment Time: 49
+Waiting Time: 42
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 91 milliseconds
+Percentage of Time Active: 0.462
+Percentage of Time Idle: 0.538
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 36.1872735413
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+9. Domain name: partner.googleadservices.com
+DNS Query Time: 22 ms (On connection 1)
+
+TCP Connection: 1
+Connection Establishment Time: 43
+Waiting Time: 48
+Receiving Time: 107
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 198 milliseconds
+Percentage of Time Active: 0.783
+Percentage of Time Idle: 0.217
+Average Goodput of Connection: 466.467
+Maximum Goodput of Connection: 466.467
+Maximum Goodput through direct request: 52.2484474916
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+10. Domain name: json8.nytimes.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 6
+Waiting Time: 62
+Receiving Time: 9
+Sending Time: 0
+Time for which connection was active: 0 minutes, 5 seconds and 968 milliseconds
+Percentage of Time Active: 0.012
+Percentage of Time Idle: 0.988
+Average Goodput of Connection: 1423.889
+Maximum Goodput of Connection: 1488.200
+Maximum Goodput through direct request: 60.6695580563
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+11. Domain name: tpc.googlesyndication.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 1
+Waiting Time: 61
+Receiving Time: 1
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 63 milliseconds
+Percentage of Time Active: 0.984
+Percentage of Time Idle: 0.016
+Average Goodput of Connection: 1877.000
+Maximum Goodput of Connection: 1877.000
+Maximum Goodput through direct request: 29.1332549115
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+12. Domain name: js-agent.newrelic.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 197
+Waiting Time: 235
+Receiving Time: 7
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 439 milliseconds
+Percentage of Time Active: 0.551
+Percentage of Time Idle: 0.449
+Average Goodput of Connection: 1207.714
+Maximum Goodput of Connection: 1207.714
+Maximum Goodput through direct request: 6.52974776754
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+13. Domain name: int.nyt.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 763
+Receiving Time: 59
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 822 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Average Goodput of Connection: 359.746
+Maximum Goodput of Connection: 359.746
+Maximum Goodput through direct request: 19.4282403587
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+14. Domain name: bam.nr-data.net
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 106
+Waiting Time: 313
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 419 milliseconds
+Percentage of Time Active: 0.747
+Percentage of Time Idle: 0.253
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 18.3298685672
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+15. Domain name: tagx.nytimes.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 170
+Waiting Time: 330
+Receiving Time: 986
+Sending Time: 0
+Time for which connection was active: 0 minutes, 1 seconds and 486 milliseconds
+Percentage of Time Active: 0.886
+Percentage of Time Idle: 0.114
+Average Goodput of Connection: 10.772
+Maximum Goodput of Connection: 10.772
+Maximum Goodput through direct request: 7.95579933279
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+16. Domain name: s1.nyt.com
+DNS Query Time: 24 ms (On connection 1)
+DNS Query Time: 2 ms (On connection 2)
+
+TCP Connection: 1
+Connection Establishment Time: 18
+Waiting Time: 38
+Receiving Time: 6
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 62 milliseconds
+Percentage of Time Active: 0.710
+Percentage of Time Idle: 0.290
+Average Goodput of Connection: 1123.000
+Maximum Goodput of Connection: 1123.000
+Maximum Goodput through direct request: 177.36314164
+
+TCP Connection: 2
+Connection Establishment Time: 0
+Waiting Time: 394
+Receiving Time: 1376
+Sending Time: 0
+Time for which connection was active: 0 minutes, 1 seconds and 770 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Average Goodput of Connection: 61.711
+Maximum Goodput of Connection: 61.711
+Maximum Goodput through direct request: 22.2796822412
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+17. Domain name: markets.on.nytimes.com
+DNS Query Time: 253 ms (On connection 1)
+
+TCP Connection: 1
+Connection Establishment Time: 281
+Waiting Time: 508
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 789 milliseconds
+Percentage of Time Active: 0.644
+Percentage of Time Idle: 0.356
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 44.5588989868
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+18. Domain name: core.fabrik.nytimes.com
+DNS Query Time: 132 ms (On connection 1)
+
+TCP Connection: 1
+Connection Establishment Time: 190
+Waiting Time: 193
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 383 milliseconds
+Percentage of Time Active: 0.504
+Percentage of Time Idle: 0.496
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 35.1524369886
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+19. Domain name: www.google-analytics.com
+DNS Query Time: 1 ms (On connection 2)
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 243
+Receiving Time: 8
+Sending Time: 0
+Time for which connection was active: 0 minutes, 15 seconds and 456 milliseconds
+Percentage of Time Active: 0.016
+Percentage of Time Idle: 0.984
+Average Goodput of Connection: 1418.750
+Maximum Goodput of Connection: 1368.500
+Maximum Goodput through direct request: 95.0183649866
+
+TCP Connection: 2
+Connection Establishment Time: 61
+Waiting Time: 62
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 123 milliseconds
+Percentage of Time Active: 0.504
+Percentage of Time Idle: 0.496
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 93.058854198
+
+Maximum No. of TCP connections open simultaneously: 2 
+
+
+20. Domain name: b.scorecardresearch.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 125
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 2 seconds and 601 milliseconds
+Percentage of Time Active: 0.048
+Percentage of Time Idle: 0.952
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 93.5142558488
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+21. Domain name: js.moatads.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 48
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 48 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 89.5424333091
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+22. Domain name: dc8xl0ndzn2cb.cloudfront.net
+DNS Query Time: 54 ms (On connection 1)
+
+TCP Connection: 1
+Connection Establishment Time: 90
+Waiting Time: 187
+Receiving Time: 294
+Sending Time: 0
+Time for which connection was active: 0 minutes, 1 seconds and 693 milliseconds
+Percentage of Time Active: 0.284
+Percentage of Time Idle: 0.716
+Average Goodput of Connection: 232.707
+Maximum Goodput of Connection: 226.710
+Maximum Goodput through direct request: 284.147450579
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+23. Domain name: secure-us.imrworldwide.com
+DNS Query Time: 17 ms (On connection 1)
+
+TCP Connection: 1
+Connection Establishment Time: 160
+Waiting Time: 154
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 314 milliseconds
+Percentage of Time Active: 0.490
+Percentage of Time Idle: 0.510
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 310.721409394
+
+TCP Connection: 2
+Connection Establishment Time: 0
+Waiting Time: 183
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 183 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 301.359567149
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+24. Domain name: static.chartbeat.com
+DNS Query Time: 2 ms (On connection 1)
+
+TCP Connection: 1
+Connection Establishment Time: 269
+Waiting Time: 256
+Receiving Time: 9
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 534 milliseconds
+Percentage of Time Active: 0.496
+Percentage of Time Idle: 0.504
+Average Goodput of Connection: 1214.000
+Maximum Goodput of Connection: 1214.000
+Maximum Goodput through direct request: 7.61136540361
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+25. Domain name: s.tagsrvcs.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 379
+Waiting Time: 350
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 729 milliseconds
+Percentage of Time Active: 0.480
+Percentage of Time Idle: 0.520
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 10.6662967866
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+26. Domain name: s.moatads.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 20
+Waiting Time: 49
+Receiving Time: 1
+Sending Time: 0
+Time for which connection was active: 0 minutes, 1 seconds and 52 milliseconds
+Percentage of Time Active: 0.048
+Percentage of Time Idle: 0.952
+Average Goodput of Connection: 4010.000
+Maximum Goodput of Connection: 2280.000
+Maximum Goodput through direct request: 67.4097242429
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+27. Domain name: st.dynamicyield.com
+DNS Query Time: 9 ms (On connection 1)
+
+TCP Connection: 1
+Connection Establishment Time: 191
+Waiting Time: 204
+Receiving Time: 1
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 396 milliseconds
+Percentage of Time Active: 0.518
+Percentage of Time Idle: 0.482
+Average Goodput of Connection: 2280.000
+Maximum Goodput of Connection: 2280.000
+Maximum Goodput through direct request: 10.9112758291
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+28. Domain name: pnytimes.chartbeat.net
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 1047
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 16 seconds and 34 milliseconds
+Percentage of Time Active: 0.065
+Percentage of Time Idle: 0.935
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 9.88429215211
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+29. Domain name: et.nytimes.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 1227
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 2 seconds and 566 milliseconds
+Percentage of Time Active: 0.478
+Percentage of Time Idle: 0.522
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 11.3232858442
+
+TCP Connection: 2
+Connection Establishment Time: 357
+Waiting Time: 2563
+Receiving Time: 1
+Sending Time: 0
+Time for which connection was active: 0 minutes, 15 seconds and 201 milliseconds
+Percentage of Time Active: 0.169
+Percentage of Time Idle: 0.831
+Average Goodput of Connection: 40425.000
+Maximum Goodput of Connection: 12983.000
+Maximum Goodput through direct request: 31.6584279412
+
+TCP Connection: 3
+Connection Establishment Time: 0
+Waiting Time: 1204
+Receiving Time: 3
+Sending Time: 0
+Time for which connection was active: 0 minutes, 11 seconds and 706 milliseconds
+Percentage of Time Active: 0.103
+Percentage of Time Idle: 0.897
+Average Goodput of Connection: 1442.667
+Maximum Goodput of Connection: 0.000
+Maximum Goodput through direct request: 0.0
+
+Maximum No. of TCP connections open simultaneously: 3 
+
+
+30. Domain name: wt.o.nytimes.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 158
+Waiting Time: 177
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 335 milliseconds
+Percentage of Time Active: 0.528
+Percentage of Time Idle: 0.472
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 0.0
+
+TCP Connection: 2
+Connection Establishment Time: 0
+Waiting Time: 189
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 189 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 0.0
+
+TCP Connection: 3
+Connection Establishment Time: 168
+Waiting Time: 212
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 380 milliseconds
+Percentage of Time Active: 0.558
+Percentage of Time Idle: 0.442
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 0.0
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+31. Domain name: connect.facebook.net
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 27
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 27 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 0.0
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+32. Domain name: v4.moatads.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 330
+Waiting Time: 1389
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 3 seconds and 646 milliseconds
+Percentage of Time Active: 0.381
+Percentage of Time Idle: 0.619
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 0.0
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+33. Domain name: static.dynamicyield.com
+DNS Query Time: 14 ms (On connection 1)
+DNS Query Time: 14 ms (On connection 2)
+
+TCP Connection: 1
+Connection Establishment Time: 166
+Waiting Time: 186
+Receiving Time: 188
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 540 milliseconds
+Percentage of Time Active: 0.693
+Percentage of Time Idle: 0.307
+Average Goodput of Connection: 139.723
+Maximum Goodput of Connection: 139.723
+Maximum Goodput through direct request: 26.3611119618
+
+TCP Connection: 2
+Connection Establishment Time: 166
+Waiting Time: 167
+Receiving Time: 355
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 688 milliseconds
+Percentage of Time Active: 0.759
+Percentage of Time Idle: 0.241
+Average Goodput of Connection: 113.718
+Maximum Goodput of Connection: 113.718
+Maximum Goodput through direct request: 52.7529687571
+
+Maximum No. of TCP connections open simultaneously: 2 
+
+
+34. Domain name: t.brand-server.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 364
+Waiting Time: 443
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 807 milliseconds
+Percentage of Time Active: 0.549
+Percentage of Time Idle: 0.451
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 51.5515960244
+
+TCP Connection: 2
+Connection Establishment Time: 0
+Waiting Time: 1977
+Receiving Time: 1
+Sending Time: 0
+Time for which connection was active: 0 minutes, 7 seconds and 506 milliseconds
+Percentage of Time Active: 0.264
+Percentage of Time Idle: 0.736
+Average Goodput of Connection: 2489.000
+Maximum Goodput of Connection: 2489.000
+Maximum Goodput through direct request: 2.70038615262
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+35. Domain name: pixel.keywee.co
+DNS Query Time: 1 ms (On connection 1)
+
+TCP Connection: 1
+Connection Establishment Time: 304
+Waiting Time: 363
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 667 milliseconds
+Percentage of Time Active: 0.544
+Percentage of Time Idle: 0.456
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 4.04494493639
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+36. Domain name: pagead2.googlesyndication.com
+DNS Query Time: 1 ms (On connection 1)
+
+TCP Connection: 1
+Connection Establishment Time: 45
+Waiting Time: 490
+Receiving Time: 181
+Sending Time: 0
+Time for which connection was active: 0 minutes, 8 seconds and 318 milliseconds
+Percentage of Time Active: 0.081
+Percentage of Time Idle: 0.919
+Average Goodput of Connection: 691.133
+Maximum Goodput of Connection: 803.254
+Maximum Goodput through direct request: 51.9138482553
+
+TCP Connection: 2
+Connection Establishment Time: 0
+Waiting Time: 122
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 122 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 144.144116709
+
+TCP Connection: 3
+Connection Establishment Time: 0
+Waiting Time: 121
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 121 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 143.044120899
+
+Maximum No. of TCP connections open simultaneously: 3 
+
+
+37. Domain name: 79423.analytics.edgekey.net
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 27
+Receiving Time: 113
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 140 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Average Goodput of Connection: 872.858
+Maximum Goodput of Connection: 872.858
+Maximum Goodput through direct request: 473.66191066
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+38. Domain name: px.dynamicyield.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 159
+Waiting Time: 783
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 12 seconds and 994 milliseconds
+Percentage of Time Active: 0.060
+Percentage of Time Idle: 0.940
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 506.222642329
+
+TCP Connection: 2
+Connection Establishment Time: 0
+Waiting Time: 356
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 356 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 515.094729149
+
+Maximum No. of TCP connections open simultaneously: 2 
+
+
+39. Domain name: core8_euw1.fabrik.nytimes.com.
+DNS Query Time: 58 ms (On connection 1)
+DNS Query Time: 1 ms (On connection 2)
+
+TCP Connection: 1
+Connection Establishment Time: 187
+Waiting Time: 190
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 377 milliseconds
+Percentage of Time Active: 0.504
+Percentage of Time Idle: 0.496
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 535.61232919
+
+TCP Connection: 2
+Connection Establishment Time: 184
+Waiting Time: 190
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 374 milliseconds
+Percentage of Time Active: 0.508
+Percentage of Time Idle: 0.492
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 454.664314489
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+40. Domain name: cdn.krxd.net
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 651
+Receiving Time: 243
+Sending Time: 0
+Time for which connection was active: 0 minutes, 8 seconds and 81 milliseconds
+Percentage of Time Active: 0.111
+Percentage of Time Idle: 0.889
+Average Goodput of Connection: 227.169
+Maximum Goodput of Connection: 191.111
+Maximum Goodput through direct request: 44.3370073897
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+41. Domain name: ip.casalemedia.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 312
+Receiving Time: 2
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 743 milliseconds
+Percentage of Time Active: 0.423
+Percentage of Time Idle: 0.577
+Average Goodput of Connection: 1072.000
+Maximum Goodput of Connection: 909.000
+Maximum Goodput through direct request: 6.5313259511
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+42. Domain name: sync.mathtag.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 362
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 362 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 10.3358811947
+
+TCP Connection: 2
+Connection Establishment Time: 0
+Waiting Time: 315
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 315 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 10.6380455531
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+43. Domain name: cas.pxl.ace.advertising.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 610
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 1 seconds and 109 milliseconds
+Percentage of Time Active: 0.550
+Percentage of Time Idle: 0.450
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 11.3876928334
+
+TCP Connection: 2
+Connection Establishment Time: 0
+Waiting Time: 651
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 1 seconds and 130 milliseconds
+Percentage of Time Active: 0.576
+Percentage of Time Idle: 0.424
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 13.1989729746
+
+Maximum No. of TCP connections open simultaneously: 2 
+
+
+44. Domain name: dis.criteo.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 233
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 233 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 12.0846303838
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+45. Domain name: cdn.optmd.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 28
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 28 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 11.3097781159
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+46. Domain name: pixel.quantserve.com
+DNS Query Time: 1 ms (On connection 1)
+
+TCP Connection: 1
+Connection Establishment Time: 243
+Waiting Time: 286
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 529 milliseconds
+Percentage of Time Active: 0.541
+Percentage of Time Idle: 0.459
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 10.2871051356
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+47. Domain name: pixel.everesttech.net
+DNS Query Time: 1 ms (On connection 1)
+
+TCP Connection: 1
+Connection Establishment Time: 269
+Waiting Time: 322
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 591 milliseconds
+Percentage of Time Active: 0.545
+Percentage of Time Idle: 0.455
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 11.3600901508
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+48. Domain name: cm.adgrx.com
+DNS Query Time: 1 ms (On connection 1)
+
+TCP Connection: 1
+Connection Establishment Time: 273
+Waiting Time: 324
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 597 milliseconds
+Percentage of Time Active: 0.543
+Percentage of Time Idle: 0.457
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 10.1845238564
+
+TCP Connection: 2
+Connection Establishment Time: 0
+Waiting Time: 293
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 293 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 11.0695605881
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+49. Domain name: dsum.casalemedia.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 491
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 491 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 11.5855069154
+
+TCP Connection: 2
+Connection Establishment Time: 0
+Waiting Time: 261
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 261 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 11.2669307679
+
+TCP Connection: 3
+Connection Establishment Time: 0
+Waiting Time: 503
+Receiving Time: 0
+Sending Time: 1
+Time for which connection was active: 0 minutes, 0 seconds and 504 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 11.7019268381
+
+TCP Connection: 4
+Connection Establishment Time: 0
+Waiting Time: 261
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 261 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 12.2639087112
+
+TCP Connection: 5
+Connection Establishment Time: 0
+Waiting Time: 283
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 283 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 12.2841991958
+
+Maximum No. of TCP connections open simultaneously: 2 
+
+
+50. Domain name: ad.turn.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 182
+Waiting Time: 432
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 614 milliseconds
+Percentage of Time Active: 0.704
+Percentage of Time Idle: 0.296
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 9.49510649992
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+51. Domain name: p.rfihub.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 230
+Waiting Time: 454
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 684 milliseconds
+Percentage of Time Active: 0.664
+Percentage of Time Idle: 0.336
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 5.06727104611
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+52. Domain name: r.casalemedia.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 323
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 323 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 8.26637657259
+
+TCP Connection: 2
+Connection Establishment Time: 67
+Waiting Time: 473
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 540 milliseconds
+Percentage of Time Active: 0.876
+Percentage of Time Idle: 0.124
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 13.1147970961
+
+Maximum No. of TCP connections open simultaneously: 2 
+
+
+53. Domain name: cdn.turn.com
+DNS Query Time: 4 ms (On connection 1)
+
+TCP Connection: 1
+Connection Establishment Time: 20
+Waiting Time: 28
+Receiving Time: 5
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 53 milliseconds
+Percentage of Time Active: 0.623
+Percentage of Time Idle: 0.377
+Average Goodput of Connection: 1112.200
+Maximum Goodput of Connection: 1112.200
+Maximum Goodput through direct request: 87.8542946616
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+54. Domain name: pixel.sitescout.com
+DNS Query Time: 1 ms (On connection 1)
+
+TCP Connection: 1
+Connection Establishment Time: 313
+Waiting Time: 411
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 724 milliseconds
+Percentage of Time Active: 0.568
+Percentage of Time Idle: 0.432
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 87.1179507498
+
+TCP Connection: 2
+Connection Establishment Time: 0
+Waiting Time: 338
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 338 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 90.5465690361
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+55. Domain name: tags.bluekai.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 604
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 4 seconds and 564 milliseconds
+Percentage of Time Active: 0.132
+Percentage of Time Idle: 0.868
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 86.2772043914
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+56. Domain name: match.adsrvr.org
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 337
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 2 seconds and 236 milliseconds
+Percentage of Time Active: 0.151
+Percentage of Time Idle: 0.849
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 90.3480535321
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+57. Domain name: x.bidswitch.net
+DNS Query Time: 4 ms (On connection 1)
+
+TCP Connection: 1
+Connection Establishment Time: 176
+Waiting Time: 305
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 481 milliseconds
+Percentage of Time Active: 0.634
+Percentage of Time Idle: 0.366
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 89.1859140509
+
+TCP Connection: 2
+Connection Establishment Time: 0
+Waiting Time: 342
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 342 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 88.8296133081
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+58. Domain name: ml314.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 1166
+Receiving Time: 18
+Sending Time: 0
+Time for which connection was active: 0 minutes, 15 seconds and 574 milliseconds
+Percentage of Time Active: 0.076
+Percentage of Time Idle: 0.924
+Average Goodput of Connection: 1175.611
+Maximum Goodput of Connection: 1136.444
+Maximum Goodput through direct request: 21.8662890615
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+59. Domain name: rs.gwallet.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 98
+Waiting Time: 106
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 204 milliseconds
+Percentage of Time Active: 0.520
+Percentage of Time Idle: 0.480
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 17.4274571211
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+60. Domain name: beacon.krxd.net
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 1361
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 932 milliseconds
+Percentage of Time Active: 1.460
+Percentage of Time Idle: -0.460
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 43.3345501997
+
+TCP Connection: 2
+Connection Establishment Time: 0
+Waiting Time: 600
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 872 milliseconds
+Percentage of Time Active: 0.688
+Percentage of Time Idle: 0.312
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 42.4016728774
+
+TCP Connection: 3
+Connection Establishment Time: 0
+Waiting Time: 302
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 302 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 44.4087503269
+
+TCP Connection: 4
+Connection Establishment Time: 0
+Waiting Time: 307
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 307 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 46.9294552074
+
+TCP Connection: 5
+Connection Establishment Time: 0
+Waiting Time: 337
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 337 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 45.3734656468
+
+Maximum No. of TCP connections open simultaneously: 3 
+
+
+61. Domain name: adadvisor.net
+DNS Query Time: 4 ms (On connection 1)
+
+TCP Connection: 1
+Connection Establishment Time: 233
+Waiting Time: 254
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 487 milliseconds
+Percentage of Time Active: 0.522
+Percentage of Time Idle: 0.478
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 34.0342389002
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+62. Domain name: rtd.tubemogul.com
+DNS Query Time: 4 ms (On connection 1)
+
+TCP Connection: 1
+Connection Establishment Time: 259
+Waiting Time: 320
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 579 milliseconds
+Percentage of Time Active: 0.553
+Percentage of Time Idle: 0.447
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 35.3405025777
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+63. Domain name: jslog.krxd.net
+DNS Query Time: 119 ms (On connection 1)
+
+TCP Connection: 1
+Connection Establishment Time: 347
+Waiting Time: 353
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 700 milliseconds
+Percentage of Time Active: 0.504
+Percentage of Time Idle: 0.496
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 46.1431592652
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+64. Domain name: d.agkn.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 278
+Waiting Time: 357
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 635 milliseconds
+Percentage of Time Active: 0.562
+Percentage of Time Idle: 0.438
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 45.3611834608
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+65. Domain name: bcp.crwdcntrl.net
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 121
+Waiting Time: 128
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 249 milliseconds
+Percentage of Time Active: 0.514
+Percentage of Time Idle: 0.486
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 43.0676064504
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+66. Domain name: idsync.rlcdn.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 308
+Waiting Time: 317
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 625 milliseconds
+Percentage of Time Active: 0.507
+Percentage of Time Idle: 0.493
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 46.037832424
+
+TCP Connection: 2
+Connection Establishment Time: 0
+Waiting Time: 338
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 338 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 46.2485204149
+
+TCP Connection: 3
+Connection Establishment Time: 0
+Waiting Time: 342
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 342 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 40.2502698048
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+67. Domain name: rtg.ml314.com
+DNS Query Time: 4 ms (On connection 1)
+
+TCP Connection: 1
+Connection Establishment Time: 284
+Waiting Time: 286
+Receiving Time: 1
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 571 milliseconds
+Percentage of Time Active: 0.503
+Percentage of Time Idle: 0.497
+Average Goodput of Connection: 0.000
+Maximum Goodput of Connection: 0.000
+Maximum Goodput through direct request: 0.0
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+68. Domain name: trc.taboola.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 246
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 246 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+Maximum Goodput through direct request: 0.0
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+Maximum No. of TCP connections open simultaneously in entire network: 19
+Average Goodput of Network: 261.620
+Maximmum Goodput of Network: 12983.000
+Vasudhas-MacBook-Pro:my-dump Akshay$ 

@@ -1,0 +1,1423 @@
+Vasudhas-MacBook-Pro:dumps Akshay$ python ../src/Q3.py www.vox.com.har vox.pcap 192.168.0.4
+bl
+19898
+bl
+19899
+Total No. of objects downloaded: 82
+Total size of objects downloaded: 27742801 bytes
+
+1. Domain name: www.vox.com
+Total number of objects downloaded: 8
+Total size of objects downloaded: 525348 bytes
+No. of TCP connections opened: 7
+
+TCP Connection: 1
+No. of objects downloaded: 2
+Size of objects downloaded: 98413 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 1
+Size of objects downloaded: 109193 bytes
+
+TCP Connection: 3
+No. of objects downloaded: 1
+Size of objects downloaded: 72419 bytes
+
+TCP Connection: 4
+No. of objects downloaded: 1
+Size of objects downloaded: 63985 bytes
+
+TCP Connection: 5
+No. of objects downloaded: 1
+Size of objects downloaded: 5176 bytes
+
+TCP Connection: 6
+No. of objects downloaded: 1
+Size of objects downloaded: 111823 bytes
+
+TCP Connection: 7
+No. of objects downloaded: 1
+Size of objects downloaded: 64339 bytes
+
+
+2. Domain name: ajax.googleapis.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 32822 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 32822 bytes
+
+
+3. Domain name: cdnjs.cloudflare.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 32822 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 32822 bytes
+
+
+4. Domain name: ea-cdn.voxmedia.com
+Total number of objects downloaded: 4
+Total size of objects downloaded: 25782 bytes
+No. of TCP connections opened: 4
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 16627 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 1
+Size of objects downloaded: 4867 bytes
+
+TCP Connection: 3
+No. of objects downloaded: 1
+Size of objects downloaded: 568 bytes
+
+TCP Connection: 4
+No. of objects downloaded: 1
+Size of objects downloaded: 3720 bytes
+
+
+5. Domain name: ox-d.sbnation.com
+Total number of objects downloaded: 2
+Total size of objects downloaded: 0 bytes
+No. of TCP connections opened: 2
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 0 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 1
+Size of objects downloaded: 0 bytes
+
+
+6. Domain name: edge.quantserve.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 3037 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 3037 bytes
+
+
+7. Domain name: cdn3.vox-cdn.com
+Total number of objects downloaded: 9
+Total size of objects downloaded: 5679440 bytes
+No. of TCP connections opened: 6
+
+TCP Connection: 1
+No. of objects downloaded: 2
+Size of objects downloaded: 1065933 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 2
+Size of objects downloaded: 374811 bytes
+
+TCP Connection: 3
+No. of objects downloaded: 2
+Size of objects downloaded: 3028954 bytes
+
+TCP Connection: 4
+No. of objects downloaded: 1
+Size of objects downloaded: 432850 bytes
+
+TCP Connection: 5
+No. of objects downloaded: 1
+Size of objects downloaded: 115291 bytes
+
+TCP Connection: 6
+No. of objects downloaded: 1
+Size of objects downloaded: 661601 bytes
+
+
+8. Domain name: cdn2.vox-cdn.com
+Total number of objects downloaded: 10
+Total size of objects downloaded: 7014101 bytes
+No. of TCP connections opened: 6
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 661248 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 3
+Size of objects downloaded: 856669 bytes
+
+TCP Connection: 3
+No. of objects downloaded: 1
+Size of objects downloaded: 3583067 bytes
+
+TCP Connection: 4
+No. of objects downloaded: 1
+Size of objects downloaded: 712368 bytes
+
+TCP Connection: 5
+No. of objects downloaded: 3
+Size of objects downloaded: 896543 bytes
+
+TCP Connection: 6
+No. of objects downloaded: 1
+Size of objects downloaded: 304206 bytes
+
+
+9. Domain name: cdn0.vox-cdn.com
+Total number of objects downloaded: 15
+Total size of objects downloaded: 9692584 bytes
+No. of TCP connections opened: 8
+
+TCP Connection: 1
+No. of objects downloaded: 6
+Size of objects downloaded: 2694336 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 1
+Size of objects downloaded: 278521 bytes
+
+TCP Connection: 3
+No. of objects downloaded: 1
+Size of objects downloaded: 343067 bytes
+
+TCP Connection: 4
+No. of objects downloaded: 2
+Size of objects downloaded: 1092146 bytes
+
+TCP Connection: 5
+No. of objects downloaded: 1
+Size of objects downloaded: 1894227 bytes
+
+TCP Connection: 6
+No. of objects downloaded: 2
+Size of objects downloaded: 963082 bytes
+
+TCP Connection: 7
+No. of objects downloaded: 1
+Size of objects downloaded: 1950925 bytes
+
+TCP Connection: 8
+No. of objects downloaded: 1
+Size of objects downloaded: 476280 bytes
+
+
+10. Domain name: cdn.jsdelivr.net
+Total number of objects downloaded: 1
+Total size of objects downloaded: 238032 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 238032 bytes
+
+
+11. Domain name: www.youtube.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 0 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 0 bytes
+
+
+12. Domain name: cdn1.vox-cdn.com
+Total number of objects downloaded: 8
+Total size of objects downloaded: 3977550 bytes
+No. of TCP connections opened: 7
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 443124 bytes
+
+TCP Connection: 2
+No. of objects downloaded: 1
+Size of objects downloaded: 450446 bytes
+
+TCP Connection: 3
+No. of objects downloaded: 2
+Size of objects downloaded: 1358938 bytes
+
+TCP Connection: 4
+No. of objects downloaded: 1
+Size of objects downloaded: 777647 bytes
+
+TCP Connection: 5
+No. of objects downloaded: 1
+Size of objects downloaded: 383484 bytes
+
+TCP Connection: 6
+No. of objects downloaded: 1
+Size of objects downloaded: 133822 bytes
+
+TCP Connection: 7
+No. of objects downloaded: 1
+Size of objects downloaded: 430089 bytes
+
+
+13. Domain name: www.google-analytics.com
+Total number of objects downloaded: 2
+Total size of objects downloaded: 11458 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 2
+Size of objects downloaded: 11458 bytes
+
+
+14. Domain name: b.scorecardresearch.com
+Total number of objects downloaded: 3
+Total size of objects downloaded: 1140 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 3
+Size of objects downloaded: 1140 bytes
+
+
+15. Domain name: pixel.quantserve.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 35 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 35 bytes
+
+
+16. Domain name: static.chartbeat.com
+Total number of objects downloaded: 1
+Total size of objects downloaded: 10926 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 1
+Size of objects downloaded: 10926 bytes
+
+
+17. Domain name: ping.chartbeat.net
+Total number of objects downloaded: 2
+Total size of objects downloaded: 86 bytes
+No. of TCP connections opened: 1
+
+TCP Connection: 1
+No. of objects downloaded: 2
+Size of objects downloaded: 86 bytes
+
+
+Object Type Classification:
+
+Fonts:
+1. http://www.vox.com/fonts/vox/baltoweb-bold.woff
+
+2. http://www.vox.com/fonts/vox/harriet_text_regular_italic.woff
+
+3. http://www.vox.com/fonts/vox/harriet_text_regular.woff
+
+4. http://www.vox.com/fonts/vox/alright_sans_regular.woff
+
+5. http://ea-cdn.voxmedia.com/production/vox-40-maps/....41874.woff
+
+6. http://www.vox.com/fonts/vox/voxicon.woff
+
+7. http://www.vox.com/fonts/vox/baltoweb-medium.woff
+
+8. http://www.vox.com/fonts/vox/alright_sans_bold.woff
+
+9. https://fonts.gstatic.com/s/roboto/v15/CWB0XYA8bzo0kSThX0UTuA.woff2
+
+Javascript:
+1. http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+
+2. http://cdnjs.cloudflare.com/ajax/libs/underscore.j....ore-min.js
+
+3. http://ea-cdn.voxmedia.com/production/vox-40-maps/....1c80ccb.js
+
+4. http://cdn.jsdelivr.net/jquery.unveiljs/1.3.0/jquery.unveil.min.js
+
+5. http://ea-cdn.voxmedia.com/production/vox-40-maps/....cff2261.js
+
+6. http://edge.quantserve.com/quant.js
+
+7. http://www.google-analytics.com/analytics.js
+
+8. http://b.scorecardresearch.com/beacon.js
+
+9. https://s.ytimg.com/yts/jsbin/www-embed-player-new....yer-new.js
+
+10. https://s.ytimg.com/yts/jsbin/html5player-new-en_U....yer-new.js
+
+11. https://www.google.com/js/bg/-UD8JKQ7t1Hne4addHCRD....eHh7kc0.js
+
+12. https://static.doubleclick.net/instream/ad_status.js
+
+13. http://static.chartbeat.com/js/chartbeat.js
+
+HTML:
+1. http://www.vox.com/a/maps-explain-the-middle-east
+
+2. http://www.youtube.com/embed/F4U0SXz2DJs
+
+3. https://www.youtube.com/embed/F4U0SXz2DJs
+
+4. http://www.google-analytics.com/r/collect?v=1&_v=j....1974706444
+
+Images:
+1. http://cdn3.vox-cdn.com/assets/4395599/Israeli_ter....7_crop.jpg
+
+2. http://cdn2.vox-cdn.com/assets/4397359/west_bank_l...._crop3.jpg
+
+3. http://cdn2.vox-cdn.com/assets/4395615/Iran_under_....a_crop.jpg
+
+4. http://cdn0.vox-cdn.com/uploads/chorus_asset/file/....970c.0.png
+
+5. http://cdn3.vox-cdn.com/assets/4395631/Durand_line_crop.jpg
+
+6. http://cdn3.vox-cdn.com/assets/4395669/Afghanistan....H_crop.jpg
+
+7. http://pixel.quantserve.com/pixel;r=294631487;a=p-....iddle-east
+
+8. http://cdn0.vox-cdn.com/assets/4224127/fertile_crescent_textbook.jpg
+
+9. http://cdn2.vox-cdn.com/assets/4224201/phoenician_800_bc.png
+
+10. http://cdn1.vox-cdn.com/assets/4400229/spread_of_religions_new_2.jpg
+
+11. http://cdn0.vox-cdn.com/assets/4407303/arab_expans....crop_2.gif
+
+12. http://cdn2.vox-cdn.com/assets/4224903/height_of_o....ropped.png
+
+13. http://cdn3.vox-cdn.com/assets/4224911/ottoman_empire_gif.gif
+
+14. http://cdn2.vox-cdn.com/assets/4395687/middle_east_1914_english.jpg
+
+15. http://cdn0.vox-cdn.com/assets/4224943/sykes_picot_by_FT.png
+
+16. http://cdn0.vox-cdn.com/assets/4225057/islamic_states_gi.gif
+
+17. http://cdn2.vox-cdn.com/assets/4329631/arab-spring.gif
+
+18. http://cdn1.vox-cdn.com/assets/4231067/arab_dialects.png
+
+19. http://cdn1.vox-cdn.com/assets/4231075/sunni_shia_nasr.jpg
+
+20. http://cdn0.vox-cdn.com/assets/4232063/Mid_East_Ethnic_lg.png
+
+21. http://cdn1.vox-cdn.com/assets/4397351/weighted_mu....crop-2.jpg
+
+22. http://cdn0.vox-cdn.com/assets/4239219/arab-israeli-war_1948.jpg
+
+23. https://stats.g.doubleclick.net/r/collect?v=1&aip=....1974706444
+
+24. http://cdn3.vox-cdn.com/assets/4418945/123_Israel_Lebanon_2006.gif
+
+25. http://cdn2.vox-cdn.com/assets/4232151/recognision....61obp1.jpg
+
+26. http://cdn3.vox-cdn.com/assets/4232215/syria_levant_religion.png
+
+27. http://cdn2.vox-cdn.com/assets/4232239/Syria_areas....h_2014.png
+
+28. http://cdn3.vox-cdn.com/assets/4418949/camp_settlement_1.jpg
+
+29. http://cdn0.vox-cdn.com/assets/4232271/Iran_demographics.jpg
+
+30. http://cdn1.vox-cdn.com/assets/4396287/afghanistan...._crop2.jpg
+
+31. http://cdn0.vox-cdn.com/assets/4232335/afghanistan_war_le_monde.jpg
+
+32. https://i.ytimg.com/vi/F4U0SXz2DJs/hqdefault.jpg
+
+33. http://cdn0.vox-cdn.com/assets/4232359/saudi_arabia_early_1900s.gif
+
+34. http://cdn3.vox-cdn.com/assets/4232375/Oil_and_Gas....large_.gif
+
+35. http://cdn0.vox-cdn.com/assets/4396257/Strait_of_H....T_crop.jpg
+
+36. http://cdn0.vox-cdn.com/assets/4232407/global-shipping-lanes-map.png
+
+37. http://cdn2.vox-cdn.com/assets/4399741/Baghdad_cha...._crop2.jpg
+
+38. http://cdn0.vox-cdn.com/assets/4396023/kurdistan_crop.jpg
+
+39. http://cdn2.vox-cdn.com/assets/4396135/sunni-shia-kurd_state_crop.jpg
+
+40. http://cdn3.vox-cdn.com/assets/4400101/libya_post-...._crop2.jpg
+
+41. http://cdn1.vox-cdn.com/assets/4400181/internet_twitter_tall-1.jpg
+
+42. http://cdn1.vox-cdn.com/assets/4238583/middle_east_night_sky.jpg
+
+43. http://cdn0.vox-cdn.com/uploads/chorus_image/image....1280.0.jpg
+
+44. http://cdn0.vox-cdn.com/uploads/chorus_image/image....1280.0.jpg
+
+45. http://cdn1.vox-cdn.com/uploads/chorus_image/image....1280.0.jpg
+
+46. http://ping.chartbeat.net/ping?h=vox.com&p=%2Fa%2F....330&sn=1&_
+
+47. http://ping.chartbeat.net/ping?h=vox.com&p=%2Fa%2F....330&sn=2&_
+
+48. http://ping.chartbeat.net/ping?h=vox.com&p=%2Fa%2F....330&sn=3&_
+
+49. http://ping.chartbeat.net/ping?h=vox.com&p=%2Fa%2F....330&sn=4&_
+
+50. http://ping.chartbeat.net/ping?h=vox.com&p=%2Fa%2F....330&sn=5&_
+
+CSS:
+1. http://ea-cdn.voxmedia.com/production/vox-40-maps/....e012bd.css
+
+2. https://s.ytimg.com/yts/cssbin/www-embed-player-new-vfl5giJql.css
+
+
+Object Tree:
+
+http://www.vox.com/a/maps-explain-the-middle-east
+	http://ea-cdn.voxmedia.com/production/vox-40-maps/....e012bd.css
+		http://www.vox.com/fonts/vox/baltoweb-bold.woff
+		http://www.vox.com/fonts/vox/harriet_text_regular_italic.woff
+		http://www.vox.com/fonts/vox/harriet_text_regular.woff
+		http://www.vox.com/fonts/vox/alright_sans_regular.woff
+		http://ea-cdn.voxmedia.com/production/vox-40-maps/....41874.woff
+		http://www.vox.com/fonts/vox/voxicon.woff
+		http://www.vox.com/fonts/vox/baltoweb-medium.woff
+		http://www.vox.com/fonts/vox/alright_sans_bold.woff
+	http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+	http://cdnjs.cloudflare.com/ajax/libs/underscore.j....ore-min.js
+	http://ox-d.sbnation.com/w/1.0/jstag
+	http://ea-cdn.voxmedia.com/production/vox-40-maps/....1c80ccb.js
+	http://cdn3.vox-cdn.com/assets/4395599/Israeli_ter....7_crop.jpg
+	http://cdn2.vox-cdn.com/assets/4397359/west_bank_l...._crop3.jpg
+	http://cdn2.vox-cdn.com/assets/4395615/Iran_under_....a_crop.jpg
+	http://cdn0.vox-cdn.com/uploads/chorus_asset/file/....970c.0.png
+	http://cdn3.vox-cdn.com/assets/4395631/Durand_line_crop.jpg
+	http://cdn3.vox-cdn.com/assets/4395669/Afghanistan....H_crop.jpg
+	http://cdn.jsdelivr.net/jquery.unveiljs/1.3.0/jquery.unveil.min.js
+	http://ea-cdn.voxmedia.com/production/vox-40-maps/....cff2261.js
+	http://edge.quantserve.com/quant.js
+	http://www.youtube.com/embed/F4U0SXz2DJs
+	http://ox-d.sbnation.com/w/1.0/jstag
+	https://www.youtube.com/embed/F4U0SXz2DJs
+		https://s.ytimg.com/yts/cssbin/www-embed-player-new-vfl5giJql.css
+		https://s.ytimg.com/yts/jsbin/www-embed-player-new....yer-new.js
+		https://s.ytimg.com/yts/jsbin/html5player-new-en_U....yer-new.js
+		https://fonts.gstatic.com/s/roboto/v15/CWB0XYA8bzo0kSThX0UTuA.woff2
+		https://www.google.com/js/bg/-UD8JKQ7t1Hne4addHCRD....eHh7kc0.js
+		https://static.doubleclick.net/instream/ad_status.js
+		https://i.ytimg.com/vi/F4U0SXz2DJs/hqdefault.jpg
+	http://www.google-analytics.com/analytics.js
+	http://b.scorecardresearch.com/beacon.js
+	http://pixel.quantserve.com/pixel;r=294631487;a=p-....iddle-east
+	http://cdn0.vox-cdn.com/assets/4224127/fertile_crescent_textbook.jpg
+	http://cdn2.vox-cdn.com/assets/4224201/phoenician_800_bc.png
+	http://cdn1.vox-cdn.com/assets/4400229/spread_of_religions_new_2.jpg
+	http://cdn0.vox-cdn.com/assets/4407303/arab_expans....crop_2.gif
+	http://cdn2.vox-cdn.com/assets/4224903/height_of_o....ropped.png
+	http://cdn3.vox-cdn.com/assets/4224911/ottoman_empire_gif.gif
+	http://cdn2.vox-cdn.com/assets/4395687/middle_east_1914_english.jpg
+	http://b.scorecardresearch.com/b?c1=2&c2=7976662&n....e-east&c9=
+	http://cdn0.vox-cdn.com/assets/4224943/sykes_picot_by_FT.png
+	http://b.scorecardresearch.com/b2?c1=2&c2=7976662&....e-east&c9=
+	http://cdn0.vox-cdn.com/assets/4225057/islamic_states_gi.gif
+	http://cdn2.vox-cdn.com/assets/4329631/arab-spring.gif
+	http://cdn1.vox-cdn.com/assets/4231067/arab_dialects.png
+	http://cdn1.vox-cdn.com/assets/4231075/sunni_shia_nasr.jpg
+	http://cdn0.vox-cdn.com/assets/4232063/Mid_East_Ethnic_lg.png
+	http://cdn1.vox-cdn.com/assets/4397351/weighted_mu....crop-2.jpg
+	http://www.google-analytics.com/r/collect?v=1&_v=j....1974706444
+	http://cdn0.vox-cdn.com/assets/4239219/arab-israeli-war_1948.jpg
+	https://stats.g.doubleclick.net/r/collect?v=1&aip=....1974706444
+	http://cdn3.vox-cdn.com/assets/4418945/123_Israel_Lebanon_2006.gif
+	http://cdn2.vox-cdn.com/assets/4232151/recognision....61obp1.jpg
+	http://cdn3.vox-cdn.com/assets/4232215/syria_levant_religion.png
+	http://cdn2.vox-cdn.com/assets/4232239/Syria_areas....h_2014.png
+	http://cdn3.vox-cdn.com/assets/4418949/camp_settlement_1.jpg
+	http://cdn0.vox-cdn.com/assets/4232271/Iran_demographics.jpg
+	http://cdn1.vox-cdn.com/assets/4396287/afghanistan...._crop2.jpg
+	http://cdn0.vox-cdn.com/assets/4232335/afghanistan_war_le_monde.jpg
+	http://cdn0.vox-cdn.com/assets/4232359/saudi_arabia_early_1900s.gif
+	http://cdn3.vox-cdn.com/assets/4232375/Oil_and_Gas....large_.gif
+	http://cdn0.vox-cdn.com/assets/4396257/Strait_of_H....T_crop.jpg
+	http://cdn0.vox-cdn.com/assets/4232407/global-shipping-lanes-map.png
+	http://cdn2.vox-cdn.com/assets/4399741/Baghdad_cha...._crop2.jpg
+	http://cdn0.vox-cdn.com/assets/4396023/kurdistan_crop.jpg
+	http://cdn2.vox-cdn.com/assets/4396135/sunni-shia-kurd_state_crop.jpg
+	http://cdn3.vox-cdn.com/assets/4400101/libya_post-...._crop2.jpg
+	http://cdn1.vox-cdn.com/assets/4400181/internet_twitter_tall-1.jpg
+	http://cdn1.vox-cdn.com/assets/4238583/middle_east_night_sky.jpg
+	http://cdn0.vox-cdn.com/uploads/chorus_image/image....1280.0.jpg
+	http://cdn0.vox-cdn.com/uploads/chorus_image/image....1280.0.jpg
+	http://cdn1.vox-cdn.com/uploads/chorus_image/image....1280.0.jpg
+	http://static.chartbeat.com/js/chartbeat.js
+	http://ping.chartbeat.net/ping?h=vox.com&p=%2Fa%2F....330&sn=1&_
+	http://ping.chartbeat.net/ping?h=vox.com&p=%2Fa%2F....330&sn=2&_
+	http://ping.chartbeat.net/ping?h=vox.com&p=%2Fa%2F....330&sn=3&_
+	http://ping.chartbeat.net/ping?h=vox.com&p=%2Fa%2F....330&sn=4&_
+	http://ping.chartbeat.net/ping?h=vox.com&p=%2Fa%2F....330&sn=5&_
+
+
+Download Tree:
+
+Domain: www.vox.com
+TCP Connection: 1
+http://www.vox.com/a/maps-explain-the-middle-east
+http://www.vox.com/fonts/vox/baltoweb-bold.woff
+
+TCP Connection: 2
+http://www.vox.com/fonts/vox/alright_sans_regular.woff
+
+TCP Connection: 3
+http://www.vox.com/fonts/vox/harriet_text_regular_italic.woff
+
+TCP Connection: 4
+http://www.vox.com/fonts/vox/harriet_text_regular.woff
+
+TCP Connection: 5
+http://www.vox.com/fonts/vox/voxicon.woff
+
+TCP Connection: 6
+http://www.vox.com/fonts/vox/alright_sans_bold.woff
+
+TCP Connection: 7
+http://www.vox.com/fonts/vox/baltoweb-medium.woff
+
+
+Domain: ajax.googleapis.com
+TCP Connection: 1
+http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+
+
+Domain: cdnjs.cloudflare.com
+TCP Connection: 1
+http://cdnjs.cloudflare.com/ajax/libs/underscore.j....ore-min.js
+
+
+Domain: ea-cdn.voxmedia.com
+TCP Connection: 1
+http://ea-cdn.voxmedia.com/production/vox-40-maps/....e012bd.css
+
+TCP Connection: 2
+http://ea-cdn.voxmedia.com/production/vox-40-maps/....1c80ccb.js
+
+TCP Connection: 3
+http://ea-cdn.voxmedia.com/production/vox-40-maps/....cff2261.js
+
+TCP Connection: 4
+http://ea-cdn.voxmedia.com/production/vox-40-maps/....41874.woff
+
+
+Domain: ox-d.sbnation.com
+TCP Connection: 1
+http://ox-d.sbnation.com/w/1.0/jstag
+
+TCP Connection: 2
+http://ox-d.sbnation.com/w/1.0/jstag
+
+
+Domain: edge.quantserve.com
+TCP Connection: 1
+http://edge.quantserve.com/quant.js
+
+
+Domain: cdn3.vox-cdn.com
+TCP Connection: 1
+http://cdn3.vox-cdn.com/assets/4395599/Israeli_ter....7_crop.jpg
+http://cdn3.vox-cdn.com/assets/4232215/syria_levant_religion.png
+
+TCP Connection: 2
+http://cdn3.vox-cdn.com/assets/4395631/Durand_line_crop.jpg
+http://cdn3.vox-cdn.com/assets/4418945/123_Israel_Lebanon_2006.gif
+
+TCP Connection: 3
+http://cdn3.vox-cdn.com/assets/4395669/Afghanistan....H_crop.jpg
+http://cdn3.vox-cdn.com/assets/4224911/ottoman_empire_gif.gif
+
+TCP Connection: 4
+http://cdn3.vox-cdn.com/assets/4418949/camp_settlement_1.jpg
+
+TCP Connection: 5
+http://cdn3.vox-cdn.com/assets/4232375/Oil_and_Gas....large_.gif
+
+TCP Connection: 6
+http://cdn3.vox-cdn.com/assets/4400101/libya_post-...._crop2.jpg
+
+
+Domain: cdn2.vox-cdn.com
+TCP Connection: 1
+http://cdn2.vox-cdn.com/assets/4397359/west_bank_l...._crop3.jpg
+
+TCP Connection: 2
+http://cdn2.vox-cdn.com/assets/4395615/Iran_under_....a_crop.jpg
+http://cdn2.vox-cdn.com/assets/4395687/middle_east_1914_english.jpg
+http://cdn2.vox-cdn.com/assets/4396135/sunni-shia-kurd_state_crop.jpg
+
+TCP Connection: 3
+http://cdn2.vox-cdn.com/assets/4224201/phoenician_800_bc.png
+
+TCP Connection: 4
+http://cdn2.vox-cdn.com/assets/4224903/height_of_o....ropped.png
+
+TCP Connection: 5
+http://cdn2.vox-cdn.com/assets/4329631/arab-spring.gif
+http://cdn2.vox-cdn.com/assets/4232151/recognision....61obp1.jpg
+http://cdn2.vox-cdn.com/assets/4399741/Baghdad_cha...._crop2.jpg
+
+TCP Connection: 6
+http://cdn2.vox-cdn.com/assets/4232239/Syria_areas....h_2014.png
+
+
+Domain: cdn0.vox-cdn.com
+TCP Connection: 1
+http://cdn0.vox-cdn.com/uploads/chorus_asset/file/....970c.0.png
+http://cdn0.vox-cdn.com/assets/4232271/Iran_demographics.jpg
+http://cdn0.vox-cdn.com/uploads/chorus_image/image....1280.0.jpg
+http://cdn0.vox-cdn.com/assets/4232359/saudi_arabia_early_1900s.gif
+http://cdn0.vox-cdn.com/assets/4396257/Strait_of_H....T_crop.jpg
+http://cdn0.vox-cdn.com/assets/4232407/global-shipping-lanes-map.png
+
+TCP Connection: 2
+http://cdn0.vox-cdn.com/assets/4224127/fertile_crescent_textbook.jpg
+
+TCP Connection: 3
+http://cdn0.vox-cdn.com/assets/4407303/arab_expans....crop_2.gif
+
+TCP Connection: 4
+http://cdn0.vox-cdn.com/assets/4224943/sykes_picot_by_FT.png
+http://cdn0.vox-cdn.com/uploads/chorus_image/image....1280.0.jpg
+
+TCP Connection: 5
+http://cdn0.vox-cdn.com/assets/4225057/islamic_states_gi.gif
+
+TCP Connection: 6
+http://cdn0.vox-cdn.com/assets/4239219/arab-israeli-war_1948.jpg
+http://cdn0.vox-cdn.com/assets/4232335/afghanistan_war_le_monde.jpg
+
+TCP Connection: 7
+http://cdn0.vox-cdn.com/assets/4232063/Mid_East_Ethnic_lg.png
+
+TCP Connection: 8
+http://cdn0.vox-cdn.com/assets/4396023/kurdistan_crop.jpg
+
+
+Domain: cdn.jsdelivr.net
+TCP Connection: 1
+http://cdn.jsdelivr.net/jquery.unveiljs/1.3.0/jquery.unveil.min.js
+
+
+Domain: www.youtube.com
+TCP Connection: 1
+http://www.youtube.com/embed/F4U0SXz2DJs
+
+
+Domain: cdn1.vox-cdn.com
+TCP Connection: 1
+http://cdn1.vox-cdn.com/assets/4400229/spread_of_religions_new_2.jpg
+
+TCP Connection: 2
+http://cdn1.vox-cdn.com/assets/4231067/arab_dialects.png
+
+TCP Connection: 3
+http://cdn1.vox-cdn.com/assets/4231075/sunni_shia_nasr.jpg
+http://cdn1.vox-cdn.com/assets/4400181/internet_twitter_tall-1.jpg
+
+TCP Connection: 4
+http://cdn1.vox-cdn.com/assets/4397351/weighted_mu....crop-2.jpg
+
+TCP Connection: 5
+http://cdn1.vox-cdn.com/assets/4396287/afghanistan...._crop2.jpg
+
+TCP Connection: 6
+http://cdn1.vox-cdn.com/uploads/chorus_image/image....1280.0.jpg
+
+TCP Connection: 7
+http://cdn1.vox-cdn.com/assets/4238583/middle_east_night_sky.jpg
+
+
+Domain: www.google-analytics.com
+TCP Connection: 1
+http://www.google-analytics.com/analytics.js
+http://www.google-analytics.com/r/collect?v=1&_v=j....1974706444
+
+
+Domain: b.scorecardresearch.com
+TCP Connection: 1
+http://b.scorecardresearch.com/beacon.js
+http://b.scorecardresearch.com/b?c1=2&c2=7976662&n....e-east&c9=
+http://b.scorecardresearch.com/b2?c1=2&c2=7976662&....e-east&c9=
+
+
+Domain: pixel.quantserve.com
+TCP Connection: 1
+http://pixel.quantserve.com/pixel;r=294631487;a=p-....iddle-east
+
+
+Domain: static.chartbeat.com
+TCP Connection: 1
+http://static.chartbeat.com/js/chartbeat.js
+
+
+Domain: ping.chartbeat.net
+TCP Connection: 1
+http://ping.chartbeat.net/ping?h=vox.com&p=%2Fa%2F....330&sn=1&_
+http://ping.chartbeat.net/ping?h=vox.com&p=%2Fa%2F....330&sn=2&_
+
+
+Timing Information:
+Page load time: 4 minutes, 43 seconds and 278 milliseconds
+
+1. Domain name: www.vox.com
+DNS Query Time: 7 ms (On connection 4)
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 2077
+Receiving Time: 24430
+Sending Time: 0
+Time for which connection was active: 0 minutes, 30 seconds and 988 milliseconds
+Percentage of Time Active: 0.855
+Percentage of Time Idle: 0.145
+Average Goodput of Connection: 4.028
+Maximum Goodput of Connection: 3.014
+
+TCP Connection: 2
+Connection Establishment Time: 0
+Waiting Time: 11081
+Receiving Time: 23471
+Sending Time: 0
+Time for which connection was active: 0 minutes, 34 seconds and 552 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Average Goodput of Connection: 4.652
+Maximum Goodput of Connection: 4.652
+
+TCP Connection: 3
+Connection Establishment Time: 1741
+Waiting Time: 2054
+Receiving Time: 7747
+Sending Time: 0
+Time for which connection was active: 0 minutes, 11 seconds and 542 milliseconds
+Percentage of Time Active: 0.849
+Percentage of Time Idle: 0.151
+Average Goodput of Connection: 9.348
+Maximum Goodput of Connection: 9.348
+
+TCP Connection: 4
+Connection Establishment Time: 352
+Waiting Time: 2165
+Receiving Time: 16054
+Sending Time: 0
+Time for which connection was active: 0 minutes, 18 seconds and 571 milliseconds
+Percentage of Time Active: 0.981
+Percentage of Time Idle: 0.019
+Average Goodput of Connection: 3.986
+Maximum Goodput of Connection: 3.986
+
+TCP Connection: 5
+Connection Establishment Time: 0
+Waiting Time: 2230
+Receiving Time: 12707
+Sending Time: 0
+Time for which connection was active: 0 minutes, 14 seconds and 937 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Average Goodput of Connection: 0.407
+Maximum Goodput of Connection: 0.407
+
+TCP Connection: 6
+Connection Establishment Time: 0
+Waiting Time: 2190
+Receiving Time: 36146
+Sending Time: 0
+Time for which connection was active: 0 minutes, 38 seconds and 336 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Average Goodput of Connection: 3.094
+Maximum Goodput of Connection: 3.094
+
+TCP Connection: 7
+Connection Establishment Time: 0
+Waiting Time: 2159
+Receiving Time: 40694
+Sending Time: 0
+Time for which connection was active: 0 minutes, 42 seconds and 853 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Average Goodput of Connection: 1.581
+Maximum Goodput of Connection: 1.581
+
+Maximum No. of TCP connections open simultaneously: 7 
+
+
+2. Domain name: ajax.googleapis.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 93
+Receiving Time: 348
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 441 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Average Goodput of Connection: 94.316
+Maximum Goodput of Connection: 94.316
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+3. Domain name: cdnjs.cloudflare.com
+DNS Query Time: 1 ms (On connection 1)
+
+TCP Connection: 1
+Connection Establishment Time: 163
+Waiting Time: 344
+Receiving Time: 124
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 631 milliseconds
+Percentage of Time Active: 0.742
+Percentage of Time Idle: 0.258
+Average Goodput of Connection: 264.694
+Maximum Goodput of Connection: 264.694
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+4. Domain name: ea-cdn.voxmedia.com
+DNS Query Time: 54 ms (On connection 1)
+DNS Query Time: 54 ms (On connection 2)
+DNS Query Time: 6 ms (On connection 4)
+
+TCP Connection: 1
+Connection Establishment Time: 343
+Waiting Time: 235
+Receiving Time: 248
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 826 milliseconds
+Percentage of Time Active: 0.585
+Percentage of Time Idle: 0.415
+Average Goodput of Connection: 67.044
+Maximum Goodput of Connection: 67.044
+
+TCP Connection: 2
+Connection Establishment Time: 344
+Waiting Time: 291
+Receiving Time: 28
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 663 milliseconds
+Percentage of Time Active: 0.481
+Percentage of Time Idle: 0.519
+Average Goodput of Connection: 173.821
+Maximum Goodput of Connection: 173.821
+
+TCP Connection: 3
+Connection Establishment Time: 39
+Waiting Time: 376
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 415 milliseconds
+Percentage of Time Active: 0.906
+Percentage of Time Idle: 0.094
+Goodput not defined as total receiving time = 0
+
+TCP Connection: 4
+Connection Establishment Time: 49
+Waiting Time: 2024
+Receiving Time: 21
+Sending Time: 0
+Time for which connection was active: 0 minutes, 2 seconds and 94 milliseconds
+Percentage of Time Active: 0.977
+Percentage of Time Idle: 0.023
+Average Goodput of Connection: 177.143
+Maximum Goodput of Connection: 177.143
+
+Maximum No. of TCP connections open simultaneously: 3 
+
+
+5. Domain name: ox-d.sbnation.com
+DNS Query Time: 159 ms (On connection 1)
+
+TCP Connection: 1
+Connection Establishment Time: 331
+Waiting Time: 285
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 616 milliseconds
+Percentage of Time Active: 0.463
+Percentage of Time Idle: 0.537
+Goodput not defined as total receiving time = 0
+
+TCP Connection: 2
+Connection Establishment Time: 0
+Waiting Time: 1526
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 1 seconds and 526 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+6. Domain name: edge.quantserve.com
+DNS Query Time: 31 ms (On connection 1)
+
+TCP Connection: 1
+Connection Establishment Time: 179
+Waiting Time: 146
+Receiving Time: 13
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 338 milliseconds
+Percentage of Time Active: 0.470
+Percentage of Time Idle: 0.530
+Average Goodput of Connection: 233.615
+Maximum Goodput of Connection: 233.615
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+7. Domain name: cdn3.vox-cdn.com
+DNS Query Time: 18 ms (On connection 3)
+DNS Query Time: 14 ms (On connection 4)
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 2177
+Receiving Time: 144428
+Sending Time: 0
+Time for which connection was active: 2 minutes, 52 seconds and 552 milliseconds
+Percentage of Time Active: 0.850
+Percentage of Time Idle: 0.150
+Average Goodput of Connection: 7.380
+Maximum Goodput of Connection: 6.567
+
+TCP Connection: 2
+Connection Establishment Time: 0
+Waiting Time: 2241
+Receiving Time: 39065
+Sending Time: 0
+Time for which connection was active: 0 minutes, 51 seconds and 237 milliseconds
+Percentage of Time Active: 0.806
+Percentage of Time Idle: 0.194
+Average Goodput of Connection: 9.595
+Maximum Goodput of Connection: 16.137
+
+TCP Connection: 3
+Connection Establishment Time: 411
+Waiting Time: 2421
+Receiving Time: 160634
+Sending Time: 0
+Time for which connection was active: 2 minutes, 43 seconds and 707 milliseconds
+Percentage of Time Active: 0.996
+Percentage of Time Idle: 0.004
+Average Goodput of Connection: 18.856
+Maximum Goodput of Connection: 18.477
+
+TCP Connection: 4
+Connection Establishment Time: 850
+Waiting Time: 1871
+Receiving Time: 45499
+Sending Time: 0
+Time for which connection was active: 0 minutes, 48 seconds and 220 milliseconds
+Percentage of Time Active: 0.982
+Percentage of Time Idle: 0.018
+Average Goodput of Connection: 9.513
+Maximum Goodput of Connection: 9.513
+
+TCP Connection: 5
+Connection Establishment Time: 739
+Waiting Time: 1973
+Receiving Time: 59584
+Sending Time: 0
+Time for which connection was active: 1 minutes, 2 seconds and 296 milliseconds
+Percentage of Time Active: 0.988
+Percentage of Time Idle: 0.012
+Average Goodput of Connection: 1.935
+Maximum Goodput of Connection: 1.935
+
+TCP Connection: 6
+Connection Establishment Time: 0
+Waiting Time: 1951
+Receiving Time: 65213
+Sending Time: 0
+Time for which connection was active: 1 minutes, 7 seconds and 164 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Average Goodput of Connection: 10.145
+Maximum Goodput of Connection: 10.145
+
+Maximum No. of TCP connections open simultaneously: 6 
+
+
+8. Domain name: cdn2.vox-cdn.com
+DNS Query Time: 18 ms (On connection 2)
+DNS Query Time: 1 ms (On connection 2)
+DNS Query Time: 1 ms (On connection 3)
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 600
+Receiving Time: 84133
+Sending Time: 0
+Time for which connection was active: 1 minutes, 24 seconds and 733 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Average Goodput of Connection: 7.860
+Maximum Goodput of Connection: 7.860
+
+TCP Connection: 2
+Connection Establishment Time: 684
+Waiting Time: 4247
+Receiving Time: 85310
+Sending Time: 0
+Time for which connection was active: 1 minutes, 29 seconds and 972 milliseconds
+Percentage of Time Active: 0.995
+Percentage of Time Idle: 0.005
+Average Goodput of Connection: 10.042
+Maximum Goodput of Connection: 7.471
+
+TCP Connection: 3
+Connection Establishment Time: 2050
+Waiting Time: 2142
+Receiving Time: 194239
+Sending Time: 0
+Time for which connection was active: 3 minutes, 18 seconds and 431 milliseconds
+Percentage of Time Active: 0.990
+Percentage of Time Idle: 0.010
+Average Goodput of Connection: 18.447
+Maximum Goodput of Connection: 18.447
+
+TCP Connection: 4
+Connection Establishment Time: 0
+Waiting Time: 1839
+Receiving Time: 69535
+Sending Time: 0
+Time for which connection was active: 1 minutes, 11 seconds and 374 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Average Goodput of Connection: 10.245
+Maximum Goodput of Connection: 10.245
+
+TCP Connection: 5
+Connection Establishment Time: 0
+Waiting Time: 5423
+Receiving Time: 93035
+Sending Time: 0
+Time for which connection was active: 1 minutes, 40 seconds and 16 milliseconds
+Percentage of Time Active: 0.984
+Percentage of Time Idle: 0.016
+Average Goodput of Connection: 9.637
+Maximum Goodput of Connection: 11.412
+
+TCP Connection: 6
+Connection Establishment Time: 0
+Waiting Time: 1953
+Receiving Time: 65561
+Sending Time: 0
+Time for which connection was active: 1 minutes, 7 seconds and 514 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Average Goodput of Connection: 4.640
+Maximum Goodput of Connection: 4.640
+
+Maximum No. of TCP connections open simultaneously: 6 
+
+
+9. Domain name: cdn0.vox-cdn.com
+DNS Query Time: 17 ms (On connection 3)
+DNS Query Time: 1771 ms (On connection 8)
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 8412
+Receiving Time: 196344
+Sending Time: 0
+Time for which connection was active: 3 minutes, 24 seconds and 760 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Average Goodput of Connection: 13.723
+Maximum Goodput of Connection: 17.101
+
+TCP Connection: 2
+Connection Establishment Time: 0
+Waiting Time: 7789
+Receiving Time: 132737
+Sending Time: 0
+Time for which connection was active: 2 minutes, 20 seconds and 526 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Average Goodput of Connection: 2.098
+Maximum Goodput of Connection: 2.098
+
+TCP Connection: 3
+Connection Establishment Time: 1698
+Waiting Time: 2001
+Receiving Time: 112236
+Sending Time: 0
+Time for which connection was active: 1 minutes, 55 seconds and 935 milliseconds
+Percentage of Time Active: 0.985
+Percentage of Time Idle: 0.015
+Average Goodput of Connection: 3.057
+Maximum Goodput of Connection: 3.057
+
+TCP Connection: 4
+Connection Establishment Time: 0
+Waiting Time: 3375
+Receiving Time: 151967
+Sending Time: 0
+Time for which connection was active: 2 minutes, 35 seconds and 342 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Average Goodput of Connection: 7.187
+Maximum Goodput of Connection: 9.945
+
+TCP Connection: 5
+Connection Establishment Time: 0
+Waiting Time: 1941
+Receiving Time: 155585
+Sending Time: 0
+Time for which connection was active: 2 minutes, 37 seconds and 526 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Average Goodput of Connection: 12.175
+Maximum Goodput of Connection: 12.175
+
+TCP Connection: 6
+Connection Establishment Time: 0
+Waiting Time: 13156
+Receiving Time: 138465
+Sending Time: 0
+Time for which connection was active: 2 minutes, 31 seconds and 621 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Average Goodput of Connection: 6.955
+Maximum Goodput of Connection: 6.876
+
+TCP Connection: 7
+Connection Establishment Time: 0
+Waiting Time: 1595
+Receiving Time: 176935
+Sending Time: 0
+Time for which connection was active: 2 minutes, 58 seconds and 530 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Average Goodput of Connection: 11.026
+Maximum Goodput of Connection: 11.026
+
+TCP Connection: 8
+Connection Establishment Time: 3278
+Waiting Time: 1582
+Receiving Time: 21834
+Sending Time: 0
+Time for which connection was active: 0 minutes, 26 seconds and 694 milliseconds
+Percentage of Time Active: 0.877
+Percentage of Time Idle: 0.123
+Average Goodput of Connection: 21.814
+Maximum Goodput of Connection: 21.814
+
+Maximum No. of TCP connections open simultaneously: 7 
+
+
+10. Domain name: cdn.jsdelivr.net
+DNS Query Time: 378 ms (On connection 1)
+
+TCP Connection: 1
+Connection Establishment Time: 181
+Waiting Time: 201
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 382 milliseconds
+Percentage of Time Active: 0.526
+Percentage of Time Idle: 0.474
+Goodput not defined as total receiving time = 0
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+11. Domain name: www.youtube.com
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 1447
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 1 seconds and 447 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Goodput not defined as total receiving time = 0
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+12. Domain name: cdn1.vox-cdn.com
+DNS Query Time: 1 ms (On connection 5)
+
+TCP Connection: 1
+Connection Establishment Time: 0
+Waiting Time: 1871
+Receiving Time: 164474
+Sending Time: 0
+Time for which connection was active: 2 minutes, 46 seconds and 345 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Average Goodput of Connection: 2.694
+Maximum Goodput of Connection: 2.694
+
+TCP Connection: 2
+Connection Establishment Time: 0
+Waiting Time: 1854
+Receiving Time: 92499
+Sending Time: 0
+Time for which connection was active: 1 minutes, 34 seconds and 353 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Average Goodput of Connection: 4.870
+Maximum Goodput of Connection: 4.870
+
+TCP Connection: 3
+Connection Establishment Time: 0
+Waiting Time: 3799
+Receiving Time: 125360
+Sending Time: 0
+Time for which connection was active: 2 minutes, 15 seconds and 215 milliseconds
+Percentage of Time Active: 0.955
+Percentage of Time Idle: 0.045
+Average Goodput of Connection: 10.840
+Maximum Goodput of Connection: 11.407
+
+TCP Connection: 4
+Connection Establishment Time: 1026
+Waiting Time: 1939
+Receiving Time: 99634
+Sending Time: 0
+Time for which connection was active: 1 minutes, 42 seconds and 599 milliseconds
+Percentage of Time Active: 0.990
+Percentage of Time Idle: 0.010
+Average Goodput of Connection: 7.805
+Maximum Goodput of Connection: 7.805
+
+TCP Connection: 5
+Connection Establishment Time: 1091
+Waiting Time: 1885
+Receiving Time: 38662
+Sending Time: 0
+Time for which connection was active: 0 minutes, 41 seconds and 638 milliseconds
+Percentage of Time Active: 0.974
+Percentage of Time Idle: 0.026
+Average Goodput of Connection: 9.919
+Maximum Goodput of Connection: 9.919
+
+TCP Connection: 6
+Connection Establishment Time: 0
+Waiting Time: 2018
+Receiving Time: 49728
+Sending Time: 0
+Time for which connection was active: 0 minutes, 51 seconds and 746 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Average Goodput of Connection: 2.691
+Maximum Goodput of Connection: 2.691
+
+TCP Connection: 7
+Connection Establishment Time: 0
+Waiting Time: 1961
+Receiving Time: 37904
+Sending Time: 0
+Time for which connection was active: 0 minutes, 39 seconds and 865 milliseconds
+Percentage of Time Active: 1.000
+Percentage of Time Idle: 0.000
+Average Goodput of Connection: 11.347
+Maximum Goodput of Connection: 11.347
+
+Maximum No. of TCP connections open simultaneously: 7 
+
+
+13. Domain name: www.google-analytics.com
+DNS Query Time: 1848 ms (On connection 1)
+
+TCP Connection: 1
+Connection Establishment Time: 1890
+Waiting Time: 3413
+Receiving Time: 10792
+Sending Time: 0
+Time for which connection was active: 0 minutes, 16 seconds and 142 milliseconds
+Percentage of Time Active: 0.880
+Percentage of Time Idle: 0.120
+Average Goodput of Connection: 1.062
+Maximum Goodput of Connection: 1.028
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+14. Domain name: b.scorecardresearch.com
+DNS Query Time: 3771 ms (On connection 1)
+
+TCP Connection: 1
+Connection Establishment Time: 1851
+Waiting Time: 5452
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 7 seconds and 446 milliseconds
+Percentage of Time Active: 0.732
+Percentage of Time Idle: 0.268
+Goodput not defined as total receiving time = 0
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+15. Domain name: pixel.quantserve.com
+DNS Query Time: 3842 ms (On connection 1)
+
+TCP Connection: 1
+Connection Establishment Time: 1894
+Waiting Time: 1844
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 3 seconds and 738 milliseconds
+Percentage of Time Active: 0.493
+Percentage of Time Idle: 0.507
+Goodput not defined as total receiving time = 0
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+16. Domain name: static.chartbeat.com
+DNS Query Time: 1 ms (On connection 1)
+
+TCP Connection: 1
+Connection Establishment Time: 190
+Waiting Time: 225
+Receiving Time: 66
+Sending Time: 0
+Time for which connection was active: 0 minutes, 0 seconds and 481 milliseconds
+Percentage of Time Active: 0.605
+Percentage of Time Idle: 0.395
+Average Goodput of Connection: 165.545
+Maximum Goodput of Connection: 165.545
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+17. Domain name: ping.chartbeat.net
+DNS Query Time: 0 ms
+
+TCP Connection: 1
+Connection Establishment Time: 177
+Waiting Time: 719
+Receiving Time: 0
+Sending Time: 0
+Time for which connection was active: 0 minutes, 15 seconds and 201 milliseconds
+Percentage of Time Active: 0.047
+Percentage of Time Idle: 0.953
+Goodput not defined as total receiving time = 0
+
+Maximum No. of TCP connections open simultaneously: 1 
+
+
+Maximum No. of TCP connections open simultaneously in entire network: 27
+Average Goodput of Network: 9.163
+Maximmum Goodput of Network: 264.694
+Vasudhas-MacBook-Pro:dumps Akshay$ 
