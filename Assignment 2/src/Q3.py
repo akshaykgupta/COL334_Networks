@@ -5,8 +5,29 @@ import urlparse
 import re
 import csv
 from dateutil import parser, relativedelta
-import datetime
+import datetime, time
 import pyshark as ps
+import socket, ssl
+
+def send_get_request(url):
+	domain = urlparse.urlparse(url).netloc
+	data = ""
+	if url.startswith("https://"):
+		sock = ssl.wrap_socket(socket.socket(socket.AF_INET , socket.SOCK_STREAM, 0))
+		sock.connect((domain,443))
+	else:
+		sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM, 0)
+		sock.connect((domain,80))
+	req_str = "GET " + url + " HTTP/1.1\r\nHost: " + domain + "\r\nConnection: close\r\n\r\n"
+	sock.send(req_str)
+	start = time.time()
+	while(True):
+		data = sock.recv(1024)
+		if len(data)==0 :
+			break
+	time_taken = time.time() - start
+	sock.close()
+	return time_taken
 
 def build_object_tree(har_file, har_data):
 	object_id = {}
@@ -150,32 +171,37 @@ def print_data(domain_list, domain_info, domain_size):
 		print str(i+1) + ". Domain name: " + domain
 		print "Total number of objects downloaded: " + str(domain_size[domain][1])
 		print "Total size of objects downloaded: " + str(domain_size[domain][0]) + " bytes"
-		print "No. of TCP connections opened: " + str(len(domain_info[domain]))
+		print "No. of TCP connections opened: " + str(len(domain_info[domain])) + "\n"
 		total_tcp_connections += len(domain_info[domain])
 		for j, connection in enumerate(sorted(domain_info[domain].keys())):
 			print "TCP Connection: " + str(j+1)
 			print "No. of objects downloaded: " + str(len(domain_info[domain][connection]))
-			total_size = sum([pkt['size'] for pkt in domain_info[domain][connection]])
+			total_size = sum([pkt['size'] for pkt in domain_info[domain][connection] if 'size' in pkt])
 			print "Size of objects downloaded: " + str(total_size) + " bytes"
 			print ""
 		print ""
 
-def timing_analysis(har_data, pcap_data, domain_info, domain_list):
+def timing_analysis(har_data, pcap_data, domain_info, domain_list, compare = 'False'):
 	first_request_time = parser.parse(har_data[0]['startedDateTime'])
 	last_load_time = max([(parser.parse(entry['startedDateTime']) + datetime.timedelta(microseconds = int(entry['time']) * 1000)) for entry in har_data])
 	delta = relativedelta.relativedelta(last_load_time, first_request_time)
+	print "Timing Information:"
 	print "Page load time: " + str(delta.minutes) + " minutes, " + str(delta.seconds) + " seconds and " + str(delta.microseconds // 1000) + " milliseconds\n"
 	network_max_goodput = 0
 	network_size = 0
 	network_receive = 0
 	network_time_list = []
 	for i, domain in enumerate(domain_list):
+		dns_query = False
 		print str(i+1) + ". Domain name: " + domain
 		for j, connection in enumerate(sorted(domain_info[domain].keys())):
 			connection_id = domain_info[domain][connection]
 			for pkt in connection_id:
 				if pkt['entry']['timings']['dns'] != 0:
-					print "%d.DNS Query Time: %d ms" % (j+1, pkt['entry']['timings']['dns'])
+					dns_query = True
+					print "DNS Query Time: %d ms (On connection %d)" % (pkt['entry']['timings']['dns'], j+1)
+		if dns_query is False:
+			print "DNS Query Time: 0 ms"
 		print "" 
 		time_list = []
 		for j, connection in enumerate(sorted(domain_info[domain].keys())):
@@ -196,7 +222,7 @@ def timing_analysis(har_data, pcap_data, domain_info, domain_list):
 			time_list.append((last_load_time, '-'))
 			print "Time for which connection was active: %d minutes, %d seconds and %d milliseconds" % (delta.minutes, delta.seconds, delta.microseconds // 1000)
 			total_active_time = delta.minutes * 60 * 1000 + delta.seconds * 1000 + delta.microseconds // 1000
-			active_time = connect + wait + receive + send
+			active_time = wait + receive + send
 			active_percentage = float(active_time) / float(total_active_time)
 			idle_percentage = 1.0 - active_percentage
 			print "Percentage of Time Active: %.3f" % active_percentage
@@ -219,6 +245,8 @@ def timing_analysis(har_data, pcap_data, domain_info, domain_list):
 				print "Maximum Goodput of Connection: %.3f" % max_goodput
 			else:
 				print"Goodput not defined as total receiving time = 0"
+			if compare == 'True':
+				print "Maximum Goodput through direct request: " + str(float(largest_object['size'])/float(send_get_request(largest_object['url']) * 1000))
 			print ""
 		max_connections = 0
 		connections = 0
@@ -252,14 +280,20 @@ def analyse(har_data, pcap_data):
 	domain_info = {}
 	domain_size = {}
 	domain_list = []
-	url_set = set()
+	matched = {}
 	for entry in har_data:
-		url_set.add(entry['request']['url'])
+		if entry['request']['url'] not in matched:
+			matched[entry['request']['url']] = 1
+		else:
+			matched[entry['request']['url']] += 1
 	for pkt in pcap_data:
 		try:
 			if pkt.http.request_method == 'GET':
-				if pkt.http.request_full_uri not in url_set:
+				if pkt.http.request_full_uri not in matched:
 					continue
+				if matched[pkt.http.request_full_uri] == 0:
+					continue
+				matched[pkt.http.request_full_uri] -= 1
 				domain = pkt.http.host
 				src_port = pkt.tcp.port
 				if domain not in domain_info:
@@ -268,7 +302,7 @@ def analyse(har_data, pcap_data):
 					domain_list.append(domain)
 				if src_port not in domain_info[domain]:
 					domain_info[domain][src_port] = []
-				domain_info[domain][src_port].append({'url' : pkt.http.request_full_uri})
+				domain_info[domain][src_port].append({'url' : pkt.http.request_full_uri, 'matched' : False})
 		except:
 			pass
 	for entry in har_data:
@@ -282,14 +316,25 @@ def analyse(har_data, pcap_data):
 		except:
 			size = entry['response']['bodySize']
 		total_size += size
+		if url == "http://ox-d.sbnation.com/w/1.0/jstag":
+			print 'bl'
+		matched = False
 		if domain in domain_info:
 			for connection in domain_info[domain]:
 				for pkt in domain_info[domain][connection]:
-					if pkt['url'] == url:
+					if pkt['url'] == url and not pkt['matched']:
+						if pkt['url'] == "http://ox-d.sbnation.com/w/1.0/jstag":
+							print connection
 						pkt['size'] = size
 						pkt['entry'] = entry
 						domain_size[domain][0] += size
 						domain_size[domain][1] += 1
+						pkt['matched'] = True
+						matched = True
+						break
+				if matched:
+					break
+
 	print "Total No. of objects downloaded: " + str(n_objects)
 	print "Total size of objects downloaded: " + str(total_size) + " bytes\n"
 	return domain_list, domain_info, domain_size
@@ -302,6 +347,10 @@ if __name__ == '__main__':
 		har_file = sys.argv[1]
 		pcap_file = sys.argv[2]
 		src_ip = sys.argv[3]
+	if len(sys.argv) == 5:
+		compare = sys.argv[4]
+	else:
+		compare = "False"
 	with open(har_file) as hf:
 		har_data = json.load(hf)['log']['entries']
 	with open(pcap_file) as pf:
@@ -312,9 +361,10 @@ if __name__ == '__main__':
 	#print domain_info
 	print_data(domain_list, domain_info, domain_size)
 	classify(har_data)
+	print ""
 	print_object_tree(har_data)
 	print "\n"
 	print_download_tree(domain_info, domain_list)
 	build_download_tree(har_file, domain_info, domain_list)
 	build_object_tree(har_file, har_data)
-	timing_analysis(har_data, pcap_data, domain_info, domain_list)
+	timing_analysis(har_data, pcap_data, domain_info, domain_list, compare)
