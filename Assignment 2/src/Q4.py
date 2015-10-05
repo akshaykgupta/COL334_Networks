@@ -1,4 +1,4 @@
-import socket,threading,sys,json,os
+import socket,threading,sys,json,os,ssl
 import Q3 as converter
 class downloader:
 	#Defining Static Variables
@@ -23,52 +23,9 @@ class downloader:
 			threading.Thread.__init__(self)
 			self.domain = domain
 			self.domain_list = domain_list
-			self.flag = flag #Deprecated!
-		def run(self):
-			
-			sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM,0)
-			try:
-				sock.connect((self.domain,80))
-			except:
-				print "something went wrong. lol."
-			filenames = []
-			f = open(downloader.index_file,'a')
-			
-			https_requests = []
+			self.flag = flag
 
-			for idx in range(0,len(self.domain_list)):
-				request = self.domain_list[idx]
-				if "https://" in request:
-					#Continue and deal with this later.
-					https_requests.append(request)
-					continue
-
-				request_string = ''
-				if(idx != len(self.domain_list) -1):
-					request_string = "GET " + request + " HTTP/1.1\r\nHost: " + self.domain + "\r\nConnection: keep-alive\r\n\r\n"
-				else:
-					request_string = "GET " + request + " HTTP/1.1\r\nHost: " + self.domain + "\r\nConnection: close\r\n\r\n"
-				sock.send(request_string)
-				with downloader.my_lock:
-					f.write(str(downloader.jdx) + ' ' + request + '\n')
-					filenames.append(downloader.jdx)
-					downloader.jdx = downloader.jdx + 1
-			f.close()
-			all_data = ''
-			try:
-				sock.settimeout(60.0)
-				data = sock.recv(1024)
-				sock.settimeout(None)
-			except:
-				data = ''
-			while(len(data)!=0):
-				all_data = all_data + data
-				try:
-					sock.settimeout(60.0)
-					data = sock.recv(1024)
-					sock.settimeout(None)
-				except:
-					data = ''
+		def handle_data(all_data,filenames):
 			fileNumber = 0
 			while(len(all_data)!=0):
 				length_of_file = -1	
@@ -109,6 +66,89 @@ class downloader:
 			while(fileNumber < len(filenames)):
 				f = open(downloader.directory_name + '/' +str(filenames[fileNumber]) +'.txt','w')
 				fileNumber = fileNumber + 1
+		
+		
+		def run(self):
+			sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM,0)
+			try:
+				sock.connect((self.domain,80))
+			except:
+				print "Could not connect to domain. ",self.domain
+				return
+
+			filenames = []
+			https_requests = []
+			f = open(downloader.index_file,'a')
+			for idx in range(0,len(self.domain_list)):
+				request = self.domain_list[idx]
+				if(request.startwith('https://')):
+					https_requests.append(request)
+					continue
+				request_string = ''
+				if(idx != len(self.domain_list) -1):
+					request_string = "GET " + request + " HTTP/1.1\r\nHost: " + self.domain + "\r\nConnection: keep-alive\r\n\r\n"
+				else:
+					request_string = "GET " + request + " HTTP/1.1\r\nHost: " + self.domain + "\r\nConnection: close\r\n\r\n"
+				sock.send(request_string)
+				with downloader.my_lock:
+					f.write(str(downloader.jdx) + ' ' + request + '\n')
+					filenames.append(downloader.jdx)
+					downloader.jdx = downloader.jdx + 1
+			f.close()
+			all_data = ''
+			try:
+				sock.settimeout(60.0)
+				data = sock.recv(1024)
+				sock.settimeout(None)
+			except:
+				data = ''
+			while(len(data)!=0):
+				all_data = all_data + data
+				try:
+					sock.settimeout(60.0)
+					data = sock.recv(1024)
+					sock.settimeout(None)
+				except:
+					data = ''
+			handle_connection.handle_data(all_data,filenames)
+			sock.close()
+			if(not https_requests == []):
+				ssl_wrapper = ssl.wrap_socket(sock)
+				ssl_wrapper.connect((self.domain,443))
+				filenames = []
+				f = open(downloader.index_file,'a')
+				for idx in range(0,len(https_requests)):
+					request = https_requests[idx]
+					request_string = ''
+					if(idx != len(https_requests) -1):
+						request_string = "GET " + request + " HTTP/1.1\r\nHost: " + self.domain + "\r\nConnection: keep-alive\r\n\r\n"
+					else:
+						request_string = "GET " + request + " HTTP/1.1\r\nHost: " + self.domain + "\r\nConnection: close\r\n\r\n"
+					#ssl_wrapper.send(request_string)
+					with downloader.my_lock:
+						f.write(str(downloader.jdx) + ' ' + request + '\n')
+						filenames.append(downloader.jdx)
+						downloader.jdx = downloader.jdx + 1
+				f.close()
+				all_data = ''
+				try:
+					ssl_wrapper.settimeout(60.0)
+					data = ssl_wrapper.recv(1024)
+					ssl_wrapper.settimeout(None)
+				except:
+					data = ''
+				while(len(data)!=0):
+					all_data = all_data + data
+					try:
+						ssl_wrapper.settimeout(60.0)
+						data = ssl_wrapper.recv(1024)
+						ssl_wrapper.settimeout(None)
+					except:
+						data = ''
+				handle_connection.handle_data(all_data,filenames)
+				ssl_wrapper.close()
+			
+			
 
 	class distribute_connections(threading.Thread):
 		def __init__(self,domain,domain_list,max_TCP,max_OBJ,flag):
@@ -211,21 +251,18 @@ class downloader:
 			#ASSERT : The directories exist.
 			f = open(downloader.index_file,"r")
 			for line in f:
-				try:
-					idx = eval(line.split(" ")[0])
-					present_file_name = downloader.directory_name + "/" + str(idx) + ".txt"
-					url = line.split(" ")[1]
-					domain_name = url.split("//")[1].split("/")[0]
-					# extension = url.split(".")[len(url.split(".")) - 1] #Last index.
-					# if extension == ".png" or  extension == ".jpg" or extension==".html" or extension==".css" or extension==".js":
-					# 	pass
-					# else:
-					# 	extension = ".txt"
-					extension = ".txt"
-					new_file_name = downloader.directory_name + "/" + domain_name + "/" + str(idx) + extension
-					os.rename(present_file_name,new_file_name) #Rename the file!
-				except:
-					continue
+				idx = eval(line.split(" ")[0])
+				present_file_name = downloader.directory_name + "/" + str(idx) + ".txt"
+				url = line.split(" ")[1]
+				domain_name = url.split("//")[1].split("/")[0]
+				# extension = url.split(".")[len(url.split(".")) - 1] #Last index.
+				# if extension == ".png" or  extension == ".jpg" or extension==".html" or extension==".css" or extension==".js":
+				# 	pass
+				# else:
+				# 	extension = ".txt"
+				extension = ".txt"
+				new_file_name = downloader.directory_name + "/" + domain_name + "/" + str(idx) + extension
+				os.rename(present_file_name,new_file_name) #Rename the file!
 			f.close()
 
 if __name__ == '__main__':
