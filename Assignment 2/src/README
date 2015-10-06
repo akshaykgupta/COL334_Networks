@@ -27,4 +27,20 @@ Index File:
 		3 example.com/eg.html
 	At the same time, the content of the same url will be saved in a file called "3.txt" inside the folder corresponding to <save_directory>/<domain_name> (e.g: dl/example.com)
 
+timing.py:
+	This is the script that we used to get times according to various parameters.
 
+	Input:
+		1. either a .har or a .objt (object tree) file
+		2. upper limit on tcp-parameter
+		3. upper limit on obj-parameter
+
+	Output:
+		1. All the saved files and mappings for each possible combination of parameters
+		2. a timing_analysis.data file which records time taken for each set of paramters. The values are tab seperated.
+
+	Usage :
+
+		python timing.py <path-to-objt/har> <max_max_tcp> <max_max_obj>
+
+		eg: python timing.py "../dump/www.vox.com.objt" 8 8

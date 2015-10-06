@@ -2,12 +2,12 @@ import os,Q4,sys,time
 import platform as pf
 
 if(len(sys.argv) != 2):
-	print 'Syntax for correct usage: python timing.py <HAR file/OBJ Tree source>'
+	print 'Syntax for correct usage: python timing.py <HAR file/OBJ Tree source> <Upper limit on max_tcp> <upper limit on max_obj>'
 	exit()
 
 #Edit these:
-max_tcp = 8
-max_obj = 8 
+max_tcp = eval(sys.argv[2])
+max_obj = eval(sys.argv[3])
 f = open("timing_analysis.data" , "a")
 f.write('TCP OBJ Time Taken\n')
 for tcp in range(1,max_tcp):
