@@ -1,0 +1,28 @@
+Q4.py :
+
+Modules necessary : pyshark
+Input:
+	1. either a .har files, or a .objt (object tree produced by Q3.py) file
+	2. parameters - maximum number of tcp connections per domain and maximum number of objects per tcp connection
+	3. name of index file 
+	4. name of directory in which to keep the downloaded files.
+
+Output:
+	1. All the downloaded files are saved in the directory mentioned as input. Do note that they are saved according to their domain.
+	2. Page load time is displayed on console.
+
+Usage Instructions:
+It is required that you run it from the src directory.
+
+python Q4.py <path-to-objt/har> <max_tcp> <max_obj> <index_file> <save_directory>
+
+eg :
+	python Q4.py "../dump/www.vox.com.objt" 5 5 "index-1" "download-1"
+
+Index File:
+	Since some urls are longer than maximum allowed length of filenames, our script maps each url to a number. The content received from the url is then saved in a file of that number ( with a .txt extension ). The index file contains this mapping in the format of:
+		<number> <url>
+	eg : if example.com/eg.html was given the number 3, you will find the following line in the index file:
+		3 example.com/eg.html
+	At the same time, the content of the same url will be saved in a file called "3.txt"
+
