@@ -190,6 +190,62 @@ def print_data(domain_list, domain_info, domain_size):
 			print ""
 		print ""
 
+def max_goodput_calculation(goodput_list, domain_list, domain_info, domain_size):
+	a = []
+	print "\nTheoretical Calculation of page load time assuming maximum goodput for each domain on a single TCP connection: "
+	for i, domain in enumerate(domain_list):
+		total_size = str(domain_size[domain][0])
+		goodput = goodput_list[i]
+		print domain + " - Total object size: " + str(total_size) + ", Max. goodput: " + str(goodput)
+		if float(goodput) != 0.0:
+			a.append(float(total_size)/float(goodput))
+	print "\nCalculated page load time: " + str(max(a)) + " ms"
+
+def collapse_objects_calculation(har_data, domain_list, domain_info):
+	original_active_time = {}
+	new_active_time = {}
+	connection_map = {}
+	level = {}
+	for i, entry in enumerate(har_data):
+		url = entry['request']['url']
+		level[url] = 0
+		for header in entry['request']['headers']:
+			if header['name'] == 'Referer' or header['name'] == 'referer':
+				level[url] = level[header['value']] + 1
+
+	for i, domain in enumerate(domain_list):
+		for j, connection in enumerate(sorted(domain_info[domain].keys())):
+			connection_id = domain_info[domain][connection]
+			connect = sum([pkt['entry']['timings']['connect'] for pkt in connection_id])
+			dns = sum([pkt['entry']['timings']['dns'] for pkt in connection_id])
+			receive = max([pkt['entry']['timings']['receive'] for pkt in connection_id])
+			original_active_time[connection] = dns + connect + receive
+			for pkt in domain_info[domain][connection]:
+				connection_map[pkt['url']] = connection
+	parent = {}
+	levels = {}
+	for i in range(10):
+		levels[i] = []
+	for i, domain in enumerate(domain_list):
+		for j, connection in enumerate(sorted(domain_info[domain].keys())):
+			max_level = 0
+			for pkt in domain_info[domain][connection]:
+				for header in pkt['entry']['request']['headers']:
+					if header['name'] == 'Referer' or header['name'] == 'referer':
+						if max_level < level[pkt['url']]:
+							max_level = level[pkt['url']]
+							par_connection = connection_map[header['value']]
+			levels[max_level].append((connection, par_connection))
+	for lvl in range(9, -1, -1):
+		for connection in levels[lvl]:
+			if connection[1] not in new_active_time:
+				new_active_time[connection[1]] = original_active_time[connection[1]] + original_active_time[connection[0]]
+			else:
+				if original_active_time[connection[1]] + original_active_time[connection[0]] > new_active_time[connection[1]]:
+					new_active_time[connection[1]] = original_active_time[connection[1]] + original_active_time[connection[0]]
+	calc_time = max([new_active_time[connection] for connection in levels[0]])
+	print "\nCalculated time if TCP connections can collapse on get requests: " + str(calc_time)
+
 def create_timeline(har_data, domain_info, domain_list):
 	f = open("../doc/timing_info.csv", 'wb')
 	c = csv.writer(f)
@@ -241,6 +297,7 @@ def timing_analysis(har_data, pcap_data, domain_info, domain_list, compare = 'Fa
 	network_size = 0
 	network_receive = 0
 	network_time_list = []
+	goodput_list = []
 	# f = open("../doc/goodputs.csv", 'wb')
 	# c = csv.writer(f)
 	for i, domain in enumerate(domain_list):
@@ -256,6 +313,7 @@ def timing_analysis(har_data, pcap_data, domain_info, domain_list, compare = 'Fa
 			print "DNS Query Time: 0 ms"
 		print "" 
 		time_list = []
+		domain_goodput = -1.0
 		for j, connection in enumerate(sorted(domain_info[domain].keys())):
 			connection_id = domain_info[domain][connection]
 			print "TCP Connection: " + str(j+1)
@@ -293,6 +351,8 @@ def timing_analysis(har_data, pcap_data, domain_info, domain_list, compare = 'Fa
 				max_goodput = float(largest_object['size']) / float(largest_object['entry']['timings']['receive'])
 				if network_max_goodput < max_goodput:
 					network_max_goodput = max_goodput
+				if domain_goodput < max_goodput:
+					domain_goodput = max_goodput
 				print "Average Goodput of Connection: %.3f" % average_goodput
 				print "Maximum Goodput of Connection: %.3f" % max_goodput
 				# row = []
@@ -317,6 +377,7 @@ def timing_analysis(har_data, pcap_data, domain_info, domain_list, compare = 'Fa
 		print "Maximum No. of TCP connections open simultaneously: %d \n" % max_connections
 		print ""
 		network_time_list.extend(time_list)
+		goodput_list.append(max_goodput)
 	max_connections = 0
 	connections = 0
 	for time in sorted(network_time_list, key = lambda t: t[0]):
@@ -330,6 +391,7 @@ def timing_analysis(har_data, pcap_data, domain_info, domain_list, compare = 'Fa
 	network_avg_goodput = float(network_size) / float(network_receive)
 	print "Average Goodput of Network: %.3f" % network_avg_goodput
 	print "Maximmum Goodput of Network: %.3f" % network_max_goodput
+	return goodput_list
 
 def analyse(har_data, pcap_data):
 	n_objects = 0
@@ -422,4 +484,6 @@ if __name__ == '__main__':
 	print_download_tree(domain_info, domain_list)
 	build_download_tree(har_file, domain_info, domain_list)
 	build_object_tree(har_file, har_data)
-	timing_analysis(har_data, pcap_data, domain_info, domain_list, compare)
+	goodput_list = timing_analysis(har_data, pcap_data, domain_info, domain_list, compare)
+	# max_goodput_calculation(goodput_list, domain_list, domain_info, domain_size)
+	collapse_objects_calculation(har_data, domain_list, domain_info)
