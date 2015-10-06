@@ -116,7 +116,10 @@ def print_download_tree(domain_info, domain_list):
 def classify(har_data):
 	print "Object Type Classification:\n"
 	obj_type_list = {}
-	obj_type_list['Images'] = []
+	obj_type_list['Other Images'] = []
+	obj_type_list['JPEG Images'] = []
+	obj_type_list['PNG Images'] = []
+	obj_type_list['GIFs'] = []
 	obj_type_list['HTML'] = []
 	obj_type_list['Javascript'] = []
 	obj_type_list['CSS'] = []
@@ -136,8 +139,14 @@ def classify(har_data):
 					obj_type_list['Javascript'].append(entry['request']['url'])
 				elif obj_type.find('font') != -1 or obj_ext.find('font') != -1:
 					obj_type_list['Fonts'].append(entry['request']['url'])
+				elif obj_type == 'image' and obj_ext == 'jpeg':
+					obj_type_list['JPEG Images'].append(entry['request']['url'])
+				elif obj_type == 'image' and obj_ext == 'png':
+					obj_type_list['PNG Images'].append(entry['request']['url'])
+				elif obj_type == 'image' and obj_ext == 'gif':
+					obj_type_list['GIFs'].append(entry['request']['url'])				
 				elif obj_type == 'image':
-					obj_type_list['Images'].append(entry['request']['url'])
+					obj_type_list['Other Images'].append(entry['request']['url'])
 				elif obj_ext == 'css':
 					obj_type_list['CSS'].append(entry['request']['url'])
 				elif obj_ext == 'html':
@@ -155,7 +164,7 @@ def classify(har_data):
 				else:
 					obj_type_list['Others'].append(entry['request']['url'])
 				break
-	for key in obj_type_list.keys():
+	for key in sorted(obj_type_list.keys()):
 		if len(obj_type_list[key]) == 0:
 			continue
 		print key + ":"
@@ -181,6 +190,47 @@ def print_data(domain_list, domain_info, domain_size):
 			print ""
 		print ""
 
+def create_timeline(har_data, domain_info, domain_list):
+	f = open("../doc/timing_info.csv", 'wb')
+	c = csv.writer(f)
+	g = open("../doc/timeline.csv", 'wb')
+	d = csv.writer(g)
+	start = parser.parse(har_data[0]['startedDateTime'])
+	end = max([(parser.parse(entry['startedDateTime']) + datetime.timedelta(microseconds = int(entry['time']) * 1000)) for entry in har_data])
+	interval = start - end
+	interval = interval.seconds + float(interval.microseconds / 1000000)
+	for i, domain in enumerate(domain_list):
+		for j, connection in enumerate(sorted(domain_info[domain].keys())):
+			row1 = []
+			connection_id = domain_info[domain][connection]
+			first_request_time = parser.parse(connection_id[0]['entry']['startedDateTime']) + datetime.timedelta(microseconds = (connection_id[0]['entry']['timings']['blocked'] + connection_id[0]['entry']['timings']['dns']) * 1000)
+			last_load_time = max([(parser.parse(entry['entry']['startedDateTime']) + datetime.timedelta(microseconds = entry['entry']['time'] * 1000)) for entry in connection_id])			
+			total_wait_time = first_request_time - start
+			total_active_time = last_load_time - first_request_time
+			total_wait_time = total_wait_time.seconds + (float(total_wait_time.microseconds) / 1000000)
+			total_active_time = total_active_time.seconds + (float(total_active_time.microseconds) / 100000)
+			row1.append(domain + ": Conn " + str(j+1))
+			row1.append(total_wait_time)
+			row1.append(total_active_time)
+			d.writerow(row1)
+			for pkt in domain_info[domain][connection]:
+				row = []
+				if len(pkt['url']) <= 34:
+					url = pkt['url']
+				else:
+					url = pkt['url'][:20] + '....' + pkt['url'][-10:]
+				row.append(url)
+				wait_time = parser.parse(pkt['entry']['startedDateTime']) - start
+				wait_time = (wait_time.seconds) + float(wait_time.microseconds / 1000)
+				row.append(wait_time / interval)
+				row.append((float(pkt['entry']['timings']['blocked'])/1000) / interval)
+				row.append((float(pkt['entry']['timings']['dns'])/1000) / interval)
+				row.append((float(pkt['entry']['timings']['connect'])/1000) / interval)
+				row.append((float(pkt['entry']['timings']['send'])/1000) / interval)
+				row.append((float(pkt['entry']['timings']['wait'])/1000) / interval)
+				row.append((float(pkt['entry']['timings']['receive'])/1000) / interval)
+				c.writerow(row)
+
 def timing_analysis(har_data, pcap_data, domain_info, domain_list, compare = 'False'):
 	first_request_time = parser.parse(har_data[0]['startedDateTime'])
 	last_load_time = max([(parser.parse(entry['startedDateTime']) + datetime.timedelta(microseconds = int(entry['time']) * 1000)) for entry in har_data])
@@ -191,6 +241,8 @@ def timing_analysis(har_data, pcap_data, domain_info, domain_list, compare = 'Fa
 	network_size = 0
 	network_receive = 0
 	network_time_list = []
+	# f = open("../doc/goodputs.csv", 'wb')
+	# c = csv.writer(f)
 	for i, domain in enumerate(domain_list):
 		dns_query = False
 		print str(i+1) + ". Domain name: " + domain
@@ -243,6 +295,11 @@ def timing_analysis(har_data, pcap_data, domain_info, domain_list, compare = 'Fa
 					network_max_goodput = max_goodput
 				print "Average Goodput of Connection: %.3f" % average_goodput
 				print "Maximum Goodput of Connection: %.3f" % max_goodput
+				# row = []
+				# row.append(domain + ": Conn " + str(j+1))
+				# row.append(average_goodput)
+				# row.append(max_goodput)
+				# c.writerow(row)
 			else:
 				print"Goodput not defined as total receiving time = 0"
 			if compare == 'True':
@@ -275,7 +332,7 @@ def timing_analysis(har_data, pcap_data, domain_info, domain_list, compare = 'Fa
 	print "Maximmum Goodput of Network: %.3f" % network_max_goodput
 
 def analyse(har_data, pcap_data):
-	n_objects = len(har_data)
+	n_objects = 0
 	total_size = 0
 	domain_info = {}
 	domain_size = {}
@@ -315,22 +372,19 @@ def analyse(har_data, pcap_data):
 			size = size
 		except:
 			size = entry['response']['bodySize']
-		total_size += size
-		if url == "http://ox-d.sbnation.com/w/1.0/jstag":
-			print 'bl'
 		matched = False
 		if domain in domain_info:
 			for connection in domain_info[domain]:
 				for pkt in domain_info[domain][connection]:
 					if pkt['url'] == url and not pkt['matched']:
-						if pkt['url'] == "http://ox-d.sbnation.com/w/1.0/jstag":
-							print connection
 						pkt['size'] = size
 						pkt['entry'] = entry
 						domain_size[domain][0] += size
 						domain_size[domain][1] += 1
 						pkt['matched'] = True
 						matched = True
+						total_size += size
+						n_objects += 1
 						break
 				if matched:
 					break
@@ -359,6 +413,7 @@ if __name__ == '__main__':
 		pcap_data = ps.FileCapture(pcap_file, display_filter = display_filter)
 	domain_list, domain_info, domain_size = analyse(har_data, pcap_data)
 	#print domain_info
+	#create_timeline(har_data, domain_info, domain_list)
 	print_data(domain_list, domain_info, domain_size)
 	classify(har_data)
 	print ""
