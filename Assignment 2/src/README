@@ -1,11 +1,36 @@
+﻿Authors : Akshay Kumar Gupta, Barun Patra, Haroun Habeeb
+Q3.py :
+
+Modules necessary : pyshark
+Input:
+	1. HAR file (.har)
+	2. PCAP file (.pcap)
+	3. IP Address of host
+	4. (Optional) "True": This input will send direct GET requests as well for goodput comparison.
+
+Output:
+	1. All the info asked in Q3a.
+	2. Object Tree (Object Tree is both printed to standard output as well as saved in a .objt file in the specified format)
+	3. Download Tree (Download Tree is both printed to standard output as well as saved in a .downt file in the specified format)
+	4. All the info asked in Q3c. 
+
+Usage Instructions:
+python Q3.py <path-to-har> <path-to-tcp> <host-ip> [<True>]
+
+Eg.
+	python Q3.py www.vox.com.har vox.pcap 192.168.1.5
+
+---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+
 Q4.py :
 
 Modules necessary : pyshark
 Input:
-	1. either a .har files, or a .objt (object tree produced by Q3.py) file
-	2. parameters - maximum number of tcp connections per domain and maximum number of objects per tcp connection
-	3. name of index file 
-	4. name of directory in which to keep the downloaded files.
+	1. Either a .har files, or a .objt (object tree produced by Q3.py) file
+	2. Parameters - maximum number of tcp connections per domain and maximum number of objects per tcp connection
+	3. Name of index file 
+	4. Name of directory in which to keep the downloaded files.
 
 Output:
 	1. All the downloaded files are saved in the directory mentioned as input. Do note that they are saved according to their domain.
@@ -16,7 +41,7 @@ It is required that you run it from the src directory.
 
 python Q4.py <path-to-objt/har> <max_tcp> <max_obj> <index_file> <save_directory>
 
-eg :
+Eg :
 	python Q4.py "../dump/www.vox.com.objt" 5 5 "index-1" "download-1"
 	<index_file> and <save_directory> are optional, with default values being “Mapping.txt” and “dl” respectively.
 
