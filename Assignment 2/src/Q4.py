@@ -301,13 +301,17 @@ if __name__ == '__main__':
 			object_file = sys.argv[1].rstrip('.har')
 			x = the_downloader.object_Tree_Handler(object_file + '.objt')
 			x.set_max_values(eval(sys.argv[2]),eval(sys.argv[3]))
+			start = time.time()
 			x.get_tree()
+			print "page load time = " + str(time.time() - start) + " seconds\n"
 			x.post_process()
 		elif(sys.argv[1].endswith('.objt')):
 			#Change index_file to whatever you like
 			x = the_downloader.object_Tree_Handler(sys.argv[1])
 			x.set_max_values(eval(sys.argv[2]),eval(sys.argv[3]))
+			start = time.time()
 			x.get_tree()
+			print "page load time = " + str(time.time() - start) + " seconds\n"
 			x.post_process()
 		else:
 			print 'Invalid File type entered. Only HAR and OBJ_Trees allowed'
