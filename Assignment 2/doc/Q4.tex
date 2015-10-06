@@ -5,19 +5,20 @@
 \usepackage{caption}
 \usepackage{amssymb}
 \usepackage{subcaption}
-%\renewcommand{\labelitemii}{$\star$}
+%\renewcommand{\labelitemii}{$\circ$}
 \begin{document}
 \title{COL334 - Assignment 2\\ HTTP}
 \author{Akshay Kumar Gupta\\\texttt{2013CS50275} \and  Barun Patra\\\texttt{2013CS10773} \and Haroun Habeeb\\\texttt{2013CS10225}}
 \date{}
 \maketitle
-\noindent { We made a python script ( Q4.py ) on the two Object Tree files, namely, www.nytimes.com.objt and www.vox.com.objt. All data collection was performed on the same network, i.e, Airtel Broadband }
+\noindent 
+We made a python script ( Q4.py ) on the two Object Tree files, namely, www.nytimes.com.objt and www.vox.com.objt. All data collection was performed on the same network, i.e, Airtel Broadband
 \\\\\\
 {\bfseries Q4a. Overview} %TODO : Brief overview of code?
 \\The script takes in as input an \texttt{Object Tree} or a \texttt{HAR file}, the \texttt{maximum allowed TCP connections} per domain, and the \texttt{maximum number of objects} per TCP connection. If the input is a \texttt{HAR file}, it is first converted to an \texttt{Object Tree} and then processed. \\
 Each layer of the \texttt{Object Tree} is processed sequentially, i.e objects of parents are downloaded before the objects of the children. At every layer, objects belonging to a domain are passed to the thread.\\ 
 In the thread, at any given time, \texttt{TCP connections} $\leq$ \texttt{(TCP connections)$_{max}$} are opened in parallel to the domain in consideration, with each TCP connection requesting and downloading \texttt{objects} $\leq$ \texttt{(objects)$_{max}$}. Downloading across domains is done in parallel on separate threads.
-\\
+\\\\
 {\bfseries Q4c.} %TODO
 \\The parameters obtained from Q3c. were :
 \begin{itemize}
@@ -40,6 +41,13 @@ In conclusion,
 \\\\\\
 {\bfseries Q4d. Running time for different parameters}
 \\\\\\
-{\bfseries Q4e.}
+{\bfseries Q4e. Improving Running Time: }
+\\ Some points of improvement are as follows:
+\begin{itemize}
+\item \textbf{Managing Data Distribution:} In the implemented downloader, objects belonging to the same domain are distributed to different threads, taking into consideration the maximum objects a connection can handle at any given time. A better way to carry out this distribution would be to ensure every TCP connection gets (more or less) an even split in terms of the size of data being downloaded on the same, to ensure maximum benefit of parallelization. The file sizes can be taken from the HAR file.
+\item \textbf{Scheduling of Threads:} In the implemented version of the downloader, for a given domain, at most $K$ ($K$ $=$ \texttt{(TCP connections)$_{max}$}) threads are spawned, each establishing its own TCP connection. Then, the downloader waits for all the threads to join, before continuing, in order to ensure that at most $K$ connections are opened at any given time to the server. This can be improved by not waiting for the thread join. Instead, at the end of each thread execution, another thread can be spawned then to handle the next batch of requests. This can be used, in conjunction with the aforementioned improvement to ensure the newly spawned thread takes up an optimal number of objects instead of the maximum allowed number of objects, so as to, again, maximize the benefits of parallelization.  
+\item \textbf{Number of TCP connections opened to a domain:} The HAR file can be used to infer the maximum number of TCP connections that a server allows in parallel(i.e if the server places a cap on the maximum allowed connections). Using this information, we can dynamically allocate the value of $K$ for different domains for the case of large files; so that the overhead of creating new threads and making a new TCP connection does not outweigh the benefit of parallization. 
+\item \textbf{Fractional Requests:} In the case that the server sets a cap on the bandwidth allocated to a single TCP connection, large objects can be requested in chunks on separate TCP connections, with each TCP connection requesting for a fraction of the file.
+\end{itemize}
 
 \end{document}
