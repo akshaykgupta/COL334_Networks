@@ -486,4 +486,4 @@ if __name__ == '__main__':
 	build_object_tree(har_file, har_data)
 	goodput_list = timing_analysis(har_data, pcap_data, domain_info, domain_list, compare)
 	# max_goodput_calculation(goodput_list, domain_list, domain_info, domain_size)
-	collapse_objects_calculation(har_data, domain_list, domain_info)
+	# collapse_objects_calculation(har_data, domain_list, domain_info)

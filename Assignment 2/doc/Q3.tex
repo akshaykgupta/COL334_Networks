@@ -11,15 +11,14 @@
 \maketitle
 \noindent
 \textbf{Note:} We did the following analysis using HAR and PCAP files of our own. This is because we needed to ensure that the network was the same for comparing goodput of browser and direct request. The network used was Airtel Broadband.\\\\
-{\bfseries Q3a.} The source takes the HAR file, the PCAP file and the host IP address as input. The PCAP and HAR files are analysed in conjunction to decide the number of TCP connections per domain and which objects were downloaded on which TCP connection. We only consider those objects whose GET requests exist both in the PCAP and the HAR file to avoid inconsistencies as we found that there are some objects relevant to the page which exist only in the PCAP file and some which exist only in the HAR file.
+{\bfseries Q3a.} The source takes the HAR file, the PCAP file and the host IP address as input. The PCAP and HAR files are analysed in conjunction to decide the number of TCP connections per domain and which objects were downloaded on which TCP connection. We only consider those objects whose GET requests exist both in the PCAP and the HAR file to avoid inconsistencies as we found that there are some objects relevant to the page which exist only in the PCAP file and some which exist only in the HAR file. \\The object sizes are taken from the \emph{Content-Length} header in the response and if this does not exist, the size is taken from the \emph{Content[bodySize]} field in the response. \\The type of object downloaded is taken from the \emph{Content-Type} header in the response.
 \\\\
-\hspace*{-1.4cm}
 {\centering{
-{\includegraphics[scale=0.8]{Charts/objectchart.png}
+{\includegraphics[scale=0.7]{Charts/objectchart.png}
 }
 }
 }
-\vspace*{-0.6cm}
+\vspace*{-0.2cm}
 \begin{center}Figure 1: No. of objects downloaded on each TCP connection per domain - Vox (only some domain names are shown)\end{center}
 \hspace*{-1.4cm}
 {\centering{
